@@ -1,3 +1,5 @@
+pygments:						 true
+
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
@@ -8,8 +10,9 @@ relative_permalinks: true
 title:               Vivek Shrinivasan
 tagline:             Carpe Diem
 url:                 https://kaizer1v.github.com
-paginate:            5
 baseurl:             ""
+
+paginate:            1
 
 # Assets
 #
@@ -22,12 +25,13 @@ sass:
 author:
   name:              Vivek Shrinivasan
   url:               https://twitter.com/kaizer1v
-  gmail:             kaizer1v
+  email:             kaizer1v
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/kaizer1v
 
-pages:
-	About: '/about'
+# This is the list of pages to include in the header of the website.
+pages_list:       
+  About: '/about/'
