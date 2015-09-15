@@ -8,7 +8,7 @@ relative_permalinks: true
 title:               Vivek Shrinivasan
 tagline:             Carpe Diem
 url:                 https://kaizer1v.github.com
-paginate:            4
+paginate:            1
 baseurl:             ""
 
 # Assets
@@ -28,3 +28,6 @@ author:
 version:             2.0.0
 github:
   repo:              https://github.com/poole/poole
+
+pages_list:
+	About: '/about'
