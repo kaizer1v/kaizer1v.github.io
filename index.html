@@ -3,6 +3,7 @@ layout: default
 title: Home
 ---
 
+<!-- Loop of all the posts -->
 <div class="posts">
   {% for post in paginator.posts %}
   <article class="post">
@@ -19,6 +20,7 @@ title: Home
   {% endfor %}
 </div>
 
+<!-- Pagination -->
 <div class="pagination">
   {% if paginator.next_page %}
     <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>

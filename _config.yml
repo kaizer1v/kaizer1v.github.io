@@ -5,9 +5,9 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               Vivek Shrinivasan
+tagline:             Carpe Diem
+url:                 https://kaizer1v.github.com
 paginate:            1
 baseurl:             ""
 
@@ -20,9 +20,9 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Vivek Shrinivasan
+  url:               https://twitter.com/kaizer1v
+  gmail:             kaizer1v
 
 # Custom vars
 version:             2.0.0
