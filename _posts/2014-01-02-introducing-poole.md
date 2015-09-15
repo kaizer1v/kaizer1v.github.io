@@ -1,12 +1,18 @@
 ---
 layout: post
-title: Introducing Poole
+title: Welcome
 ---
 
-*The Strange Case of Dr. Jekyll and Mr. Hyde* tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel's supporting cast is a man by the name of Mr. Poole, Dr. Jekyll's loyal butler.
+*Welcome Note*
 
 -----
 
+This is my new blog, completely powered by [Jekyll](http://jekyllrb.com) - an awesome light weight tool for creating static websites. Yes, this doesn't even
+look static. All this is written simply in [Markdown](http://markdowntutorial.com/) language. I have hosted this site using github sites. You can host your site too. Github also makes it easy to simply push your source to a repo titled _username.github.io_ format and you can push html/css to that repo and voila, you are done. Read about Github Pages more [here](https://pages.github.com/).
+
+Thanks for visiting. I will be posting all my work and thoughts here. See you soon.
+
+<!--
 Poole is the butler for [Jekyll](http://jekyllrb.com), the static site generator. It's designed and developed by [@mdo](https://twitter.com/mdo) to provide a clear and concise foundational setup for any Jekyll site. It does so by furnishing a full vanilla Jekyll install with example templates, pages, posts, and styles.
 
 There are currently two themes built on Poole:
@@ -38,3 +44,4 @@ Poole and its themes are by preference a forward-thinking project. In addition t
 Poole is developed on and hosted with GitHub. Head to the <a href="https://github.com/poole/poole">GitHub repository</a> for downloads, bug reports, and features requests.
 
 Thanks!
+-->
