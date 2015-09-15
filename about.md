@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-![My helpful screenshot]({{ site.url }}/assets/me.jpg)
+![My helpful screenshot](/assets/me.jpg)
 
 <p class="message">
   I am currently somewhere in between an Engineer and a Designer. That said. I have worked as both. Started by designing and developing
