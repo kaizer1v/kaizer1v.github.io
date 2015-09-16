@@ -13,7 +13,7 @@ url:                 https://kaizer1v.github.com
 baseurl:             ""
 
 paginate:            5
-paginate_path: "/archives/page/:num"
+paginate_path: 			"/archives/page/:num"
 
 # Assets
 #
