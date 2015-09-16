@@ -6,4 +6,4 @@ title: About
 ![My helpful screenshot](/assets/me.jpg)
 
 <!-- To be filled -->
-<p>To be filled.</p>
+### Hi there! I am Vivek. I am a software engineer and I LOVE design. I am based in Bangalore, India. I play the Tabla and Football and also write poems _sometimes_. I can also juggle. :)
