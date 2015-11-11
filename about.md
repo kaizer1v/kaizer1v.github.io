@@ -5,6 +5,10 @@ title: About
 
 ![My helpful screenshot](/assets/me.jpg)
 
-###Hi there! I am Vivek. I am a software engineer and I LOVE design. I am based in Bangalore, India. I play the Tabla and Football and also write poems _sometimes_. I can also juggle. :)
+###Hi there! I am Vivek. I am an engineer. I am based in Bangalore, India. I play the Tabla and Football and also write poems _sometimes_. I love design, it is the most satisfying way to solve a problem. 
 
-_Oh and that is me, a random weekend evening in London._
+###I can also juggle. :)
+
+### This blog is all about ideas and design.
+
+_Me._
