@@ -22,8 +22,9 @@
       </main>
 
       <footer class="footer">
-        {% if site.footer-links.github %}<a href="http://github.com/{{ site.footer-links.github }}">{% include svg-icons/github.html %}</a>{% endif %}
-        {% if site.footer-links.twitter %}<a href="http://twitter.com/{{ site.footer-links.twitter }}">{% include svg-icons/twitter.html %}</a>{% endif %}
+        {% if site.footer-links.github %}<a target="_blank" class="fa fa-github" href="http://github.com/{{ site.footer-links.github }}"></a>{% endif %}
+        {% if site.footer-links.twitter %}<a target="_blank" class="fa fa-twitter" href="http://twitter.com/{{ site.footer-links.twitter }}"></a>{% endif %}
+        <br />
         <small>
           &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
         </small>
