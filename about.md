@@ -5,7 +5,7 @@ title: About
 
 ![My helpful screenshot](/assets/me.jpg)
 
-###Hi there! I am Vivek. I am an engineer. I am based in Bangalore, India. I play the Tabla and Football and also write poems _sometimes_. I love design, it is the most satisfying way to solve a problem. 
+###Hi there! I am Vivek. I am an engineer. I love design, it is the most satisfying way to solve a problem. I am based in Bangalore, India. I play the Tabla and Football and also write poems _sometimes_. 
 
 ###I can also juggle. :)
 
