@@ -36,7 +36,7 @@ github:
 # This is the list of pages to include in the header of the website.
 pages_list:       
   About: '/about/'
-  Projects: '/projects/'
+  Projects: '/projects'
   Feed: '/atom.xml'
 
 # Includes an icon in the footer for each username you enter
@@ -47,7 +47,7 @@ footer-links:
   flickr:
   github: kaizer1v
   instagram:
-  linkedin:
+  linkedin: vivek-shrinivasan-b67a4121
   pinterest:
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
   twitter: kaizer1v
