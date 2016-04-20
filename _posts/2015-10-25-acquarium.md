@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Government Acquarium Experience
+title: Government Acquarium Redesign
 ---
 ### The Problem
 So, I went to this Government Acquarium in Bangalore right next to Cubbon Park. About 10 years back, this acquarium was one of the tourist places to visit in Bangalore. I had visited here as a kid. But Bangalore has grown, populated ever since, but not in terms of the experience of the acquarium, for sure. 
@@ -35,4 +35,11 @@ Coming to the most important part of the experience - the fish tank. A single fi
 - Region Found
 - Feeds on
 
-From these, some are quite important information, such as name, region found and feeds on. But it could have been put in a differnt way, non-important information like *feeds on* is a non-important information but a necessary one. 
+From these, some are quite important information, such as name, region found and feeds on. But it could have been put in a differnt way, non-important information like *feeds on* is a non-important information but a necessary one.
+
+###Proposal
+A user should be able to retrieve required information whenever required and should be at his disposal. In order to make this possible, contextually, we combined a few existing technologies and created a prototype of enabling a user to retrieve more and interactive information about a particular fish/artifact.
+
+Using the QR code technology, we were able to get information about a given artifact, just like a bar code present on a product stores information like it's price, name etc. The QR code can contain digital media or articles about a particular fish the viewer is viewing. He can then use his smart phone to scan a QR code present near the fish tank and retrieve more information on it.
+
+This enhances the viewer's experience since they would be interacting with the system to retrieve information which inturns connects them to the system. They will be able to share and save the information they are interested in for later reference. This would especially be helpul for viewers who are children or school students.
