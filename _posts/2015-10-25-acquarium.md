@@ -2,6 +2,11 @@
 layout: post
 title: Government Acquarium Redesign
 ---
+
+*A personal project to redesign the Bangalore acquarium.*
+
+-----
+
 ### The Problem
 So, I went to this Government Acquarium in Bangalore right next to Cubbon Park. About 10 years back, this acquarium was one of the tourist places to visit in Bangalore. I had visited here as a kid. But Bangalore has grown, populated ever since, but not in terms of the experience of the acquarium, for sure. 
 
