@@ -22,7 +22,7 @@ the problem is:
 2. **M**easurable - a metric against which you will judge your actions that helps you track progress
 3. **A**chievable - based on the time and resources at your disposal
 4. **R**elevant - which aligns to your greater goals
-5. Time Bound - that contains a time frame which will help you plan your actions
+5. **T**ime Bound - that contains a time frame which will help you plan your actions
 
 ### IDENTIFYING POTENTIAL CAUSES
 Once the key problem has been framed as a question, you can brainstorm the potential causes. You can branch out possible causes and organize them in a tool called as an 'Issue Tree'. You can break down every problem until your desired level of specificity so as to make them manageable and independent enough to be solved parallelly, if possible.
