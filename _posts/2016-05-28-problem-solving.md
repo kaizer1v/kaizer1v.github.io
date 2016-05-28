@@ -16,7 +16,7 @@ In life, a systematic and analytical approach to problem solving is key which wi
 
 ### FRAME THE PROBLEM STATEMENT
 Translating the problem into a definite question helps understanding the problem better. Ensure to make the question SMART which means
-the problem is 
+the problem is
 1. Specific - a clearly defined goal
 2. Measurable - a metric against which you will judge your actions that helps you track progress
 3. Achievable - based on the time and resources at your disposal
