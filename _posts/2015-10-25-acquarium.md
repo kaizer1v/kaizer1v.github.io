@@ -15,12 +15,12 @@ Adults and chidren visit acquarium to see and learn about the wild, bizarre and 
 
 > Side Note: By writing this article, I am also proposing ways to improve the acquarium experience and tips for the government to make improvements and development.
 
-##The Solution
+## The Solution
 
-###Location
+### Location
 The location of the acquarium is quite good and easy for tourists. It lies in the heart of Bangalore, next to Cubbon Park and Visvesvaraya Industrial Museum. According to the wiki page, there are about 1 million visitors at the Museum. Building the acquarium should attract equal number of people as it stands about 100 meters from the entry gate of the museum. This acquarium was established in 1983 and apparently has an exotic cultivable as well as ornamental fish on display. 
 
-###Architecture
+### Architecture
 The shape of the building is somewhat conical. It looks like this.
 
 ![Bangalore Acquarium](http://admirableindia.com/wp-content/images/karnataka/DSCN0807.jpg)
