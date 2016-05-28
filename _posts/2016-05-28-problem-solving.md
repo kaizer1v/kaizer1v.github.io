@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Government Acquarium Redesign
+title: Problem Solving Methodology
 ---
 
 *Problem Solving.*
