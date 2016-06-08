@@ -49,7 +49,11 @@ Remember, problem solving is not about addressing all the factors influencing th
 ![Prioritizing Issues](/assets/prioritize.png)
 
 ### MAKE A PLAN
-Pick up the key factor of your top priority issue you pointed using the previous step. Consider a hypothesis to a issue i.e. what you believe to be a solution to that issue. Once you have a hypothesis stating 'why' you think this particular hypothesis will resolve the issue, you will have a set of factors to analyze your actual solution (which you will implement later) against. This will be the data that will help you prove your hypothesis and present using data. The hypothesis will also help you plan the time and resource you need to put in order to fix this issue.
+Pick up the key factor of your top priority issue you pointed using the previous step. Consider a hypothesis to a issue i.e. what you believe to be a solution to that issue. Once you have a hypothesis stating 'why' you think this particular hypothesis will resolve the issue, you will have a set of factors to analyze your actual solution (which you will implement later) against. This will be the data that will help you prove your hypothesis and present using data. The hypothesis will also help you plan the time and resource you need to put in order to fix this issue. This plan should lay out the steps in your analysis process and corresponding target deliverables. For each step, you should identify an owner and specific timeline. Although, while making a plan, here are some factors to keep in mind:
+
+- Validate that each step directly maps to your objectives and desired end product
+- Plan thoughtfully to balance the workload across team members and timelines
+- Match resources to three work plan horizons: the overall plan; project-specific sections of work; and deliverables by week 
 
 ### ANALYZE PLAN AGAINST REALITY
 While your work on the issue, keep track of the factors you have considered to analyze your solutions against. This is what will build up the data for your analysis. Use data gathered from internal and external sources to answer key questions that help you solve the problem in a better way.
