@@ -44,7 +44,9 @@ Once the key problem has been framed as a question, you can brainstorm the poten
 ![Issue Tree](/assets/issue_tree_example.png)
 
 ### PRIORITIZING FIXING THE CAUSES
-Remember, problem solving is not about addressing all the factors influencing the problem, it is about effectively prioritizing issues and solutions that move the needle. Use the effort vs impact graph to plot your causes to assign them priorities. Once you do that, start tackling problems which take minimum effort but have maximum impact (80/20 rule).
+Remember, problem solving is not about addressing all the factors influencing the problem, it is about effectively prioritizing issues and solutions that move the needle. Use the effort vs impact graph to plot your causes to assign them priorities based on the issues you identified using the issue tree. Once you do that, start tackling problems which take minimum effort but have maximum impact (80/20 rule). Always be sure to test your ideas and add new information to your prioritization matrix as you learn it.
+
+![Prioritizing Issues](/assets/prioritize.png)
 
 ### MAKE A PLAN
 Pick up the key factor of your top priority issue you pointed using the previous step. Consider a hypothesis to a issue i.e. what you believe to be a solution to that issue. Once you have a hypothesis stating 'why' you think this particular hypothesis will resolve the issue, you will have a set of factors to analyze your actual solution (which you will implement later) against. This will be the data that will help you prove your hypothesis and present using data. The hypothesis will also help you plan the time and resource you need to put in order to fix this issue.
