@@ -29,9 +29,13 @@ the problem is:
 A good example might be:
 
 **Context**: Caroline is experiencing delivery delays because she is not paying vendors on time. You have isolated that the root cause of the issue stems from her accounts payable process.
+
 **Problem Statement**: "How can I ensure all supply vendors are paid within 30 days over the next two months?"
+
 OR
+
 **Context**: You are a freelance designer and operate lean. You are struggling to bring in business.
+
 **Problem Statement**: "How can I increase my freelance revenues by 25% within the next two months?"
 
 ### STRUCTURE THE PROBLEM
