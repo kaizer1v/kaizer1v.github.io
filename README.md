@@ -1,12 +1,5 @@
 # Personal Website
 
-This is Vivek Shrinivasan's Personal website.
+This is Vivek Shrinivasan's Personal website. You can check it out [here](http://kaizer1v.github.io/)
 
---
-Built using Jekyll
-
-
-kaizer1v.github.io
-==================
-
-Github site.
+__This website is built using [Jekyll](https://jekyllrb.com/)__
