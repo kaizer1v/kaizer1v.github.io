@@ -46,7 +46,8 @@ h5,
 h6 {
   /*font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';*/
   /*font-family: 'Cookie', cursive;*/
-  font-family: 'Amatic SC', cursive;
+  /*font-family: 'Amatic SC', cursive;*/
+  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -73,19 +74,17 @@ section h2 {
   transition: all .35s;
   /*font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';*/
   /*font-family: 'Cookie', cursive;*/
-  font-family: 'Amatic SC', cursive;
+  /*font-family: 'Amatic SC', cursive;*/
+  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 200;
   letter-spacing: 1px;
 }
 
 #mainNav .navbar-brand {
   color: #FFF;
-  /*font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';*/
-  /*font-family: 'Cookie', cursive;*/
-  font-family: 'Amatic SC', cursive;
   font-weight: 200;
   letter-spacing: 1px;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 #mainNav .navbar-brand:hover,
@@ -105,7 +104,8 @@ section h2 {
   font-size: 2em;
   /*font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';*/
   /*font-family: 'Cookie', cursive;*/
-  font-family: 'Amatic SC', cursive;
+  /*font-family: 'Amatic SC', cursive;*/
+  font-family: 'Open Sans Condensed', sans-serif;
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-right: 25px;
@@ -129,6 +129,7 @@ section h2 {
 #mainNav .navbar-nav>li>a:focus:hover {
   color: #fdcc52;
 }
+
 
 @media (min-width: 992px) {
   #mainNav {
@@ -177,16 +178,10 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
-  /*background: url("../img/bg-pattern.png"), #7b4397;*/
-  /*gradient*/
-  /*  background: #F79E6B;
-  background: -webkit-linear-gradient(to left, #F79E6B, #F7CD82);
-  background: linear-gradient(to left, #F79E6B, #F7CD82);
-*/
-  /*background: url('../img/holi.jpg');*/
   background: #000 url('../img/vm-2.jpeg');
   background-position: center;
   background-repeat: no-repeat;
+  margin-top: 50px;
 }
 
 header.masthead .header-content .opening-text>span {
@@ -214,8 +209,23 @@ header.masthead .device-container .screen img {
   border-radius: 3px;
 }
 
-@media(max-width: 700px) {
+@media (max-width: 600px) {
+  #mainNav .navbar-brand {
+    font-size: 1.7em;
+  }
   header.masthead {
+    padding-top: 200px;
+    background-position: center;
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+@media(min-width: 600px) {
+  header.masthead {
+    padding-top: 500px;
     background-position: center;
     webkit-background-size: cover;
     -moz-background-size: cover;
@@ -299,6 +309,12 @@ section.invitation .section-heading h2 {
   margin-top: 0;
 }
 
+section.invitation .section-heading h1 {
+  margin-top: 0;
+  font-size: 4.3em;
+  color: #2D5F73;
+}
+
 section.invitation .section-heading p {
   margin-bottom: 0;
 }
@@ -362,6 +378,10 @@ section.cta .cta-content {
   z-index: 1;
 }
 
+section.cta .cta-content span {
+  font-color: #2D5F73;
+}
+
 section.cta .cta-content h2 {
   font-size: 50px;
   max-width: 450px;
@@ -369,6 +389,8 @@ section.cta .cta-content h2 {
   margin-bottom: 25px;
   color: white;
 }
+section.cta .cta-content h3,
+section.cta .cta-content h4 { color: white; }
 
 @media (min-width: 768px) {
   section.cta .cta-content h2 {
@@ -502,7 +524,8 @@ footer ul li a.active {
 
 .btn {
   border-radius: 300px;
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Open Sans Condensed', sans-serif;
+  /*font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';*/
   /*font-family: 'Cookie', cursive;*/
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -519,4 +542,10 @@ footer ul li a.active {
 .cursive {
   /*font-family: 'Pinyon Script', cursive;*/
   font-family: 'Parisienne', cursive;
+}
+
+.maroon {
+  color: #820333;
+  font-weight: bolder;
+  text-decoration: underline;
 }
