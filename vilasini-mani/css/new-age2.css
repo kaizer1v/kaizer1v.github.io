@@ -158,6 +158,9 @@ section {
 
 section h2 {
   margin-top: 0;
+  /*font-family: 'Herr Von Muellerhoff', cursive;*/
+  /*text-transform: uppercase;*/
+  /*color: #fff;*/
 }
 
 section .section-heading {
@@ -178,6 +181,11 @@ section .section-heading p {
 
 
 /* --- section: invitation; */
+section.invitation {
+  /*background: #EBE688;*/
+  background: #F39C5C;
+}
+
 section.invitation h3 {
   color: #7D5B52;
   font-size: 3em;
@@ -206,7 +214,13 @@ section.venue h3.date {
   }
 
 /* --- section: contact; */
+section.contact {
+  color: #5C4B51;
+}
 
+section.contact .mobile h3 {
+  font-size: 2.5em;
+}
 
 /* FOOTER */
 
