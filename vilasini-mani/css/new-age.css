@@ -46,8 +46,8 @@ h5,
 h6 {
   /*font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';*/
   /*font-family: 'Cookie', cursive;*/
-  /*font-family: 'Amatic SC', cursive;*/
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Amatic SC', cursive;
+  /*font-family: 'Open Sans Condensed', sans-serif;*/
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -74,8 +74,8 @@ section h2 {
   transition: all .35s;
   /*font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';*/
   /*font-family: 'Cookie', cursive;*/
-  /*font-family: 'Amatic SC', cursive;*/
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Amatic SC', cursive;
+  /*font-family: 'Open Sans Condensed', sans-serif;*/
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -104,8 +104,8 @@ section h2 {
   font-size: 2em;
   /*font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';*/
   /*font-family: 'Cookie', cursive;*/
-  /*font-family: 'Amatic SC', cursive;*/
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Amatic SC', cursive;
+  /*font-family: 'Open Sans Condensed', sans-serif;*/
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-right: 25px;
@@ -389,8 +389,11 @@ section.cta .cta-content h2 {
   margin-bottom: 25px;
   color: white;
 }
+
 section.cta .cta-content h3,
-section.cta .cta-content h4 { color: white; }
+section.cta .cta-content h4 {
+  color: white;
+}
 
 @media (min-width: 768px) {
   section.cta .cta-content h2 {
@@ -524,9 +527,9 @@ footer ul li a.active {
 
 .btn {
   border-radius: 300px;
-  font-family: 'Open Sans Condensed', sans-serif;
+  /*font-family: 'Open Sans Condensed', sans-serif;*/
   /*font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';*/
-  /*font-family: 'Cookie', cursive;*/
+  font-family: 'Cookie', cursive;
   letter-spacing: 2px;
   text-transform: uppercase;
   background: #A07BE8;
