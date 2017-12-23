@@ -56,6 +56,10 @@ section h2 {
   font-size: 50px;
 }
 
+section h3 {
+  font-family: 'Alegreya', serif;
+}
+
 .cursive {
   font-family: 'Cookie', cursive;
 }
