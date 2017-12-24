@@ -64,6 +64,11 @@ section h3 {
   font-family: 'Cookie', cursive;
 }
 
+.icon {
+  color: #C9283E;
+  font-size: 0.7em;
+}
+
 
 
 
@@ -139,7 +144,6 @@ section h3 {
 
 
 
-
 /* HEADER */
 
 header.masthead {
@@ -151,6 +155,7 @@ header.masthead {
   background-position: top;
   background-repeat: no-repeat;
 }
+
 
 
 
@@ -188,6 +193,7 @@ section .section-heading p {
 
 
 
+
 /* --- section: invitation; */
 
 section.invitation {
@@ -204,6 +210,7 @@ section.invitation .names {
   color: #C9283E;
   font-size: 4em;
 }
+
 
 
 /* --- section: venue; */
@@ -227,6 +234,7 @@ section.venue h3.date span {
 }
 
 
+
 /* --- section: contact; */
 
 section.contact {
@@ -239,6 +247,15 @@ section.contact .mobile h3 {
 
 section.contact .contact-number {
   font-weight: bold;
+  color: #C9283E;
+}
+
+/* --- section: thank-you; */
+
+section.thank-you h3 {
+  font-size: 5em;
+  font-style: italic;
+  text-transform: underline;
   color: #C9283E;
 }
 
@@ -260,6 +277,7 @@ footer p {
 footer ul {
   margin-bottom: 0;
 }
+
 
 
 
