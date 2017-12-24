@@ -198,7 +198,8 @@ section .section-heading p {
 
 section.invitation {
   /*background: #EBE688;*/
-  background: #F39C5C;
+  /*background: #F39C5C;*/
+  background: #F2D1B3 !important;
 }
 
 section.invitation h3 {
@@ -211,6 +212,9 @@ section.invitation .names {
   font-size: 4em;
 }
 
+section.invitation .icon {
+  font-size: 1.2em;
+}
 
 
 /* --- section: venue; */
@@ -252,7 +256,7 @@ section.contact .contact-number {
 
 /* --- section: thank-you; */
 
-section.thank-you h3 {
+section.thank-you h2 {
   font-size: 5em;
   font-style: italic;
   text-transform: underline;
