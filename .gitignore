@@ -4,6 +4,9 @@ _site
 .ruby-version
 .sass-cache
 
+# Drafts
+_drafts
+
 # Numerous always-ignore extensions
 *.diff
 *.err
