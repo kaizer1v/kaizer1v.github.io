@@ -1,4 +1,3 @@
-
 <p class="message">
   I am currently somewhere in between an Engineer and a Designer. That said. I have worked as both. Started by designing and developing
   web applications at a small company in Pune. When that shutdown, I left for home where I worked as an ERP consultant for a very short duration
@@ -18,3 +17,4 @@ I usually go by the alias 'kaizer1v' everywhere on the web.
 
 * [Github](https://github.com/kaizer1v)
 * [Photography](https://www.flickr.com/photos/10583297@N03/)
+* [Banter](https://www.twitter.com/kaizer1v)
