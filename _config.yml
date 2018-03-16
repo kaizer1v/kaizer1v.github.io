@@ -25,13 +25,13 @@ sass:
 # About/contact
 author:
   name:              Vivek Shrinivasan
-  url:               https://twitter.com/kaizer1v
+  url:               https://kaizer1v.github.io
   email:             kaizer1v
 
 # Custom vars
 version:             2.2.0
 github:
-  repo:              https://github.com/kaizer1v
+  repo:              https://github.com/kaizer1v/kaizer1v.github.io
 
 # This is the list of pages to include in the header of the website.
 pages_list:       

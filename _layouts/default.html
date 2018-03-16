@@ -9,10 +9,8 @@
       <header class="masthead">
         <h3 class="masthead-title">
           <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-          <!--<small>{{ site.tagline }}</small>-->
-
           {% for page in site.pages_list %}
-              &nbsp;&nbsp;&nbsp;<small><a href="{{ page[1]  }}">{{ page[0] }}</a></small>
+            &nbsp;&nbsp;&nbsp;<small><a href="{{ page[1] }}">{{ page[0] }}</a></small>
           {% endfor %}
         </h3>
       </header>
@@ -24,7 +22,7 @@
       <footer class="footer">
         {% if site.footer-links.github %}<a target="_blank" class="fa fa-github" href="http://github.com/{{ site.footer-links.github }}"></a>{% endif %}
         {% if site.footer-links.twitter %}<a target="_blank" class="fa fa-twitter" href="http://twitter.com/{{ site.footer-links.twitter }}"></a>{% endif %}
-	{% if site.footer-links.linkedin %}<a target="_blank" class="fa fa-linkedin" href="https://in.linkedin.com/in/{{ site.footer-links.linkedin }}"></a>{% endif %}
+	      {% if site.footer-links.linkedin %}<a target="_blank" class="fa fa-linkedin" href="https://in.linkedin.com/in/{{ site.footer-links.linkedin }}"></a>{% endif %}
         <br />
         <small>
           &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
