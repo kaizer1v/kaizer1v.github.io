@@ -11,7 +11,7 @@ tagline:             Design driven engineer, based out of Bangalore
 url:                 https://kaizer1v.github.com
 baseurl:             ""
 
-gems: [jekyll-paginate]
+gems:               [jekyll-paginate]
 paginate:            5
 paginate_path: 			"/archives/page/:num"
 
@@ -35,9 +35,10 @@ github:
 
 # This is the list of pages to include in the header of the website.
 pages_list:       
-  About: '/about/'
-  Projects: '/projects'
-  Feed: '/atom.xml'
+  About:             '/about/'
+  Projects:          '/projects'
+  Feed:              '/atom.xml'
+  Example:           '/example'
 
 # Includes an icon in the footer for each username you enter
 footer-links:
@@ -45,12 +46,12 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: kaizer1v
+  github:            kaizer1v
   instagram:
-  linkedin: vivek-shrinivasan-b67a4121
+  linkedin:          vivek-shrinivasan-b67a4121
   pinterest:
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter: kaizer1v
+  twitter:           kaizer1v
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
