@@ -11,7 +11,7 @@ tagline:             Design driven engineer, based out of Bangalore
 url:                 https://kaizer1v.github.com
 baseurl:             ""
 
-gems:               [jekyll-paginate]
+plugins:             [jekyll-paginate]
 paginate:            5
 paginate_path: 			"/archives/page/:num"
 
