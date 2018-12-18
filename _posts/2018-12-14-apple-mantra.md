@@ -1,6 +1,6 @@
 ---
 layout: post
-title: EDA using bash commands
+title: Apple
 ---
 
 An apple a day keeps a doctor away. (_1 min read_)
