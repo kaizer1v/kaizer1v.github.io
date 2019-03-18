@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lorem Ipsum
+title: Visualisation on github pages
 ---
 
 
