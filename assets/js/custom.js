@@ -1,5 +1,14 @@
 var data_file = '../../../../data/sales.csv';
 
+// Set tooltips
+var tip = d3.tip()
+  .attr('class', 'd3-tip')
+  .offset([-10, 0])
+  .html(function(d) {
+    // console.log(d.sales);
+    return "<strong class='details'>"+ d.salesperson +": </strong><span class='details-red'>" + d.sales + "<br></span>";
+  })
+
 // set the dimensions and margins of the graph
 var margin = { top: 20, right: 20, bottom: 30, left: 40 },
   width = 600 - margin.left - margin.right,
@@ -22,6 +31,8 @@ var svg = d3.select(".svg_container").append("svg")
   .attr("transform",
     "translate(" + margin.left + "," + margin.top + ")");
 
+svg.call(tip);
+
 // get the data
 d3.csv(data_file).then(function(data, error) {
   if (error) throw error;
@@ -43,7 +54,21 @@ d3.csv(data_file).then(function(data, error) {
     .attr("x", function(d) { return x(d.salesperson); })
     .attr("width", x.bandwidth())
     .attr("y", function(d) { return y(d.sales); })
-    .attr("height", function(d) { return height - y(d.sales); });
+    .attr("height", function(d) { return height - y(d.sales); })
+    .on('mouseover',function(d){
+      tip.show(d, this);
+
+      d3.select(this)
+        .style("opacity", 0.5)
+        .style("stroke-width", 3);
+    })
+    .on('mouseout', function(d) {
+      tip.hide(d, this);
+
+      d3.select(this)
+        .style("opacity", 1)
+        .style("stroke-width", 1);
+    });
 
   // add the x Axis
   svg.append("g")
