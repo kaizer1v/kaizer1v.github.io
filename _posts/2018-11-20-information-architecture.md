@@ -5,7 +5,8 @@ title: Information Architecture
 
 What is information architecture? (_5 min read_)
 
------
+----
+
 
 ## What?
 
