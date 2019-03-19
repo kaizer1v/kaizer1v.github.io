@@ -1,0 +1,8 @@
+svg {
+  width: 700px;
+  height: 130px;
+}
+
+svg circle:hover {
+  cursor: pointer;
+}
