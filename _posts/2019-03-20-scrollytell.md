@@ -43,7 +43,7 @@ title: Sample scrollytell
       <svg></svg>
     </div>
     <section class="step">
-      <div class="title"><h2>Begin</h2></div>
+      <div class="title"><h2>Begin to scroll</h2></div>
     </section>
     <section class="step">
       <div class="title"><h2>Move horizontally</h2></div>
