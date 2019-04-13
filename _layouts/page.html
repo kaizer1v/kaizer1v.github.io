@@ -1,8 +1,20 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
 
-<article class="page">
-  <h1 class="page-title">{{ page.title }}</h1>
-  {{ content }}
-</article>
+  {% include head.html %}
+
+  <body>
+
+    <div class="container content">
+      {% include nav.html %}
+
+      <main>
+        {{ content }}
+      </main>
+
+      {% include footer.html %}
+
+    </div>
+
+  </body>
+</html>
