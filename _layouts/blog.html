@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    <div class="container content">
+      {% include nav.html %}
+
+      <main>
+        <!-- the content part is within the `index.html` file -->
+        {{ content }}
+      </main>
+
+      {% include footer.html %}
+
+    </div>
+
+  </body>
+</html>
