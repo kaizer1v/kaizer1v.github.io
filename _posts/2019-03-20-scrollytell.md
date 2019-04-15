@@ -3,7 +3,7 @@ layout: post
 title: Sample scrollytell
 ---
 
-*first scrolly-tell on github pages*
+_first scrolly-tell on github pages_
 
 -----
 

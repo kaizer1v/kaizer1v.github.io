@@ -3,10 +3,9 @@ layout: post
 title: Information Architecture
 ---
 
-What is information architecture? (_5 min read_)
+_What is information architecture? (5 min read)_
 
-----
-
+-----
 
 ## What?
 

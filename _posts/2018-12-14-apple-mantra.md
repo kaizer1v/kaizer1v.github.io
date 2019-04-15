@@ -3,7 +3,7 @@ layout: post
 title: Apple Mantra
 ---
 
-An apple a day keeps a doctor away. (_1 min read_)
+_An apple a day keeps a doctor away. (1 min read)_
 
 -----
 

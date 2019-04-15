@@ -28,8 +28,12 @@
   
   .page-link {
     line-height: $base-line-height;
+    float: left;
+    margin: 10px 30px;
+    
     // gaps between nav items, but not on the first one
     &:not(:first-child) {
+      float: right;
       margin-left: 10px;
     }
   }
