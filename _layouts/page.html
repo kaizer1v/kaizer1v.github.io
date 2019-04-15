@@ -2,11 +2,12 @@
 <html lang="en">
 
   {% include head.html %}
+  {% include scripts.html %}
 
   <body>
+    {% include nav.html %}
 
     <div class="container content">
-      {% include nav.html %}
 
       <main>
         {{ content }}
@@ -16,6 +17,5 @@
 
     </div>
 
-    {% include scripts.html %}
   </body>
 </html>
