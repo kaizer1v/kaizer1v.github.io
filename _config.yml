@@ -1,4 +1,4 @@
-highlight:	pygments
+highlight:	         pygments
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
@@ -12,8 +12,11 @@ url:                 https://kaizer1v.github.com
 baseurl:             ""
 
 plugins:             [jekyll-paginate]
-paginate:            5
-paginate_path: 			"/archives/page/:num"
+paginate:            10
+paginate_path: 			 "/archives/page/:num"
+
+## Excerpt Separator
+excerpt_separator:   <!--more-->
 
 # Assets
 #
@@ -29,7 +32,7 @@ author:
   email:             kaizer1v
 
 # Custom vars
-version:             2.2.0
+version:             2.4.0
 github:
   repo:              https://github.com/kaizer1v/kaizer1v.github.io
 
@@ -37,6 +40,7 @@ github:
 pages_list:       
   About:             '/about'
   Projects:          '/projects'
+  Blog:              '/all_posts'
 
 # Includes an icon in the footer for each username you enter
 footer-links:
