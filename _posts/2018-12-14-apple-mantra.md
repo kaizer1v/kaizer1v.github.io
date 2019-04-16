@@ -6,6 +6,7 @@ title: Apple Mantra
 _An apple a day keeps a doctor away. (1 min read)_
 
 -----
+<!--more-->
 
 
 # Apple.

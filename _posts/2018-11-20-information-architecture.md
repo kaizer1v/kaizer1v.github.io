@@ -1,15 +1,19 @@
 ---
 layout: post
 title: Information Architecture
+excerpt_separator: <!--more-->
 ---
 
 _What is information architecture? (5 min read)_
 
 -----
+<!--more-->
+
 
 ## What?
 
 A way of organising stuff so that it is easy to find and is intuitive. The way you organise stuff implies meaning to it, be it websites or anything in the real world.
+
 
 There are only 5 ways to organise anything. They are (by)
 

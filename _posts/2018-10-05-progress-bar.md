@@ -6,6 +6,7 @@ title: Page Progress Bar
 _A build-it-yourself progress bar in plain javascript and html_
 
 -----
+<!--more-->
 
 
 ## Title

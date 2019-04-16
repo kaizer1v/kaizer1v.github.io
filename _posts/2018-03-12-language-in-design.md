@@ -6,6 +6,7 @@ title: Language in Design
 *The use of language to design better*
 
 -----
+<!--more-->
 
 > A picture speaks a thousand words.
 

@@ -6,6 +6,7 @@ title: Sample scrollytell
 _first scrolly-tell on github pages_
 
 -----
+<!--more-->
 
 <style type="text/css">
 

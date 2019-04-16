@@ -6,6 +6,7 @@ title: d3 Transitions
 *a peep into d3v4 transitions and how they work*
 
 -----
+<!--more-->
 
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/d3_transitions.css">
 

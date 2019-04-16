@@ -6,6 +6,7 @@ title: Problem Solving Methodology
 *Problem Solving.*
 
 -----
+<!--more-->
 
 In life, a systematic and analytical approach to problem solving is key which will help you succeed and overcome failures, may it be in professional or even your social life. A systematic approach to problem solving will help you to consistently identify the root of problems and to solve them in an **efficient**, **consistent**, and **credible** way. In order to sovle a problem is - well - first, accept that there is a problem and confront it, whether it be your peers or your better half. Once you have identified there is a problem, try to find the **root cause** instead of hastily reacting based on symtoms of the problems. A large part of successful problem solving also depend on the solver’s ability to hone in on the _root cause of the issue_, _identify and draw insights from the right pieces_ of information, and _synthesize findings_ for a solution.
 

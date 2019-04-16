@@ -6,6 +6,7 @@ title: Human Cognition
 *How cognition affects design thinking.*
 
 -----
+<!--more-->
 
 Interaction Design is defined as 
 

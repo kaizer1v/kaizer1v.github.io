@@ -6,6 +6,7 @@ title: Visualisation on github pages
 _First functional d3 bar graph_
 
 -----
+<!--more-->
 
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/custom.css">
 
