@@ -4,11 +4,14 @@
 {% include head.html %}
 
 <body>
-  <!-- Put whatever content in `index.html` will show up in content -->
-  <!-- {{ content }} -->
+  {% include nav.html %}
 
-  {% include footer.html %}
-  
-{% include scripts.html %}
+  <div class="container content">
+
+    {{ content }}
+
+    {% include footer.html %}
+
+  </div>
 </body>
 </html>
