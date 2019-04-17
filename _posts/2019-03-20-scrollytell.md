@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sample scrollytell
+comments: true
 ---
 
 _first scrolly-tell on github pages_
