@@ -26,6 +26,7 @@
   width: 100%;
   line-height: $nav-height;
   
+  .page-link-active,
   .page-link {
     line-height: $base-line-height;
     float: left;
@@ -36,6 +37,11 @@
       float: right;
       margin-left: 10px;
     }
+
+  }
+  .page-link-active {
+    color: $theme-color;
+    font-weight: bolder;
   }
 
   /*@include media-query($on-palm) {
