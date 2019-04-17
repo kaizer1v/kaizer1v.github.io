@@ -1,4 +1,4 @@
-var data_file = '../../../../data/sales.csv';
+var data_file = '../../../../assets/data/sales.csv';
 
 // Set tooltips
 var tip = d3.tip()
