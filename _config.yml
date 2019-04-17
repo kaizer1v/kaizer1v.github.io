@@ -1,4 +1,8 @@
-highlight:	         pygments
+source: .
+destination: ./_site
+includes: ./_includes
+
+highlight:           pygments
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
@@ -13,7 +17,7 @@ baseurl:             ""
 
 plugins:             [jekyll-paginate]
 paginate:            10
-paginate_path: 			 "/archives/page/:num"
+paginate_path:       "/archives/page/:num"
 
 ## Excerpt Separator
 excerpt_separator:   <!--more-->

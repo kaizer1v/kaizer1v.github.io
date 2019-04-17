@@ -1,12 +1,15 @@
 ---
 layout: post
 title: d3 Transitions
+foo: bar
 ---
 
 *a peep into d3v4 transitions and how they work*
 
 -----
 <!--more-->
+
+{{ site | json }}
 
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/d3_transitions.css">
 
