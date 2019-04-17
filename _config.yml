@@ -1,6 +1,6 @@
 source: .
-destination: ./_site
-includes: ./_includes
+destination:        ./_site
+includes:           ./_includes
 
 highlight:           pygments
 # Permalinks
@@ -43,8 +43,8 @@ github:
 # This is the list of pages to include in the header of the website.
 pages_list:       
   About:             '/about'
+  Dirty:             '/experiments'
   Projects:          '/projects'
-  Blog:              '/all_posts'
 
 # Includes an icon in the footer for each username you enter
 footer-links:
