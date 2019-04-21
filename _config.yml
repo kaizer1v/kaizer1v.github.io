@@ -43,7 +43,6 @@ github:
 # This is the list of pages to include in the header of the website.
 pages_list:       
   About:             '/about'
-  Experiments:       '/experiments'
   Projects:          '/projects'
 
 # Includes an icon in the footer for each username you enter
