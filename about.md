@@ -17,22 +17,13 @@ title: About
 </article> -->
 
 
-_bio_
+_Hi, I am Vivek. I am a designer and software engineer passionate about building creative tools for the web._
 
 ### Skills
 
-- Data - Pandas, Python, matplotlib
-- Web - Javascript, ES6, Flask
+- Web - Javascript, ES6, Python, Flask
+- Data - Pandas, matplotlib, d3.js, SQL, MongoDB
+- Miscellaneous - Unix/Linux, git
 
-
-### Work
-
-#### CivicDataLab
-
-UX Designer. Building applications for social good.
-
-#### Gramener
-
-Data Wrangler. Lead projects within the social sector by building dashboards.
 
 You can also download my resume from [here](https://github.com/kaizer1v/md-resume/raw/master/Vivek_Shrinivasan_Resume.pdf). _The resume was using an [app written by me](https://github.com/kaizer1v/md-resume)_.
