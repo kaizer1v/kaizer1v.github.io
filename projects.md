@@ -32,45 +32,39 @@ title: Projects
   </div>
   <div class="project">
     <div class="thumbnail">
-      <a href="">
+      <a target="_blank" href="https://github.com/kaizer1v/json-resume">
         <!-- <img class="thumbnail" src="{{ project.img }}" /> -->
         <div class="thumbnail blankbox"></div>
         <span>
-          <h1>Project Title</h1>
+          <h1>JSON Resume</h1>
           <hr />
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco</p>
+          <p>An easy way to generate resume with pre-set themes</p>
         </span>
       </a>
     </div>
   </div>
   <div class="project">
     <div class="thumbnail">
-      <a href="">
+      <a target="_blank" href="https://github.com/kaizer1v/infa-components">
         <!-- <img class="thumbnail" src="{{ project.img }}" /> -->
         <div class="thumbnail blankbox"></div>
         <span>
-          <h1>Project Title</h1>
+          <h1>infa-components</h1>
           <hr />
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco</p>
+          <p>Javascript, Components Library, Prototyping, jQuery, jQuery UI, Bootstrap Theme</p>
         </span>
       </a>
     </div>
   </div>
   <div class="project">
     <div class="thumbnail">
-      <a href="">
-        <!-- <img class="thumbnail" src="{{ project.img }}" /> -->
+      <a target="_blank" href="https://kaizer1v.github.io/Daytrippr">
+        <img class="thumbnail" src="/assets/screenshot_daytrippr.png" />
         <div class="thumbnail blankbox"></div>
         <span>
-          <h1>Project Title</h1>
+          <h1>DayTrippr</h1>
           <hr />
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco</p>
+          <p>Comic generator app</p>
         </span>
       </a>
     </div>
