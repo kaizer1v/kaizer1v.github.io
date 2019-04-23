@@ -15,13 +15,15 @@
     padding: 5px;
 
     .thumbnail {
+      border: 1px solid #eee;
+      border-radius: 5px;
       width: 100%;
       height: 230px;
       overflow: hidden;
 
       img {
-        width: 500px;
-        height: auto;
+        width: 100%;
+        height: 100%;
         position: relative;
       }
 
