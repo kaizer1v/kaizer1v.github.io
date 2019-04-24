@@ -15,7 +15,7 @@ A quick way to enhance the user experience when they are scrolling through a pag
 
 A good way to show that is to showthem via a progress bar like 
 
-![hbs-progress-bar](../assets/progress-bar.gif)
+![hbs-progress-bar](/assets/progress-bar.gif)
 
 ## Javascript
 

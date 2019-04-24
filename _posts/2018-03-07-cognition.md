@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Human Cognition
+categories: [design]
+tags: [psychology, user experience]
 ---
 
 *How cognition affects design thinking.*
