@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Problem Solving Methodology
+categories: [gyaan]
+tags: [problem solving, framework]
 ---
 
 *Problem Solving.*

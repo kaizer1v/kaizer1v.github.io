@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Javascript Events
+categories: [javascript]
+tags: [code, tutorial, note-to-self]
 ---
 
 *What to do when an event occurs*
