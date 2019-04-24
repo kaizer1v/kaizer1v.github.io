@@ -16,4 +16,4 @@ I love to build efficient and well designed products that solve problems, albeit
 
 You can also download my resume from [here](https://github.com/kaizer1v/md-resume/raw/master/Vivek_Shrinivasan_Resume.pdf). _The resume was built using an [app written by me](https://github.com/kaizer1v/md-resume)_.
 
-Feel free to drop me a message for any work on my [twitter](https://twitter.com/kaizer1v).
+Feel free to get [in touch with me](https://twitter.com/kaizer1v) for any work or banter about [Liverpool FC](https://www.google.com/search?q=epl+fixtures&oq=epl+fixtures&aqs=chrome.0.0l6.1809j1j9&sourceid=chrome&ie=UTF-8#sie=t;/m/04ltf;2;/m/02_tc;mt;fp;1;;).
