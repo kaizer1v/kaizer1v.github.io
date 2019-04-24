@@ -2,7 +2,8 @@
   <div class="wrapper">
     <nav class="site-nav">
       <div class="trigger">
-        <a class="page-link" href="{{ site.baseurl }}/">{{ site.title }}</a>
+        <!-- <a class="page-link" href="{{ site.baseurl }}/">{{ site.title }}</a> -->
+        <a class="page-link" href="{{ site.baseurl }}/"><i class="fa fa-space-shuttle"></i></a>
         {% for pl in site.pages_list %}
           {% if pl[0] == page.title %}
             <a class="page-link-active" href="{{ pl[1] | prepend: site.baseurl }}">{{ pl[0] }}</a>
