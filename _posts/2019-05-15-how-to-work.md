@@ -1,4 +1,12 @@
-# How To Work
+---
+layout: post
+title: How To Work
+---
+
+_Focus on being better, rather than being good._
+
+-----
+<!--more-->
 
 There have been multiple times when I have found myself in situations where I am just not able to finish the job or just not doing it - for whatever reasons, just procrastinating or bored out of my skull.
 
