@@ -37,6 +37,9 @@ nbproject
 *.sublime-workspace
 .idea
 
+# Lock files
+*.lock
+
 # Komodo
 *.komodoproject
 .komodotools
