@@ -17,7 +17,6 @@ So, what to do when you find yourself in such situations?
 [Refer to these reasons mentioned here](https://hbr.org/2014/02/how-to-make-yourself-work-when-you-just-dont-want-to)
 
 
-
 ## Reason 1
 
 You are putting something off because you are afraid you are going to screw it up, or you feel that you are not doing it perfectly
