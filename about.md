@@ -3,6 +3,8 @@ layout: page
 title: About
 ---
 
+<img src="/assets/images/me.jpg" height="400px" style="margin-left: -300px; position: absolute;" />
+
 Hi, I am Vivek. I am a designer and software engineer passionate about building creative tools for the web. I am currently work with [CivicDataLab](https://civicdatalab.in) in bridging the user experience gap between technology and the social sector in India.
 
 I love to build efficient and well designed products that solve problems, albeit a small one. You can check out some of my work in the [projects section](/projects).
