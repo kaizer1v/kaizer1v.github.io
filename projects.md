@@ -3,70 +3,34 @@ layout: page
 title: Projects
 ---
 
-<div class="project-container">
-  <div class="project">
-    <div class="thumbnail">
-      <a target="_blank" href="https://kaizer1v.github.io/mathjs">
-        <img class="thumbnail" src="/assets/mathjs.png" />
-        <div class="thumbnail blankbox"></div>
-        <span>
-          <h1>Math JS</h1>
-          <hr />
-          <p>Javascript library for mathematical operations</p>
-        </span>
-      </a>
-    </div>
+<!-- Jumbotron -->
+<section class="jumbotron text-center">
+  <div class="container">
+    <h1 class="jumbotron-heading">Projects</h1>
+    <p class="lead text-muted">Some of my work.</p>
   </div>
-  <div class="project">
-    <div class="thumbnail">
-      <a target="_blank" href="https://kaizer1v.github.io/profiling">
-        <img class="thumbnail" src="/assets/screenshot_profiling.png" />
-        <div class="thumbnail blankbox"></div>
-        <span>
-          <h1>Data Profiling</h1>
-          <hr />
-          <p>UI Prototyping, Javascript, D3</p>
-        </span>
-      </a>
-    </div>
-  </div>
-  <div class="project">
-    <div class="thumbnail">
-      <a target="_blank" href="https://github.com/kaizer1v/json-resume">
-        <!-- <img class="thumbnail" src="{{ project.img }}" /> -->
-        <div class="thumbnail blankbox"></div>
-        <span>
-          <h1>JSON Resume</h1>
-          <hr />
-          <p>An easy way to generate resume with pre-set themes</p>
-        </span>
-      </a>
-    </div>
-  </div>
-  <div class="project">
-    <div class="thumbnail">
-      <a target="_blank" href="https://github.com/kaizer1v/infa-components">
-        <!-- <img class="thumbnail" src="{{ project.img }}" /> -->
-        <div class="thumbnail blankbox"></div>
-        <span>
-          <h1>infa-components</h1>
-          <hr />
-          <p>Javascript, Components Library, Prototyping, jQuery, jQuery UI, Bootstrap Theme</p>
-        </span>
-      </a>
-    </div>
-  </div>
-  <div class="project">
-    <div class="thumbnail">
-      <a target="_blank" href="https://kaizer1v.github.io/Daytrippr">
-        <img class="thumbnail" src="/assets/screenshot_daytrippr.png" />
-        <div class="thumbnail blankbox"></div>
-        <span>
-          <h1>DayTrippr</h1>
-          <hr />
-          <p>Comic generator app</p>
-        </span>
-      </a>
+</section>
+
+<!-- Cards -->
+<div class="album py-5 bg-light">
+  <div class="container">
+    <div class="row">
+      {% for prj in site.project_list %}
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <!-- <img src="/assets/{{ prj[1]['thumbnail'] }}"> -->
+            <div class="card-body">
+              <h5 class="card-title">{{ prj[1]['title'] }}</h5>
+              <p class="card-text">{{ prj[1]['desc'] }}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
     </div>
   </div>
 </div>
