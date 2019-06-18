@@ -1,17 +1,22 @@
-<header class="site-header">
-  <div class="wrapper">
-    <nav class="site-nav">
-      <div class="trigger">
-        <!-- <a class="page-link" href="{{ site.baseurl }}/">{{ site.title }}</a> -->
-        <a class="page-link" href="{{ site.baseurl }}/"><i class="fa fa-space-shuttle"></i></a>
-        {% for pl in site.pages_list %}
-          {% if pl[0] == page.title %}
-            <a class="page-link-active" href="{{ pl[1] | prepend: site.baseurl }}">{{ pl[0] }}</a>
-          {% else %}
-            <a class="page-link" href="{{ pl[1] | prepend: site.baseurl }}">{{ pl[0] }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </nav>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="{{ site.baseurl }}/"><i class="fa fa-space-shuttle"></i></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse float-right" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      {% for pl in site.pages_list %}
+        {% if pl[0] == page.title %}
+          <li class="nav-item active">
+            <a class="nav-link" href="{{ pl[1] | prepend: site.baseurl }}">{{ pl[0] }} <span class="sr-only">(current)</span></a>
+          </li>
+        {% else %}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ pl[1] | prepend: site.baseurl }}">{{ pl[0] }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
   </div>
-</header>
+</nav>
