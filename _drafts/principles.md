@@ -1,5 +1,9 @@
 # Principles
 
+**Techniques Over Innovation**
+Use proven techniques, tools and methods that are already present instead of trying to solve the problem from scratch by yourself.
+
+
 **Direction Over Speed**
 If you’re locked on to your desired destination, all progress is positive, no matter how slow you’re going
 
@@ -20,3 +24,8 @@ By understanding the principles that shape your reality, your “why” will mor
 When we refuse to accept ownership of our mistakes, we’ve warped the feedback loop we rely on to make better decisions in the future. If we are the common denominators in all the problems that vex us, but we fail to understand that, nothing will ever change.
 
 [Farnam Street Principles](https://fs.blog/principles/)
+
+
+**Fun Learning**
+Make anything that you are doing into fun. If your are learning or working on mini-project, convert it into fun, like a 2 day hackathon, or team game.
+  - Jot down all ideas and convert it into a team game.

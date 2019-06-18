@@ -33,3 +33,13 @@ He is the guy whos book I read, called **Habits**.
 ### 5 - Law of Serendipity
 
 > Lady luck favours for the one who tries.
+
+
+### 6 - Phil Tippett
+
+> Passion has little to do with euphoria and everything to do with patience. It is not about feeling good. It is absolute endurance. Like patience, passion comes form the Latin root _pati_. It does not mean to flow with exuberance. It means to suffer.
+
+
+### 7 - Linus Torvald
+
+> The difference between a good programmer and a great programmer is that a great programmer values his data structures where as a good programmer values his code. `data structures + algorithms = program`

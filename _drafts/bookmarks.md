@@ -12,6 +12,12 @@ This is how my bookmarks bar looks like. Yes, very unorganised right?
 
 # Links I need
 
+## Temporary - Read & Throw
+
+- [Making a static website on Jekyll](https://www.taniarascia.com/make-a-static-website-with-jekyll/)
+- [Maker Culture](https://en.wikipedia.org/wiki/Maker_culture)
+
+
 ## Data Viz Resources
 
 - [Visual Vocabulary](https://gramener.github.io/visual-vocabulary-vega/#/Spatial/)
@@ -93,8 +99,8 @@ This is how my bookmarks bar looks like. Yes, very unorganised right?
 - [How To Contribute to Open Source Projects](https://opensource.guide/how-to-contribute/)
 - [John Resign - Explaining the `.bind` method](https://johnresig.com/apps/learn/#2)
 - [Mike Bostok AMA Reddit](https://www.reddit.com/r/dataisbeautiful/comments/3k3if4/hi_im_mike_bostock_creator_of_d3js_and_a_former/)
-- []()
-- []()
+- [Javascript for Designers](http://jsfordesigners.davemart.in/)
+- [Introduction to Programming in Python - Online Book (Princeton)](https://introcs.cs.princeton.edu/python/home/)
 - []()
 
 ### MBA
@@ -133,3 +139,12 @@ This is how my bookmarks bar looks like. Yes, very unorganised right?
 - [Gramex - Python Library by S Anand](https://code.gramener.com/cto/gramex)
 - [Gramex Documentation](https://learn.gramener.com/gramex/index.html)
 - [Gramex Guide](https://learn.gramener.com/guide/)
+
+
+## Cool Things
+
+- [My faviourite - Creative Applications.net](https://www.creativeapplications.net/)
+- [Quirky T-Shirts in USA](https://cottonbureau.com/)
+- [Industrial Mechanika - Surreal scaled model toys](https://industriamechanika.com/)
+- [Open Source Lab - Science Experiments](https://www.appropedia.org/Open-source_Lab)
+- [Open Woodwork tools and tutorials](https://www.renaissancewoodworker.com/a-real-world-list-of-hand-tools-for-getting-started/)

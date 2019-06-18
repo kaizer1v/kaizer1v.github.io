@@ -78,7 +78,7 @@ Long term memory + short term (working) memory
 
 - Physical exercise is the best thing to do for a healthy brain
 - Practice makes perfect, but when you are properly prepared
-- Visualise & create metaphors for learning things that are difficult to percieve. In addition, also try and utilise all your senses to be able to undersand the concept that you are reading, like applying the concept that you are trying to learn in a practical scenario or experiment.
+- Visualise & create metaphors and analogy for learning things that are difficult to percieve. In addition, also try and utilise all your senses to be able to undersand the concept that you are reading, like applying the concept that you are trying to learn in a practical scenario or experiment.
 - Metaphors also help you get out of `Einstellung`, i.e. thinking about a problem in a wrong way.
 - Once you have trained and practiced enough, there are times when you simply have to rely on the knowledge you have already practiced.
 - Takihg responsibility of your learning is very essential. Go ahead and experiment the way you want to and not abide by what the _teacher_ says.
@@ -119,6 +119,7 @@ Q: Did you review?
 - Try and simulate the scenarios of the ultimate test environment while you are practicing.
 
 - You can also try and reverse engineer to the answer that is required.
+
 
 
 
@@ -166,6 +167,18 @@ Q: Did you review?
   1. Test and question yourself after learning new material
   2. Don't keep practicing only a single type of material, this can build an illusion that you have learnt the complete subject
 
+
+## Complete Summary
+
+- Spaced repitition learning is a very affective way of planning and repeating yourself.
+- Test yourself by trying to answer a question without looking at the answer. Try and recall first what you even learned and only then open the material.
+- Review and plan ahead a night before.
+- Sleep is important.
+- Review the material first, scan through it first and understand the overview. If you are solving a problem, it helps to start with the tough ones first.
+- Always exhaust all your senses when you are learning something new. Speak it out loud, feel it & best way to learn is to teach it to others. You can use some effective memory techniques like memory palace, visualisation & building metaphors.
+- Pomodoro is the best way to beat procrastination. Just do it for 25 minutes & don't forget to reward yourself at the end of it.
+- Believe in yourself and always think positive.
+- Worrying kills creativity - so relax, medidate, say positive things to yourself.
 
 ---
 

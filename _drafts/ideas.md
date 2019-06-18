@@ -40,8 +40,15 @@ Doing this will help create a template for reviewing your weekly tasks and event
 - Blog redesign
   => `About Me` - upload personal picture
   => upload all doodles on the site
-  => 
+    - instagram / blog / tweet / behance
+    - directly share it on blog (possible?)
+      - so that people who view it will approach
+
 - D3 repo home page
+  => why and what is this?
+  => the idea was to have a series of d3 visualisations built by me
+
+- in a day - visualisation (scrollytell)
 - `md-resume` UI
 - mobile app for `Daytrippr`  
 - internal framework
@@ -56,6 +63,7 @@ Doing this will help create a template for reviewing your weekly tasks and event
   => Liverpool lost only 1 game, and City lost 4, but the games that made a difference were the ones where Liverpool drew against their opponents.
   => 97 points is incredible, compared to Serie A, La Liga etc.
   => look at all the teams who have won the title, their final scores.
+  => how has Bangalore changed me
 - Kabini Tribal Music Remix - from iphone recording
   => design the album logo (picture)
   => explore deep house mix
@@ -114,30 +122,28 @@ Doing this will help create a template for reviewing your weekly tasks and event
 - Gestalt Principles visualised: Visualise and explan gestalt principles along with explanation
 - git commands visualised. A let of cards that visualise every git command, so that it is easier to remember.
 - A Jacksparrow compass (google maps behind the scene) - just tell it something and it'll show you directions
+- Draw all World War things from "Commandos" on illustrator
+- Frame all GI-Joes into a set. Everything.
+- Document Design things [something like this](https://www.userflows.design/?category_id=3)
+- Visualise one thing everyday
+
+- Bangalore aquarium re-design project (design only - case study)
+  => Empathy - generate a problem statement
+  => Brainstorm - ideas of how to improve the experience of the bangalore aquarium
+
+
+## Weekend Builds
+
+- [Making Concrete Planters](https://www.youtube.com/watch?time_continue=130&v=Jx0uunnnYm4)
+  => get cement (from construction site maybe)
+  => plastic cups & containers
+  => need 20 hours to solidify
+  => sand paper
+  => concrete mixer
+
+
 
 ---
-
-* If and when you identify a problem or an idea, take note of it. Here's a template for describing the idea / problem statement.
-
-
-## Template
-
-**How did you come up with the idea?**
-
-
-**Where did you face this problem?**
-
-
-**How do you propose the solution could be solved**
-
-
-**Why do you think the above solution will work?**
-
-
-**Who and how would it benefit others?**
-
-
-**Problem Statement**
 
 
 **Plan**
