@@ -4,7 +4,7 @@ title: Projects
 ---
 
 <!-- Jumbotron -->
-<section class="jumbotron text-center">
+<section class="jumbotron text-center mb-0">
   <div class="container">
     <h1 class="jumbotron-heading">Projects</h1>
     <p class="lead text-muted">Some of my work.</p>
@@ -14,7 +14,8 @@ title: Projects
 <!-- Cards -->
 <div class="album py-5 bg-light">
   <div class="container">
-    <div class="row">
+
+    <div class="row card-deck">
       {% for prj in site.project_list %}
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
@@ -32,5 +33,6 @@ title: Projects
         </div>
       {% endfor %}
     </div>
+
   </div>
 </div>

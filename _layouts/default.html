@@ -9,10 +9,10 @@
   <div class="container" role="main">
 
     <!-- Loop of all the posts -->
-    <div class="posts">
+    <div>
       {% for post in paginator.posts %}
-      <article class="post">
-        <h2 class="post-title">
+      <article>
+        <h2>
           <a href="{{ site.baseurl }}{{ post.url }}">
             {{ post.title }}
           </a>
