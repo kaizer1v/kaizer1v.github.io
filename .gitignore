@@ -7,6 +7,7 @@ _site
 
 # Node Modules
 node_modules
+!node_modules/bootstrap
 
 # Numerous always-ignore extensions
 *.diff

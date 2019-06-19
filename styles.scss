@@ -14,15 +14,22 @@
 // Designed, built, and released under Creative Commons License.
 // https://github.com/kaizer1v/kaizer1v.github.io
 
+$theme-colors: (
+  "primary":    #0B9EF9,
+  "secondary":  #FF775F,
+  "success":    #83C489,
+  "danger":     #DA3F2F,
+  "info":       #1AC1D3,  
+  "warning":    #F2C36D,
+  "light":      #B6B6B6,
+  "dark":       #363636
+);
 
-@import "base";
-@import "type";
-@import "syntax";
-@import "code";
-@import "layout";
-@import "masthead";
-@import "nav";
-@import "posts";
-@import "pagination";
-@import "portfolio";
-@import "message";
+$font-family-base: 'Sanchez', "Helvetica Neue", Arial, "Noto Sans", serif;
+// $font-family-base: 'Rubik', sans-serif;    // secondary font
+$font-family-monospace: Roboto-mono, Monaco, Consolas, monospace;
+
+
+
+/* all bootstrap variables to be loaded in the end */
+@import "bootstrap";
