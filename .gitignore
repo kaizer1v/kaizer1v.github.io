@@ -6,9 +6,7 @@ _site
 .jekyll-metadata
 
 # Node Modules
-node_modules/*
-!node_modules/bootstrap/scss/*
-!node_modules/bootstrap/dist/js/*
+
 
 # Numerous always-ignore extensions
 *.diff
