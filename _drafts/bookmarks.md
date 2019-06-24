@@ -101,6 +101,9 @@ This is how my bookmarks bar looks like. Yes, very unorganised right?
 - [Mike Bostok AMA Reddit](https://www.reddit.com/r/dataisbeautiful/comments/3k3if4/hi_im_mike_bostock_creator_of_d3js_and_a_former/)
 - [Javascript for Designers](http://jsfordesigners.davemart.in/)
 - [Introduction to Programming in Python - Online Book (Princeton)](https://introcs.cs.princeton.edu/python/home/)
+- [Book - The Nature of Code - Daniel Shiffman](https://natureofcode.com/)
+- [Book - Introduction to Programming in Python - Algorithms, Princeton](https://introcs.cs.princeton.edu/python/home/)
+
 - []()
 
 ### MBA
@@ -113,7 +116,6 @@ This is how my bookmarks bar looks like. Yes, very unorganised right?
 
 - [Open Data UK](https://www.ukdataservice.ac.uk/use-data.aspx)
 - []()
-
 
 ## Shopping Products
 

@@ -6,22 +6,21 @@
 <body>
   {% include nav.html %}
 
-  <div class="container" role="main">
+  <div class="container mt-5" role="main">
 
     <!-- Loop of all the posts -->
-    <div>
-      {% for post in paginator.posts %}
-      <article>
-        <h2>
-          <a href="{{ site.baseurl }}{{ post.url }}">
-            {{ post.title }}
-          </a>
-        </h2>
-        {{ post.excerpt }}
-        <!-- <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time> -->
-      </article>
-      {% endfor %}
-    </div>
+    {% for post in paginator.posts %}
+    <article>
+      <h2>
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          {{ post.title }}
+        </a>
+      </h2>
+      {{ post.excerpt }}
+      <!-- <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time> -->
+    </article>
+    {% endfor %}
+
 
     {% include pagination.html %}
 

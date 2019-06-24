@@ -7,10 +7,10 @@
   <body>
     {% include nav.html %}
 
-    <div class="container-fluid">
+    <div class="container mt-5">
       <main>
-        <article class="post">
-          <h1 class="post-title"><a href="{{ site.baseurl }}/" title="Home">{{ page.title }}</a></h1>
+        <article>
+          <h1><a href="{{ site.baseurl }}/" title="Click to go back to main page">{{ page.title }}</a></h1>
           <!-- <i>{{ post.excerpt }}</i> -->
           <p><time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time></p>
 

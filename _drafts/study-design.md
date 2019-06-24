@@ -58,3 +58,7 @@
 ## Inspiring People & Their Work
 
 - [Elija Meeks - Data Visualisation](http://elijahmeeks.com/)
+
+## Community
+
+- [Slack - Data Visualisation Society](https://datavizsociety.slack.com/): `Lg file for login details`
