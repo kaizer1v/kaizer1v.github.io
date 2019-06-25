@@ -21,6 +21,7 @@ This is how my bookmarks bar looks like. Yes, very unorganised right?
 ## Data Viz Resources
 
 - [Visual Vocabulary](https://gramener.github.io/visual-vocabulary-vega/#/Spatial/)
+- [Sketch Notes - Tumblr Blog](https://sketchit.co/)
 - []()
 
 ## Blogs & Porflolios

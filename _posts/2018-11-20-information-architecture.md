@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Information Architecture
+categories: [design]
+tags: [information-architecture, ui-design]
 excerpt_separator: <!--more-->
 ---
 

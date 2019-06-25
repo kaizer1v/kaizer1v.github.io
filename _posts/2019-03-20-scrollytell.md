@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Sample scrollytell
+categories: [javascript]
+tags: [code, tutorial, d3]
 comments: true
 ---
 

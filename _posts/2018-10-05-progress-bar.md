@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Page Progress Bar
+categories: [design]
+tags: [ui-design, interactions]
 ---
 
 _A build-it-yourself progress bar in plain javascript and html_

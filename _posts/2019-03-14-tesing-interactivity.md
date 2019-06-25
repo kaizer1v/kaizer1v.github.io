@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Visualisation on github pages
+categories: [javascript]
+tags: [code, d3, tutorial, note-to-self]
 ---
 
 _First functional d3 bar graph_

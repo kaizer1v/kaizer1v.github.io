@@ -1,6 +1,8 @@
 ---
 layout: post
 title: d3 Transitions
+categories: [javascript]
+tags: [code, d3, tutorial, note-to-self]
 foo: bar
 ---
 

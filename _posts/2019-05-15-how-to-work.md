@@ -1,6 +1,8 @@
 ---
 layout: post
 title: How To Work
+categories: [notes]
+tags: [note-to-self]
 ---
 
 _Focus on being better, rather than being good._

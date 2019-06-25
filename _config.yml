@@ -46,6 +46,7 @@ github:
 pages_list:
   Projects:          '/projects'
   About:             '/about'
+  Tags:              '/tag'
 
 # List of projects
 project_list:
