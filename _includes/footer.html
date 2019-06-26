@@ -1,21 +1,21 @@
-<footer class="footer">
+<footer class="footer bg-dark">
   <!-- Social Media Links -->
   <nav aria-label="footer social media links">
     <ul class="pagination justify-content-center">
     {% if site.footer-links.github %}
-      <li class="page-item">
+      <li class="page-item px-2">
         <a target="_blank" class="fa fa-github" href="https://github.com/{{ site.footer-links.github }}"></a>
       </li>
     {% endif %}
 
     {% if site.footer-links.twitter %}
-      <li class="page-item">
+      <li class="page-item px-2">
         <a target="_blank" class="fa fa-twitter" href="https://twitter.com/{{ site.footer-links.twitter }}"></a>
       </li>
     {% endif %}
 
     {% if site.footer-links.linkedin %}
-      <li class="page-item">
+      <li class="page-item px-2">
         <a target="_blank" class="fa fa-linkedin" href="https://in.linkedin.com/in/{{ site.footer-links.linkedin }}"></a>
       </li>
     {% endif %}
@@ -23,7 +23,7 @@
   </nav>
 
   <!-- License -->
-  <small>
+  <small class="justify-content-center d-block text-center text-light">
     <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
       <img alt="Creative Commons Licence" style="border-width:0; margin: 0 auto; margin-top: 25px; display: block; text-align: center;" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License
     </a>.

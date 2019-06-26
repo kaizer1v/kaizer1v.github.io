@@ -29,6 +29,7 @@ $font-family-base: 'Sanchez', "Helvetica Neue", Arial, "Noto Sans", serif;
 $font-family-sans-serif: 'Rubik', sans-serif;
 $font-family-monospace: Roboto-mono, Monaco, Consolas, monospace;
 
+a:hover { text-decoration: none !important; }
 
 /* Code Highlighting */
 code,

@@ -3,12 +3,11 @@ layout: page
 title: Tags
 ---
 
-{% comment %}
-  =======================
-  The following part extracts all the tags from your posts and sort tags, so that you do not need to manually collect your tags to a place.
-  =======================
-{% endcomment %}
-
+<!--
+=======================
+The following part extracts all the tags from your posts and sort tags, so that you do not need to manually collect your tags to a place.
+=======================
+-->
 {% assign rawtags = "" %}
 {% for post in site.posts %}
   {% assign ttags = post.tags | join:'|' | append:'|' %}
@@ -16,11 +15,13 @@ title: Tags
 {% endfor %}
 {% assign rawtags = rawtags | split:'|' | sort %}
 
-{% comment %}
-  =======================
-  The following part removes dulpicated tags and invalid tags like blank tag.
-  =======================
-{% endcomment %}
+
+
+<!--
+=======================
+The following part removes dulpicated tags and invalid tags like blank tag.
+=======================
+-->
 {% assign tags = "" %}
 {% for tag in rawtags %}
   {% if tag != "" %}
@@ -34,12 +35,12 @@ title: Tags
 {% endfor %}
 
 
-{% comment %}
-  =======================
-  The purpose of this snippet is to list all the tags you have in your site.
-  =======================
-{% endcomment %}
 
+<!--
+=======================
+The purpose of this snippet is to list all the tags you have in your site.
+=======================
+-->
 <section class="jumbotron text-center mb-0">
   <div class="container">
     <h1 class="jumbotron-heading">Archive</h1>
@@ -56,29 +57,27 @@ title: Tags
 
 
 
+<!--
+=======================
+The purpose of this snippet is to list all your posts posted with a certain tag.
+=======================
+-->
 <div class="album py-5 bg-light">
   <div class="container">
-    {% comment %}
-      =======================
-      The purpose of this snippet is to list all your posts posted with a certain tag.
-      =======================
-    {% endcomment %}
     {% for tag in tags %}
-      <h2 id="{{ tag | slugify }}">{{ tag }}</h2>
-      <ul>
-       {% for post in site.posts %}
-         {% if post.tags contains tag %}
-         <li>
-           <h3>
-             <a href="{{ post.url }}">
-               {{ post.title }}
-               <small>{{ post.date | date_to_string }}</small>
-             </a>
-           </h3>
-         </li>
-         {% endif %}
-       {% endfor %}
-      </ul>
+      <div class="mt-5">
+        <h2 class="h2" id="{{ tag | slugify }}">{{ tag }}</h2>
+        <ul class="list-group">
+         {% for post in site.posts %}
+           {% if post.tags contains tag %}
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <a href="{{ post.url }}">{{ post.title }}</a>
+              <span class="badge badge-secondary badge-pill"><small>{{ post.date | date_to_string }}</small></span>
+            </li>
+           {% endif %}
+         {% endfor %}
+        </ul>
+      </div>
     {% endfor %}
   </div>
 </div>

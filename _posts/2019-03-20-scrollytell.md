@@ -47,18 +47,15 @@ _first scrolly-tell on github pages_
       <svg></svg>
     </div>
     <section class="step">
-      <div class="title"><h2>Begin to scroll</h2></div>
-    </section>
-    <section class="step">
-      <div class="title"><h2>Move horizontally</h2></div>
+      <div class="title"><h2>Begin scrolling - Moves horizontally</h2></div>
         changes the `cx` position
     </section>
     <section class="step">
-      <div class="title"><h2>Move vertically</h2></div>
+      <div class="title"><h2>Moves vertically</h2></div>
       changes the `cy` position
     </section>
     <section class="step">
-      <div class="title"><h2>Colour</h2></div>
+      <div class="title"><h2>Changes Colour</h2></div>
         changes the colour to red.
     </section>
     <section class="step">
