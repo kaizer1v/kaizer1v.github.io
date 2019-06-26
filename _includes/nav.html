@@ -7,14 +7,16 @@
   <div class="collapse navbar-collapse float-right" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       {% for pl in site.pages_list %}
-        {% if pl[0] == page.title %}
-          <li class="nav-item active">
-            <a class="nav-link" href="{{ pl[1] | prepend: site.baseurl }}">{{ pl[0] }} <span class="sr-only">(current)</span></a>
-          </li>
-        {% else %}
-          <li class="nav-item">
-            <a class="nav-link" href="{{ pl[1] | prepend: site.baseurl }}">{{ pl[0] }}</a>
-          </li>
+        {% if pl[0] != "Tags" %}      <!-- don't show tags on the top nav -->
+          {% if pl[0] == page.title %}
+            <li class="nav-item active">
+              <a class="nav-link" href="{{ pl[1] | prepend: site.baseurl }}">{{ pl[0] }} <span class="sr-only">(current)</span></a>
+            </li>
+          {% else %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ pl[1] | prepend: site.baseurl }}">{{ pl[0] }}</a>
+            </li>
+          {% endif %}
         {% endif %}
       {% endfor %}
     </ul>
