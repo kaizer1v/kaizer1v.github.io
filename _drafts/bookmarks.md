@@ -151,3 +151,4 @@ This is how my bookmarks bar looks like. Yes, very unorganised right?
 - [Industrial Mechanika - Surreal scaled model toys](https://industriamechanika.com/)
 - [Open Source Lab - Science Experiments](https://www.appropedia.org/Open-source_Lab)
 - [Open Woodwork tools and tutorials](https://www.renaissancewoodworker.com/a-real-world-list-of-hand-tools-for-getting-started/)
+- [Kits that people swear by, great for gears, bags etc.](https://kit.com/)
