@@ -44,6 +44,14 @@ version:             2.4.0
 github:
   repo:              https://github.com/kaizer1v/kaizer1v.github.io
 
+# Collections
+collections_dir: all_collections
+
+collections:
+  cool_interactions:
+    permalink: /:collection/:name
+    output: true
+
 # This is the list of pages to include in the header of the website.
 pages_list:
   Projects:          '/projects'
