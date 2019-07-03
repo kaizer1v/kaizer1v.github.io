@@ -18,7 +18,7 @@ url:                 https://kaizer1v.github.com
 baseurl:             ""
 
 plugins:             [jekyll-paginate]
-paginate:            10
+paginate:            50
 paginate_path:       "/archives/page/:num"
 
 ## Excerpt Separator
@@ -57,34 +57,6 @@ pages_list:
   Projects:          '/projects'
   About:             '/about'
   Tags:              '/tag'
-
-# List of projects
-project_list:
-  mathjs:
-    title: MathJS
-    desc: Javascript library for mathematical operations
-    url: https://kaizer1v.github.io/mathjs
-    thumbnail: mathjs.png
-  data_profiling:
-    title: Data Profiling
-    desc: UI Prototyping, Javascript, D3
-    url: https://kaizer1v.github.io/profiling
-    thumbnail: screenshot_profiling.png
-  json_resume:
-    title: JSON Resume
-    desc: An easy way to generate resume with pre-set themes
-    url: https://github.com/kaizer1v/json-resume
-    thumbnail: 
-  infa_components:
-    title: Infa Components
-    desc: Javascript, Components Library, Prototyping, jQuery, jQuery UI, Bootstrap Theme
-    url: https://github.com/kaizer1v/infa-components
-    thumbnail: 
-  daytrippr:
-    title: DayTrippr
-    desc: Comic generator app
-    url: https://kaizer1v.github.io/Daytrippr
-    thumbnail: screenshot_daytrippr.png
 
 
 # Includes an icon in the footer for each username you enter

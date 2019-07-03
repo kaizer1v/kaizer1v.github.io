@@ -8,22 +8,24 @@
 
   <div class="container my-5" role="main">
 
-    <!-- Loop of all the posts -->
-    {% for post in paginator.posts %}
-    <article>
-      <h2>
-        <a href="{{ site.baseurl }}{{ post.url }}">
-          {{ post.title }}
-        </a>
-      </h2>
-      {{ post.excerpt }}
-      <!-- <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time> -->
-    </article>
-    {% endfor %}
+    <div class="row">
+      <!-- Loop of all the posts -->
+      {% for post in paginator.posts %}
+      <article class="col-7">
+        <h3 class="h3 mt-2">
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            {{ post.title }}
+          </a>
+        </h3>
+        <hr />
+        <!-- <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time> -->
+      </article>
+      {% endfor %}
+    </div><!-- /.row -->
 
-
-    {% include pagination.html %}
-
+    <div class="row justify-content-center mt-5">
+      {% include pagination.html %}
+    </div>
   </div><!-- /.content /.container -->
 
   {% include footer.html %}

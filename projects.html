@@ -12,27 +12,23 @@ title: Projects
 </section>
 
 <!-- Cards -->
-<div class="album py-5 bg-light">
-  <div class="container">
-
-    <div class="row card-deck">
-      {% for prj in site.project_list %}
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <!-- <img src="/assets/{{ prj[1]['thumbnail'] }}"> -->
-            <div class="card-body">
-              <h5 class="card-title">{{ prj[1]['title'] }}</h5>
-              <p class="card-text">{{ prj[1]['desc'] }}</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a  target="_blank" href="{{ prj[1]['url'] }}" class="btn btn-info" role="button">View</a>
-                </div>
-              </div>
-            </div>
+<div class="container py-5">
+  <div class="card-columns">
+  {% for prj in site.data.projects %}
+    <div class="card">
+      {% if prj['thumbnail'] %}
+        <img class="card-img-top" src="/assets/images/{{ prj['thumbnail'] }}" alt="{{ prj['title'] }}">
+      {% endif %}
+      <div class="card-body">
+        <h5 class="card-title">{{ prj['title'] }}</h5>
+        <p class="card-text">{{ prj['desc'] }}</p>
+        <p class="card-text">
+          <div class="btn-group">
+            <a target="_blank" href="{{ prj['url'] }}" class="btn btn-info" role="button">View</a>
           </div>
-        </div>
-      {% endfor %}
+        </p>
+      </div>
     </div>
-
+  {% endfor %}
   </div>
-</div>
+</div><!-- /. container -->
