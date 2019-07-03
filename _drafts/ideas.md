@@ -35,6 +35,21 @@ Doing this will help create a template for reviewing your weekly tasks and event
 
 # IDEAS
 
+- Biryani Map
+  => A way to find the best biryani places in Bangalore
+- Personal social data analysis
+- My Uber data analysis
+  => how many kilometers have I travelled?
+  => total spent on Uber
+  => total hours on uber
+  => $$ per km I have spent
+  => most areas I have visited (airport mostly)
+  => longest trip in km & time
+  => shortest trip in km & time
+  => best time to travel (wrt to time, money and speed)
+  => ever travelled with the same driver again?
+  => cancelled trips
+
 - Bootstrap Theme
   => create a retro theme on bootstrap
 - Blog redesign
@@ -50,7 +65,7 @@ Doing this will help create a template for reviewing your weekly tasks and event
 
 - in a day - visualisation (scrollytell)
 - `md-resume` UI
-- mobile app for `Daytrippr`  
+- mobile app for `Daytrippr`
 - internal framework
   => the process of moving an idea to prototype to project
   => this should be a visual platform where you can create, update, track and publish your ideas and projects
