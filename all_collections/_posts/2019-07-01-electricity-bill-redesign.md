@@ -42,7 +42,7 @@ Each user focuses on different parts of the bill for their importance.
 In order to sort the bills fast, assuming that they do it manually, would be interested in the locality of the address or the connection number.
 
 
-### User 2 - Delivery
+### User 2 - Delivery Man
 
 The delivery person mainly focuses on the delivery of the bill at the right address. Also, since these personnels are regular delivery personnels, their **addresses** and routes are already known to them. They group the bills based on the apartment names and deliver in bulk.
 
@@ -61,11 +61,26 @@ The final user would be the resident who is mostly concerned with information co
 
 This is what the current bill looks like.
 
+<figure class="figure text-center">
+  <img src="/assets/images/bill_original.png" class="figure-img img-fluid rounded" alt="number of cabs during the time of the week">
+</figure>
 
-## Proposed redesign
+<h2 class="h2">Proposed Redesign</h2>
 
 Considering the above factors and a bit of research, here is the proposed redesign of the electricity bill.
 
+<h3 class="h3">Minimal Version</h3>
+
+**What the minimal bill redesign addresses**
+
+* Promotes digital payment option with PayTM or BEC app
+* Reduces paper size
+* Removal of secondary information like kilo-watt rates and total amount breakdown
+* Changes hierarchy of information from usage point of view for all users involved (top to bottom)
+
+<figure class="figure text-center">
+  <img src="/assets/images/bill_redesign_minimal.png" class="figure-img img-fluid rounded" alt="number of cabs during the time of the week">
+</figure>
 
 Would love to have comments, critic or suggestions on this proposal.
 
