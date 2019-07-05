@@ -1,6 +1,7 @@
 ---
 title: My Uber Data Analysis
-comments: true
+categories: [design]
+tags: [design, ui-design]
 ---
 
 _drive safe_

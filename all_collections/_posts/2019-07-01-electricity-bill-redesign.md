@@ -1,9 +1,7 @@
 ---
-layout: post
 title: Redesigning My Electricity Bill
-categories: [javascript]
-tags: [code, tutorial, d3]
-comments: true
+categories: [design]
+tags: [design, ui-design]
 ---
 
 _save paper_

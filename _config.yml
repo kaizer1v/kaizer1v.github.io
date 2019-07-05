@@ -65,6 +65,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      comments: true
 
 # Includes an icon in the footer for each username you enter
 footer-links:
