@@ -1,9 +1,10 @@
-source:             .
-destination:        ./_site
-includes:           ./_includes
+source:              .
+destination:         ./_site
+includes:            ./_includes
 # markdown:            CommonMarkGhPages
 # markdown:            gfm
 highlight:           pygments
+disqus_username:     disqus_OlGnKMzoKF
 
 # Permalinks
 #
@@ -58,6 +59,12 @@ pages_list:
   About:             '/about'
   Tags:              '/tag'
 
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 
 # Includes an icon in the footer for each username you enter
 footer-links:

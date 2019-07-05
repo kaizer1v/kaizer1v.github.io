@@ -3,7 +3,7 @@ layout: post
 title: Redesigning My Electricity Bill
 categories: [javascript]
 tags: [code, tutorial, d3]
-comments: false
+comments: true
 ---
 
 _save paper_
