@@ -56,7 +56,6 @@ The purpose of this snippet is to list all the tags you have in your site.
 </section>
 
 
-
 <!--
 =======================
 The purpose of this snippet is to list all your posts posted with a certain tag.
@@ -64,11 +63,14 @@ The purpose of this snippet is to list all your posts posted with a certain tag.
 -->
 <div class="album py-5 bg-light">
   <div class="container">
+    <div class="row">
     {% for tag in tags %}
-      <div class="mt-5">
-        <h2 class="h2" id="{{ tag | slugify }}">{{ tag }}</h2>
+      <div class="col-6 mt-5">
         <ul class="list-group">
-         {% for post in site.posts %}
+        <li class="list-group-item d-flex active">
+          <h5 class="h5" id="{{ tag | slugify }}">{{ tag }}</h5>
+        </li>
+        {% for post in site.posts %}
            {% if post.tags contains tag %}
             <li class="list-group-item d-flex justify-content-between align-items-center">
               <a href="{{ post.url }}">{{ post.title }}</a>
@@ -79,5 +81,6 @@ The purpose of this snippet is to list all your posts posted with a certain tag.
         </ul>
       </div>
     {% endfor %}
+    </div>
   </div>
 </div>
