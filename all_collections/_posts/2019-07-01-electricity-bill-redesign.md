@@ -60,12 +60,16 @@ The final user would be the resident who is mostly concerned with information co
 This is what the current bill looks like.
 
 <figure class="figure text-center">
-  <img src="/assets/images/bill_original.png" class="figure-img img-fluid rounded" alt="number of cabs during the time of the week">
+  <img src="/assets/images/bill_original.png" class="figure-img img-fluid rounded" alt="electricity bill">
 </figure>
 
 <h2 class="h2">Proposed Redesign</h2>
 
 Considering the above factors and a bit of research, here is the proposed redesign of the electricity bill.
+
+<figure class="figure text-center">
+  <img src="/assets/images/bill_redesign_full.png" class="figure-img img-fluid rounded" alt="electricity bill redesigned">
+</figure>
 
 <h3 class="h3">Minimal Version</h3>
 
@@ -77,7 +81,7 @@ Considering the above factors and a bit of research, here is the proposed redesi
 * Changes hierarchy of information from usage point of view for all users involved (top to bottom)
 
 <figure class="figure text-center">
-  <img src="/assets/images/bill_redesign_minimal.png" class="figure-img img-fluid rounded" alt="number of cabs during the time of the week">
+  <img src="/assets/images/bill_redesign_minimal.png" class="figure-img img-fluid rounded" alt="electricity bill redesigned minimal">
 </figure>
 
 Would love to have comments, critic or suggestions on this proposal.
