@@ -91,3 +91,8 @@ This looks pretty interesting to see, based on my cab usage that Thursdays are t
 - highest per km rate & correlation with pickup time
 - total cities
 - total cab types (value counts)
+
+
+## Download Your Rider Data
+
+You can download your uber rider data from [their official website](https://help.uber.com/riders/article/download-your-data?nodeId=2c86900d-8408-4bac-b92a-956d793acd11&state=KR-A9h8u4EAh_8OfwOH0aWuf6VbQ1q7GaFnjbxRNJeM%3D&_csid=xjk63_bs0hM4P-s0C45SJw#_), in the **request your data section**
