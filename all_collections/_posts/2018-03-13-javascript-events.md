@@ -1,14 +1,8 @@
 ---
-layout: post
 title: Javascript Events
 categories: [javascript]
 tags: [code, tutorial, note-to-self]
 ---
-
-*What to do when an event occurs*
-
------
-<!--more-->
 
 Javascript events are very much like real life events. For example, when the power cuts
 off, you light the candles (*in the dark*). In this case, your event was `power-cut`

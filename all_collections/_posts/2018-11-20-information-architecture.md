@@ -1,16 +1,8 @@
 ---
-layout: post
 title: Information Architecture
 categories: [design]
 tags: [information-architecture, ui-design]
-excerpt_separator: <!--more-->
 ---
-
-_What is information architecture? (5 min read)_
-
------
-<!--more-->
-
 
 ## What?
 
@@ -29,7 +21,9 @@ Also, **RANDOM** is not a way of organising things.
 
 Let's look at them each, with a perspective of a Record Store.
 
-![Record Store](https://3m84r11gpx1j11puas2g5wfl-wpengine.netdna-ssl.com/wp-content/uploads/2017/11/RecordStore2.jpg)
+<figure class="row justify-content-center figure text-center">
+  <img src="https://3m84r11gpx1j11puas2g5wfl-wpengine.netdna-ssl.com/wp-content/uploads/2017/11/RecordStore2.jpg" class="figure-img img-fluid rounded" alt="image">
+</figure>
 
 ## Loction
 
@@ -57,7 +51,11 @@ Popular usage of this form of organising information would be, the EPL football 
 
 Somtimes, it can also mean by colour. For example 
 
-![organised by colour](https://66.media.tumblr.com/d94bfd99b15308778c0152e551654e58/tumblr_pb98olsyve1qbycdbo1_1280.png)
+
+<figure class="row justify-content-center figure text-center">
+  <img src="https://66.media.tumblr.com/d94bfd99b15308778c0152e551654e58/tumblr_pb98olsyve1qbycdbo1_1280.png" class="figure-img img-fluid rounded" alt="organised by colour">
+</figure>
+
 
 ### References
 

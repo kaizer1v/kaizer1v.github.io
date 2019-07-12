@@ -14,7 +14,7 @@
 /* Bootstrap variables */
 $theme-colors: (
   "primary":    #0B9EF9,
-  "secondary":  #FF775F,
+  "secondary":  #DA3F2F,
   "success":    #83C489,
   "danger":     #DA3F2F,
   "info":       #1AC1D3,  
@@ -28,9 +28,11 @@ $font-family-sans-serif: 'Rubik', sans-serif;
 $font-family-monospace: Roboto-mono, Monaco, Consolas, monospace;
 
 
-$grey-color-dark: #333;            
-$grey-color-light: #CCCCCC;        
-$grey-color-very-light: #FEFEFE;
+$grey-color-dark: #333333;
+$grey-color-light: #CCCCCC;
+$grey-color-very-light: #F6F6F6;
 /* (END) Bootstrap variables */
 
 .container { font-family: $font-family-sans-serif; }
+.font-primary { font-family: $font-family-base; }
+

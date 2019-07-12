@@ -8,27 +8,30 @@
     {% include nav.html %}
     
     <div class="container my-5">
-      <main>
-        <article>
-          <h1 class="font-primary"><a href="{{ site.baseurl }}/" title="Click to go back to main page">{{ page.title }}</a></h1>
-          <!-- <i>{{ post.excerpt }}</i> -->
-          <p><time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time></p>
+      <section>
+        <h1><a href="{{ site.baseurl }}/" title="Click to go back to main page">{{ page.title }}</a></h1>
+        <p><time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time></p>
 
-          {% if page.tags %}
-            {% for tag in page.tags %}
-              <a href="{{ site.baseurl }}{{ site.pages_list.Tags }}#{{ tag | slugify }}" class="post-tag">
-                <span class="badge badge-primary">{{ tag }}</span>
-              </a>
-            {% endfor %}
-          {% endif %}
+        {% if page.tags %}
+          {% for tag in page.tags %}
+            <a href="{{ site.baseurl }}{{ site.pages_list.Tags }}#{{ tag | slugify }}" class="post-tag">
+              <span class="badge badge-secondary">{{ tag }}</span>
+            </a>
+          {% endfor %}
+        {% endif %}
+      </section>
+      
+      <hr />
 
-          {{ content }}
-        </article>
+      {{ content }}
 
+      <hr />
+
+      <section>
         {% if page.comments %}
           {% include comments.html %}
         {% endif %}
-      </main>
+      </section>
     </div>
     
     {% include footer.html %}

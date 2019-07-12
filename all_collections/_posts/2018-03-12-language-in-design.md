@@ -1,14 +1,8 @@
 ---
-layout: post
 title: Language in Design
 categories: [design]
 tags: [language]
 ---
-
-*The use of language to design better*
-
------
-<!--more-->
 
 > A picture speaks a thousand words.
 

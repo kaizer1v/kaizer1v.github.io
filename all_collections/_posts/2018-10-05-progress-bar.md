@@ -1,14 +1,8 @@
 ---
-layout: post
 title: Page Progress Bar
 categories: [design]
 tags: [ui-design, interactions]
 ---
-
-_A build-it-yourself progress bar in plain javascript and html_
-
------
-<!--more-->
 
 A quick way to enhance the user experience when they are scrolling through a page is to show them how far or how long they have to go before they finish the article.
 

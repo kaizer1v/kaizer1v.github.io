@@ -1,15 +1,9 @@
 ---
-layout: post
 title: Sample scrollytell
 categories: [javascript]
 tags: [code, tutorial, d3]
 comments: true
 ---
-
-_first scrolly-tell on github pages_
-
------
-<!--more-->
 
 <style type="text/css">
 
