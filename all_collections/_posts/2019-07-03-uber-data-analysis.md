@@ -80,6 +80,18 @@ Looks like I usually travel during the weekends, which makes sense, because I wo
 This looks pretty interesting to see, based on my cab usage that Thursdays are the cheapest, considering that I have taken about 33 cabs (_10.9 %_) on Thursdays which is more than 
 
 
+## Cancelled Trips
+
+I was curious to know the wait time before I cancelled my trip. Unfortunately, you will be unable to calculate this from the given data points. But I do know that there were a total of `126 trips` that I cancelled. And about `23 trips` that the driver cancelled. There also were a total of `58 requests` that were unfulfilled i.e. when I never got a cab.
+
+
+### More Insights to Come
+
+* Rates
+  - monthly / weekly
+  - pickup point / drop point
+  - time of the day
+
 - most areas I have visited (airport mostly)
 - longest trip in km & time
 - shortest trip in km & time
@@ -91,6 +103,12 @@ This looks pretty interesting to see, based on my cab usage that Thursdays are t
 - highest per km rate & correlation with pickup time
 - total cities
 - total cab types (value counts)
+
+
+## Notes
+
+https://www.google.com/maps/api/json?query=13.1996529,77.7077639
+https://www.google.com/maps/search/?api=1&query=13.1996529,77.7077639
 
 
 ## Download Your Rider Data

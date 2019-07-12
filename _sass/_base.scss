@@ -22,7 +22,8 @@ $theme-colors: (
   "light":      #F1F1F1,
   "dark":       #363636
 );
-$font-family-base: 'Sanchez', "Helvetica Neue", Arial, "Noto Sans", serif;
+// $font-family-base: 'Roboto', "Helvetica Neue", Arial, "Noto Sans", serif;
+$font-family-base: 'Libre Franklin', sans-serif;
 $font-family-sans-serif: 'Rubik', sans-serif;
 $font-family-monospace: Roboto-mono, Monaco, Consolas, monospace;
 
@@ -32,108 +33,4 @@ $grey-color-light: #CCCCCC;
 $grey-color-very-light: #FEFEFE;
 /* (END) Bootstrap variables */
 
-/*
-$base-line-height: 1.5em;
-$horizontal-spacing-unit: 50px;
-$vertical-spacing-unit: 40px;
-$nav-height: 56px;
-$img_spacing: 5px;
-$img_height: 275px;
-$caption_font_size: 12px;
-$caption_color: #AAA;
-
-$red: #DA3F2F;
-$orange: #F29105;
-$blue: #1AC1D3;
-$green: #83C489;
-$lime_green: #B7D12A;
-$purple: #B509AC;
-$white: #FFFFFF;
-
-
-$grey-color-dark: #333;            
-$grey-color-light: #CCCCCC;        
-$grey-color-very-light: #FEFEFE;
-$text-color: #666;                 
-$theme-color: $red;
-*/
-
-/** /variables **********************************************/
-
-// * {
-//   -webkit-box-sizing: border-box;
-//      -moz-box-sizing: border-box;
-//           box-sizing: border-box;
-// }
-
-// html,
-// body {
-//   margin: 0;
-//   padding: 0;
-// }
-
-// html {
-//   /*font-family: 'Raleway', sans-serif;*/
-//   /*font-family: 'Source Sans Pro', sans-serif;*/
-//   font-family: $base-font-family;
-//   font-size: 16px;
-//   line-height: 1.5;
-
-//   @media (min-width: 38em) {
-//     font-size: 18px;
-//   }
-// }
-
-// body {
-//   color: $grey-color-dark;
-//   /* background: #fefefe url('/assets/struckaxiom.png') repeat; */
-//   background: $grey-color-very-light;
-//   -webkit-text-size-adjust: 100%;
-//       -ms-text-size-adjust: 100%;
-// }
-
-// // No `:visited` state is required by default (browsers will use `a`)
-// a {
-//   color: $blue;
-//   text-decoration: none;
-
-//   // `:focus` is linked to `:hover` for basic accessibility
-//   &:hover,
-//   &:focus {
-//     text-decoration: underline;
-//   }
-
-//   strong {
-//     color: inherit;
-//   }
-// }
-
-// img {
-//   display: block;
-//   max-width: 100%;
-//   margin: 0 0 1rem;
-//   border-radius: 5px;
-// }
-
-// table {
-//   margin-bottom: 1rem;
-//   width: 100%;
-//   font-size: 85%;
-//   border: 1px solid $grey-color-very-light;
-//   border-collapse: collapse;
-// }
-
-// td,
-// th {
-//   padding: .25rem .5rem;
-//   border: 1px solid $grey-color-very-light;
-// }
-
-// th {
-//   text-align: left;
-// }
-
-// tbody tr:nth-child(odd) td,
-// tbody tr:nth-child(odd) th {
-//   background-color: $grey-color-very-light;
-// }
+.container { font-family: $font-family-sans-serif; }

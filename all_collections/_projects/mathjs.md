@@ -1,0 +1,50 @@
+---
+title: MathJS
+desc: A Javascript library for simple mathematical operations
+url: https://kaizer1v.github.io/mathjs
+thumbnail: mathjs-logo.svg
+
+intro: |
+
+  <h3>The Challenge</h3>
+
+  When I used to work on data visualisations using `d3.js` library, I found myself performing quite a few data filtering and data operations on the javascript end, this was primarily due to the gap between the data being returned from the API or the backend, and the format of data in which the d3 chart required, with respect to the structure of the JSON object or Array.
+
+  There were quite a few repeated operations I performed on an occassional basis like taking intersections of two columns of data in order to find the commonalities on a graph using an interaction. Similarly, there were times when I simply wanted to provide the statistical mean and median of a data set.
+
+  These are some of the basic functions provided into the library I wrote.
+
+  This library has been written in plain javascript / ES6 with no dependencies in order to make it run faster. It was also a test of writing pure operational javascript.
+
+  I used a library called [rollup.js](https://rollupjs.org/guide/en/) which helped me divide every function as a separate module, for ease of code maintainence as well as for ease of extensibility, which also helped compile the library into a single file, easily installable via NPM.
+
+  <div class="row justify-content-center">
+    <figure class="figure">
+      <img src="/assets/images/mathjs-project-ss-1.jpg" class="figure-img img-fluid rounded" alt="..." style="height: 400px">
+      <figcaption class="figure-caption text-center">MathJS Documentation</figcaption>
+    </figure>
+  </div>
+
+  <h3> Usage </h3>
+
+  **Trying to flatten an array**
+
+  ```javascript
+  MJ.arrayFlatten([1, 2, [3, 4, [5, 6], [7]], [8, 9]])
+  // [1, 2, 3, 4, 5, 6, 7, 8, 9]
+  ```
+
+  **Find difference between two arrays**
+
+  ```javascript
+  MJ.arrayDiff([1, 2, 3, 4], [1, 4, 2])
+  // [3]
+  MJ.arrayDiff([1, 423, 64], [1, 64, 23, 521, 423])
+  // [] since there are no elements on the left which are NOT present on the right
+  ```
+
+  You can find out more about the other basic functionalities in the [documentation page](http://kaizer1v.github.io/mathjs/).
+
+  This library is also published on [NPM](https://www.npmjs.com/package/simplemathjs) and can be installed via the node package manager
+
+---

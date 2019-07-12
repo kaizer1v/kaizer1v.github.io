@@ -52,6 +52,9 @@ collections:
   cool_interactions:
     permalink: /:collection/:name
     output: true
+  projects:
+    permalink: /:collection/:name
+    output: true
 
 # This is the list of pages to include in the header of the website.
 pages_list:
@@ -66,6 +69,12 @@ defaults:
     values:
       layout: "post"
       comments: true
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+      comments: false
 
 # Includes an icon in the footer for each username you enter
 footer-links:
