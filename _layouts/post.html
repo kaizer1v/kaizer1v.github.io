@@ -14,7 +14,7 @@
 
         {% if page.tags %}
           {% for tag in page.tags %}
-            <a href="{{ site.baseurl }}{{ site.pages_list.Tags }}#{{ tag | slugify }}" class="post-tag">
+            <a href="{{ site.baseurl }}/tag#{{ tag | slugify }}" class="post-tag">
               <span class="badge badge-secondary">{{ tag }}</span>
             </a>
           {% endfor %}

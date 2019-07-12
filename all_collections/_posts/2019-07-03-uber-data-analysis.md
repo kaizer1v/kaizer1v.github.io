@@ -60,7 +60,7 @@ The data is from ... to ...
 
 <h3>The number of cabs during the time of the week</h3>
 
-<figure class="figure text-center">
+<figure class="row justify-content-center figure text-center">
   <img src="/assets/images/number_of_cabs_during_the_week.svg" class="figure-img img-fluid rounded" alt="number of cabs during the time of the week">
 </figure>
 
@@ -68,7 +68,7 @@ Looks like I usually travel during the weekends, which makes sense, because I wo
 
 <h3>Fares during the times of the week</h3>
 
-<figure class="figure text-center">
+<figure class="row justify-content-center figure text-center">
   <img src="/assets/images/avg_fare_during_week.svg" class="figure-img img-fluid rounded" alt="number of cabs during the time of the week">
 </figure>
 

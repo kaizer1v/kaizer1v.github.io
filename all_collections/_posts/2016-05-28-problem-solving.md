@@ -38,12 +38,16 @@ OR
 ### STRUCTURE THE PROBLEM
 Once the key problem has been framed as a question, you can brainstorm the potential causes. You can branch out possible causes and organize them in a tool called as an 'Issue Tree'. Considering the freelancer's problem statement (stated above), you could branch out by writing the 1st possibility as __the reason for my low revenues could be, I am not taking up enough projects__. See figure below. Next, potential solutions will flow from these. You can break down every problem until your desired level of specificity so as to make them manageable and independent enough to be solved parallelly, if possible.
 
-![Issue Tree](/assets/issue_tree_example.png)
+<figure class="row justify-content-center figure text-center">
+  <img src="/assets/issue_tree_example.png" class="figure-img img-fluid rounded" alt="Issue Tree">
+</figure>
 
 ### PRIORITIZING FIXING THE CAUSES
 Remember, problem solving is not about addressing all the factors influencing the problem, it is about effectively prioritizing issues and solutions that move the needle. Use the effort vs impact graph to plot your causes to assign them priorities based on the issues you identified using the issue tree. Once you do that, start tackling problems which take minimum effort but have maximum impact (80/20 rule). Always be sure to test your ideas and add new information to your prioritization matrix as you learn it.
 
-![Prioritizing Issues](/assets/prioritize.png)
+<figure class="row justify-content-center figure text-center">
+  <img src="/assets/prioritize.png" class="figure-img img-fluid rounded" alt="Prioritizing Issues">
+</figure>
 
 ### MAKE A PLAN
 Pick up the key factor of your top priority issue you pointed using the previous step. Consider a hypothesis to a issue i.e. what you believe to be a solution to that issue. Once you have a hypothesis stating 'why' you think this particular hypothesis will resolve the issue, you will have a set of factors to analyze your actual solution (which you will implement later) against. This will be the data that will help you prove your hypothesis and present using data. The hypothesis will also help you plan the time and resource you need to put in order to fix this issue. This plan should lay out the steps in your analysis process and corresponding target deliverables. For each step, you should identify an owner and specific timeline. Although, while making a plan, here are some factors to keep in mind:

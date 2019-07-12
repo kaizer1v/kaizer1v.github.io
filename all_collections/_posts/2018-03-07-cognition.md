@@ -89,7 +89,11 @@ There are two types of memory
     a person. Thus, as a good designer, one should take advantage of this asset
     and allow him to invoke that memory when you see something. I am pretty
     sure people from the 90s would very much remember this from their long-term memory
-    ![Tom and Jerry](http://i0.kym-cdn.com/photos/images/original/001/149/102/6f3.png)
+
+    <figure class="row justify-content-center figure text-center">
+      <img src="http://i0.kym-cdn.com/photos/images/original/001/149/102/6f3.png" class="figure-img img-fluid rounded" alt="Tom and Jerry">
+    </figure>
+    
     Thus, a good designer would probably show the user something which they are already
     familiar with, or something they have already seen before helping them to relate
     to your product better.
