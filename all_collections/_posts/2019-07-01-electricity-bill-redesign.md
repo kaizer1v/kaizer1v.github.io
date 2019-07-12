@@ -4,11 +4,6 @@ categories: [design]
 tags: [design, ui-design]
 ---
 
-_save paper_
-
------
-<!--more-->
-
 Here's what my electricity looks like. Infact, all of Bangalore's electricity might look the same. Although it provides all the required information that I need to know from a bill, I thought of making it a little more efficient considering the following factors
 
 * Information hierarchy

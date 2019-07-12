@@ -56,12 +56,7 @@ collections:
     permalink: /:collection/:name
     output: true
 
-# This is the list of pages to include in the header of the website.
-pages_list:
-  Projects:          '/projects'
-  About:             '/about'
-  Tags:              '/tag'
-
+# Default settings for templates
 defaults:
   - scope:
       path: ""

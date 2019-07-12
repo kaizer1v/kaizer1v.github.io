@@ -1,15 +1,9 @@
 ---
-layout: post
 title: d3 Transitions
 categories: [javascript]
 tags: [code, d3, tutorial, note-to-self]
 foo: bar
 ---
-
-*a peep into d3v4 transitions and how they work*
-
------
-<!--more-->
 
 {{ site | json }}
 

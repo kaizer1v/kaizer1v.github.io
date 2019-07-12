@@ -1,4 +1,10 @@
-# My Chrome Bookmarks
+---
+title: Bookmarks
+categories: [notes]
+tags: [note-to-self]
+---
+
+## My Chrome Bookmarks
 
 Have you ever bookmarked links on your google chrome thinking that you'll visit later, but never did?
 
@@ -8,24 +14,21 @@ Check out [unbookmark](kaizer1v.github.io/unbookmark) - a google chrome addon th
 
 This is how my bookmarks bar looks like. Yes, very unorganised right? 
 
----
+## Links I need
 
-# Links I need
-
-
-## Temporary - Read & Throw
+### Temporary - Read & Throw
 
 - [Making a static website on Jekyll](https://www.taniarascia.com/make-a-static-website-with-jekyll/)
 - [Maker Culture](https://en.wikipedia.org/wiki/Maker_culture)
 
 
-## Data Viz Resources
+### Data Viz Resources
 
 - [Visual Vocabulary](https://gramener.github.io/visual-vocabulary-vega/#/Spatial/)
 - [Sketch Notes - Tumblr Blog](https://sketchit.co/)
 
 
-## Blogs & Porflolios
+### Blogs & Porflolios
 
 - [James Clear](https://jamesclear.com/)
 - [Dhairya Dand](http://dhairyadand.com/info)
@@ -45,20 +48,20 @@ This is how my bookmarks bar looks like. Yes, very unorganised right?
 - [Github Engineering Blog](https://github.blog)
 
 
-## Online Courses / MOOCs / Books
+### Online Courses / MOOCs / Books
 
 - [Open University - learn anything](https://www.open.edu/openlearn/#)
 - [Design Code - Code + Design Tutorials](https://designcode.io/courses)
 - [Nick Parlante's CS101 - really old videos from 2010](https://lagunita.stanford.edu/courses/Engineering/CS101/Summer2014/about)
 
 
-### Arts
+#### Arts
 
 - [Dartmouth Writing & Speech Course Catalog](https://writing-speech.dartmouth.edu/curriculum)
 - [Better Explained - About Mathematics](https://betterexplained.com/archives/)
 
 
-### Data Viz & Design
+#### Data Viz & Design
 
 - [Online Book - Visualisation Analysis & Design](https://www.cs.ubc.ca/~tmm/vadbook/)
 - [Washington University - Data Visualisation Course CSE512](https://courses.cs.washington.edu/courses/cse512/14wi/)
@@ -78,7 +81,7 @@ This is how my bookmarks bar looks like. Yes, very unorganised right?
 - [Open Source Design](https://opensourcedesign.net/)
 
 
-### Tech / Programming
+#### Tech / Programming
 
 - [Python Tutorials for Downloading](https://freecoursesite.com/tag/python/)
 - [Google Developers Resources](https://developers.google.com/web/)
@@ -109,12 +112,12 @@ This is how my bookmarks bar looks like. Yes, very unorganised right?
 - [Book - Introduction to Programming in Python - Algorithms, Princeton](https://introcs.cs.princeton.edu/python/home/)
 
 
-## Data Sources
+### Data Sources
 
 - [Open Data UK](https://www.ukdataservice.ac.uk/use-data.aspx)
 
 
-## Others / Misc
+### Others / Misc
 
 - [Football Blog Articles](https://thesefootballtimes.co/)
 - [Python Visualiser](http://pythontutor.com/live.html#mode=edit)
@@ -128,7 +131,7 @@ This is how my bookmarks bar looks like. Yes, very unorganised right?
 - [Open Design Movement - Wikipedia](https://en.wikipedia.org/wiki/Open-design_movement)
 
 
-## Cool Things
+### Cool Things
 
 - [My faviourite - Creative Applications.net](https://www.creativeapplications.net/)
 - [Quirky T-Shirts in USA](https://cottonbureau.com/)
