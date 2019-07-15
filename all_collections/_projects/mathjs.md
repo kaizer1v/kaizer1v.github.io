@@ -5,19 +5,19 @@ url: https://kaizer1v.github.io/mathjs
 thumbnail: mathjs-logo.svg
 
 banner: |
-  <div class="jumbotron jumbotron-fluid" style="background: #F2C36D;">
+  <div class="jumbotron jumbotron-fluid" style="background: #0B9EF9;">
     <?xml version="1.0" encoding="UTF-8"?>
-    <svg width="100%" height="350px" viewBox="0 0 600 350" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg width="600px" height="350px" viewBox="0 0 600 350" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
       <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
       <title>mathjs-logo</title>
-      <desc>a javascript library for mathematical operations.</desc>
+      <desc>Created with Sketch.</desc>
       <g id="mathjs-logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect fill="#F2C36D" x="0" y="0" width="600" height="350"></rect>
-        <text id="mathjs" font-family="SpaceMono-Regular, Space Mono" font-size="40" font-weight="normal" fill="#373737">
-          <tspan x="227" y="186">mathjs</tspan>
+        <rect fill="#0B9EF9" x="0" y="0" width="600" height="350"></rect>
+        <text id="infa-components" font-family="SpaceMono-Regular, Space Mono" font-size="40" font-weight="normal" fill="#373737">
+          <tspan x="116" y="186">infa-components</tspan>
         </text>
-        <text id="a-javascript-library" font-family="SpaceMono-Regular, Space Mono" font-size="12" font-weight="normal" fill="#373737">
-          <tspan x="105" y="205">a javascript library for simple mathetical operations</tspan>
+        <text id="A-light-weight-desig" font-family="SpaceMono-Regular, Space Mono" font-size="12" font-weight="normal" fill="#373737">
+          <tspan x="197" y="205">A light weight design system</tspan>
         </text>
       </g>
     </svg>
