@@ -3,15 +3,14 @@
 
 {% include head.html %}
 
-<body id="particles-js">
+<body>
   {% include nav.html %}
 
   <div class="container my-5" role="main">
-
     <div class="row">
       <!-- Loop of all the posts -->
+      <section class="col-7">
       {% for post in paginator.posts %}
-      <article class="col-7">
         <h3 class="h3 mt-2 font-primary">
           <a href="{{ site.baseurl }}{{ post.url }}">
             {{ post.title }}
@@ -19,8 +18,28 @@
         </h3>
         <hr />
         <!-- <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time> -->
-      </article>
       {% endfor %}
+      </section>
+
+      <section class="col-5">
+        {% for category in site.categories %}
+          <h3 id="{{ category[0] | downcase | url_escape | strip | replace: ' ', '-' }}">{{ category[0] | camelcase }}</h3>
+          <ul>
+            {% assign pages_list = category[1] %}
+            {% for post in pages_list %}
+              {% if post.title != null %}
+              {% if group == null or group == post.group %}
+              <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></a></li>
+              {% endif %}
+              {% endif %}
+            {% endfor %}
+            {% assign pages_list = nil %}
+            {% assign group = nil %}
+          </ul>
+        {% endfor %}
+
+      </section>
+
     </div><!-- /.row -->
 
     <div class="row justify-content-center mt-5">
