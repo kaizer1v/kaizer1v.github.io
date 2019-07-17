@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style type="text/css">
+ 
+    .axis {
+      font: 10px sans-serif;
+    }
+
+    .axis path,
+    .axis line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+
+    .bar {
+      fill: steelblue;
+    }
+
+
+    /* tooltip */
+    .d3-tip {
+      line-height: 1.5;
+      font-weight: 400;
+      font-family: "avenir next", Arial, sans-serif;
+      padding: 6px;
+      background: rgba(0, 0, 0, 1);
+      color: #FFA500;
+      border-radius: 1px;
+      pointer-events: none;
+    }
+
+    /* Creates a small triangle extender for the tooltip */
+    .d3-tip:after {
+      box-sizing: border-box;
+      display: inline;
+      font-size: 8px;
+      width: 100%;
+      line-height: 1.5;
+      color: rgba(0, 0, 0, 1);
+      position: absolute;
+      pointer-events: none;
+
+    }
+
+    /* Northward tooltips */
+    .d3-tip.n:after {
+      content: "\25BC";
+      margin: -1px 0 0 0;
+      top: 100%;
+      left: 0;
+      text-align: center;
+    }
+
+    /* Eastward tooltips */
+    .d3-tip.e:after {
+      content: "\25C0";
+      margin: -4px 0 0 0;
+      top: 50%;
+      left: -8px;
+    }
+
+    /* Southward tooltips */
+    .d3-tip.s:after {
+      content: "\25B2";
+      margin: 0 0 1px 0;
+      top: -8px;
+      left: 0;
+      text-align: center;
+    }
+
+    /* Westward tooltips */
+    .d3-tip.w:after {
+      content: "\25B6";
+      margin: -4px 0 0 -1px;
+      top: 50%;
+      left: 100%;
+    }
+
+    .details     { color: white; }
+    .details-red { color: red; }
+
+  </style>
+</head>
+<body>
+
+  <div class="svg_container"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.2/d3.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+  <script type="text/javascript">
+    var data_file = '../../../../assets/data/sales.csv';
+
+    // Set tooltips
+    var tip = d3.tip()
+      .attr('class', 'd3-tip')
+      .offset([-10, 0])
+      .html(function(d) {
+        // console.log(d.sales);
+        return "<strong class='details'>"+ d.salesperson +": </strong><span class='details-red'>" + d.sales + "<br></span>";
+      })
+
+    // set the dimensions and margins of the graph
+    var margin = { top: 20, right: 20, bottom: 30, left: 40 },
+      width = 600 - margin.left - margin.right,
+      height = 400 - margin.top - margin.bottom;
+
+    // set the ranges
+    var x = d3.scaleBand()
+      .range([0, width])
+      .padding(0.1);
+    var y = d3.scaleLinear()
+      .range([height, 0]);
+
+    // append the svg object to the body of the page
+    // append a 'group' element to 'svg'
+    // moves the 'group' element to the top left margin
+    var svg = d3.select(".svg_container").append("svg")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.top + margin.bottom)
+      .append("g")
+      .attr("transform",
+        "translate(" + margin.left + "," + margin.top + ")");
+
+    svg.call(tip);
+
+    // get the data
+    d3.csv(data_file).then(function(data, error) {
+      if (error) throw error;
+
+      // format the data
+      data.forEach(function(d) {
+        d.sales = +d.sales;
+      });
+
+      // Scale the range of the data in the domains
+      x.domain(data.map(function(d) { return d.salesperson; }));
+      y.domain([0, d3.max(data, function(d) { return d.sales; })]);
+
+      // append the rectangles for the bar chart
+      svg.selectAll(".bar")
+        .data(data)
+        .enter().append("rect")
+        .attr("class", "bar")
+        .attr("x", function(d) { return x(d.salesperson); })
+        .attr("width", x.bandwidth())
+        .attr("y", function(d) { return y(d.sales); })
+        .attr("height", function(d) { return height - y(d.sales); })
+        .on('mouseover',function(d){
+          tip.show(d, this);
+
+          d3.select(this)
+            .style("opacity", 0.5)
+            .style("stroke-width", 3);
+        })
+        .on('mouseout', function(d) {
+          tip.hide(d, this);
+
+          d3.select(this)
+            .style("opacity", 1)
+            .style("stroke-width", 1);
+        });
+
+      // add the x Axis
+      svg.append("g")
+        .attr("transform", "translate(0," + height + ")")
+        .call(d3.axisBottom(x));
+
+      // add the y Axis
+      svg.append("g")
+        .call(d3.axisLeft(y));
+
+    });
+  </script>
+
+</body>
+</html>

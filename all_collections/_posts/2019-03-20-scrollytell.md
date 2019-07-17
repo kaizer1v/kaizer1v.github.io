@@ -71,6 +71,7 @@ Yes, there are some bugs when you scroll too fast, it's WIP.
 - [d3-transition documentation](https://github.com/d3/d3-transition)
 - [jim vallandingham's scroller](https://vallandingham.me/scroller.html)
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.2/d3.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/assets/js/scroller.js"></script>
 <script type="text/javascript">
 
