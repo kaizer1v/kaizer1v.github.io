@@ -72,20 +72,21 @@ defaults:
       comments: false
 
 # Includes an icon in the footer for each username you enter
-footer-links:
+links:
   organisation:
     name: CivicDataLab
     link: https://www.civicdatalab.in
+  resume: https://github.com/kaizer1v/json-resume/raw/master/Vivek_Shrinivasan_Resume.pdf
+  email:             kaizer1v@gmail.com
+  github:            https://github.com/kaizer1v
+  linkedin:          https://in.linkedin.com/in/vivek-shrinivasan-b67a4121
+  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
+  twitter:           https://twitter.com/kaizer1v
+  stackoverflow:     https://stackoverflow.com/users/831295/kaizer1v
   dribbble:
-  email:
   facebook:
   flickr:
-  github:            kaizer1v
   instagram:
-  linkedin:          vivek-shrinivasan-b67a4121
   pinterest:
-  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter:           kaizer1v
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/

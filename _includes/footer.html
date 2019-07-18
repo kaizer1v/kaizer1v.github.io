@@ -2,21 +2,27 @@
   <!-- Social Media Links -->
   <nav aria-label="footer social media links">
     <ul class="pagination justify-content-center">
-    {% if site.footer-links.github %}
+    {% if site.links.github %}
       <li class="page-item px-2">
-        <a target="_blank" class="fab fa-github" href="https://github.com/{{ site.footer-links.github }}"></a>
+        <a target="_blank" class="fab fa-github" href="{{ site.links.github }}"></a>
       </li>
     {% endif %}
 
-    {% if site.footer-links.twitter %}
+    {% if site.links.twitter %}
       <li class="page-item px-2">
-        <a target="_blank" class="fab fa-twitter" href="https://twitter.com/{{ site.footer-links.twitter }}"></a>
+        <a target="_blank" class="fab fa-twitter" href="{{ site.links.twitter }}"></a>
       </li>
     {% endif %}
 
-    {% if site.footer-links.linkedin %}
+    {% if site.links.linkedin %}
       <li class="page-item px-2">
-        <a target="_blank" class="fab fa-linkedin" href="https://in.linkedin.com/in/{{ site.footer-links.linkedin }}"></a>
+        <a target="_blank" class="fab fa-linkedin" href="{{ site.links.linkedin }}"></a>
+      </li>
+    {% endif %}
+
+    {% if site.links.stackoverflow %}
+      <li class="page-item px-2">
+        <a target="_blank" class="fab fa-stack-overflow" href="{{ site.links.stackoverflow }}"></a>
       </li>
     {% endif %}
     </ul>
@@ -28,7 +34,7 @@
     <li><small><a href="/projects">Projects</a></small></li>
     <li><small><a href="/about">About</a></small></li>
     <li><small><a href="/tag">Archive (All posts with tags)</a></small></li>
-    <li><small><a href="https://github.com/kaizer1v/md-resume/raw/master/Vivek_Shrinivasan_Resume.pdf">Resume</a></small></li>
+    <li><small><a href="{{ site.links.resume }}">Resume</a></small></li>
   </ul>
 
 
