@@ -21,6 +21,33 @@
       {% endfor %}
       </section>
 
+      <section class="col-5 text-right sticky-top h-25 mt-5 pt-5">
+        <h2 class="mt-3">Tags</h2>
+        {% assign rawtags = "" %}
+        {% for post in site.posts %}
+          {% assign ttags = post.tags | join:'|' | append:'|' %}
+          {% assign rawtags = rawtags | append:ttags %}
+        {% endfor %}
+        {% assign rawtags = rawtags | split:'|' | sort %}
+        {% assign tags = "" %}
+        {% for tag in rawtags %}
+          {% if tag != "" %}
+            {% if tags == "" %}
+              {% assign tags = tag | split:'|' %}
+            {% endif %}
+            {% unless tags contains tag %}
+              {% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+            {% endunless %}
+          {% endif %}
+        {% endfor %}
+        <p class="lead mt-3">
+          {% for tag in tags %}
+            <a href="/tag/#{{ tag | slugify }}" class="post-tag">
+              <span class="badge badge-secondary">{{ tag }}</span>
+            </a>
+          {% endfor %}
+        </p>
+      </section>
     </div><!-- /.row -->
 
     <div class="row justify-content-center mt-5">
