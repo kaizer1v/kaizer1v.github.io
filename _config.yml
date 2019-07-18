@@ -73,6 +73,9 @@ defaults:
 
 # Includes an icon in the footer for each username you enter
 footer-links:
+  organisation:
+    name: CivicDataLab
+    link: https://www.civicdatalab.in
   dribbble:
   email:
   facebook:
