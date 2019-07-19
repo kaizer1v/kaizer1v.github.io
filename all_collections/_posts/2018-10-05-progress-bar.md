@@ -4,11 +4,19 @@ categories: [design]
 tags: [ui-design, interactions]
 ---
 
+We'll try to build something like this.
+
 <iframe
+  src="{{ site.baseurl }}/recipes/progress-bar.html"
+  sandbox="allow-same-origin allow-scripts"
+  onload="this.style.height='300px';">
+</iframe>
+
+<!-- <iframe
   src="https://carbon.now.sh/embed/?bg=rgba(29%2C97%2C154%2C1)&t=duotone-dark&wt=none&l=javascript&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fm=Hack&fs=14px&lh=133%25&si=false&es=4x&wm=false"
   style="transform:scale(0.7); width:1024px; height:473px; border:0; overflow:hidden;"
   sandbox="allow-scripts allow-same-origin">
-</iframe>
+</iframe> -->
 
 A quick way to enhance the user experience when they are scrolling through a page is to show them how far or how long they have to go before they finish the article.
 
@@ -66,4 +74,4 @@ window.addEventListener("scroll", () => {
 });
 ```
 
-This should have the effect of the progress as shown in the image above.
+This should have the effect of the progress should look like
