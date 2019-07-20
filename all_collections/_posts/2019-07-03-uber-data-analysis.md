@@ -4,13 +4,9 @@ categories: [design]
 tags: [design, ui-design]
 ---
 
-<figure class="figure rounded py-5 bg-image-full" style="background-image: url('https://images.unsplash.com/photo-1554672408-730436b60dde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80');">
-  <div style="height: 200px;"></div>
+<figure class="row justify-content-center figure text-center">
+  <img src="https://images.unsplash.com/photo-1482029255085-35a4a48b7084?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=80" class="figure-img img-fluid rounded" alt="organised by colour">
 </figure>
-<!-- <figure class="figure">
-  <img src="https://images.unsplash.com/photo-1554672408-730436b60dde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80" class="figure-img img-fluid rounded" alt="...">
-  <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
-</figure> -->
 
 I got hold of my uber data, after finally figuring out how to. I performed some analysis on this and here's what I found
 

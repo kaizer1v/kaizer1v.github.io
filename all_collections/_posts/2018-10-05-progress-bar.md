@@ -1,7 +1,7 @@
 ---
 title: Page Progress Bar
 categories: [design]
-tags: [ui-design, interactions]
+tags: [ui-interactions]
 ---
 
 We'll try to build something like this.
