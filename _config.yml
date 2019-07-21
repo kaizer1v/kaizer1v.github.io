@@ -55,6 +55,9 @@ collections:
   projects:
     permalink: /:collection/:name
     output: true
+  experiments:
+    permalink: /:collection/:name
+    output: true
 
 # Default settings for templates
 defaults:
@@ -69,6 +72,12 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+      comments: false
+  - scope:
+      path: ""
+      type: "experiments"
+    values:
+      layout: "experiment"
       comments: false
 
 # Includes an icon in the footer for each username you enter
