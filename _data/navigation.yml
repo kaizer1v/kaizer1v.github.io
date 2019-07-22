@@ -1,6 +1,10 @@
 - title: Projects
   link: '/projects'
+- title: Experiments
+  link: '/experiments'
 - title: About
   link: '/about'
+- title: Blog
+  link: '/blog'
 - title: Tags
   link: '/tag'

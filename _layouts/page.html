@@ -2,17 +2,17 @@
 <html lang="en">
 
   {% include head.html %}
-  {% include scripts.html %}
 
   <body>
     {% include nav.html %}
 
-    <div class="container py-5 my-5">
+    <div class="container py-5 my-5" role="main">
       <main role="main">
         {{ content }}
       </main>
     </div>
 
     {% include footer.html %}
+    {% include scripts.html %}
   </body>
 </html>

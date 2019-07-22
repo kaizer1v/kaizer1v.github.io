@@ -63,21 +63,21 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "posts"
+      type: "posts"           # collection name
     values:
-      layout: "post"
+      layout: "post"          # layout file name
       comments: false
   - scope:
       path: ""
-      type: "projects"
+      type: "projects"        # collection name
     values:
-      layout: "project"
+      layout: "project"       # layout file name
       comments: false
   - scope:
       path: ""
-      type: "experiments"
+      type: "experiments"     # collection name
     values:
-      layout: "experiment"
+      layout: "experiment"    # layout file name
       comments: false
 
 # Includes an icon in the footer for each username you enter
