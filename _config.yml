@@ -47,7 +47,6 @@ github:
 
 # Collections
 collections_dir: all_collections
-
 collections:
   cool_interactions:
     permalink: /:collection/:name
