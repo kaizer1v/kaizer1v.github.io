@@ -1,28 +1,36 @@
-<footer class="footer bg-dark">
+<footer class="footer bg-dark pt-3">
   <!-- Social Media Links -->
   <nav aria-label="footer social media links">
     <ul class="pagination justify-content-center">
     {% if site.links.github %}
       <li class="page-item px-2">
-        <a target="_blank" class="fab fa-github" href="{{ site.links.github }}"></a>
+        <a class="btn btn-outline-primary mx-1" target="_blank" href="{{ site.links.github }}">
+          <i class="fab fa-github"></i>
+        </a>
       </li>
     {% endif %}
 
     {% if site.links.twitter %}
       <li class="page-item px-2">
-        <a target="_blank" class="fab fa-twitter" href="{{ site.links.twitter }}"></a>
+        <a class="btn btn-outline-primary mx-1" target="_blank" href="{{ site.links.twitter }}">
+          <i class="fab fa-twitter"></i>
+        </a>
       </li>
     {% endif %}
 
     {% if site.links.linkedin %}
       <li class="page-item px-2">
-        <a target="_blank" class="fab fa-linkedin" href="{{ site.links.linkedin }}"></a>
+        <a class="btn btn-outline-primary mx-1" target="_blank" href="{{ site.links.linkedin }}">
+          <i class="fab fa-linkedin"></i>
+        </a>
       </li>
     {% endif %}
 
     {% if site.links.stackoverflow %}
       <li class="page-item px-2">
-        <a target="_blank" class="fab fa-stack-overflow" href="{{ site.links.stackoverflow }}"></a>
+        <a class="btn btn-outline-primary mx-1" target="_blank" href="{{ site.links.stackoverflow }}">
+          <i class="fab fa-stack-overflow"></i>
+        </a>
       </li>
     {% endif %}
     </ul>
