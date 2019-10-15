@@ -1,4 +1,8 @@
-# Generating Ideas
+This activity contains a topic for generating ideas, following some rules in order to achieve the targets.
+
+**Topic**
+Experience of eating breakfast on the go for teenagers who like to sleep in late on school days.
+
 
 **Rules**
 
@@ -7,10 +11,6 @@
 3. Making an analogy
 4. Exaggerating
 5. Getting in the garbage
-
-
-**Topic**
-Experience of eating breakfast on the go for teenagers who like to sleep in late on school days.
 
 
 **Target**
@@ -70,7 +70,7 @@ I picked the analogy of _homework_
 
 ### Get in the Garbage
 
-> Some really bad ideas
+> Some really bad ideas that you can dispose them off
 
 - run and eat
 - bus conductor provides breakfast for all
@@ -83,20 +83,20 @@ I picked the analogy of _homework_
 Let's look at the ideas and categorise them into categories
 
 1. **Most useful**
-  - 
+  - get done with eating when getting dressed
 
 2. **Most desirable**
   - take capsules to finish under 10 seconds. Teenagers extremely want this because they hate sitting and eating cereal that they don't want to eat. 
   - they also take a lot of time to consume food
   - most of the times, breakfast food is something they don't like milk or oats
 
-3. Easiest to use
+3. **Easiest to use**
   - drinking breakfast
 
-4. Most functional
+4. **Most functional**
   - Capsules or suppliments
 
-5. Most sustainable
+5. **Most sustainable**
   - teachers checking whether students had breakfast via parents
 
 
