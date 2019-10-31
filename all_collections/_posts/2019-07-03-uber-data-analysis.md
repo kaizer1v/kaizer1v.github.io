@@ -8,9 +8,15 @@ tags: [design, ui-design]
   <img src="https://images.unsplash.com/photo-1482029255085-35a4a48b7084?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=80" class="figure-img img-fluid rounded" alt="organised by colour">
 </figure>
 
-I got hold of my uber data, after finally figuring out how to. I performed some analysis on this and here's what I found
+I got hold of my uber data, after finally figuring out how to (_check [this link](https://help.uber.com/riders/article/download-your-data?nodeId=2c86900d-8408-4bac-b92a-956d793acd11) out on Uber's website to get your own data_). I performed some analysis on this and here's what I found
 
 The data is from 2015 to 2019.
+
+I must say that I had to do quite a bit of data cleaning before I could generate these insights.
+
+Here are the python notebooks I used to
+* Clean the data
+* Generate Insights
 
 <h2>Key Insignts</h2>
 
@@ -18,26 +24,28 @@ The data is from 2015 to 2019.
   <ul class="list-group my-3 col-6">
     <li class="list-group-item d-flex justify-content-between align-items-center">
       Total Distance Travelled
-      <h4><span class="badge badge-success badge-pill">4155 . 16 KM</span></h4>
+      <h4><span class="badge badge-success badge-pill">4155 . 16 km</span></h4>
     </li>
     <li class="list-group-item d-flex justify-content-between align-items-center">
       Total Spending
-      <h4><span class="badge badge-success badge-pill">76,408</span></h4>
+      <h4><span class="badge badge-success badge-pill">₹ 76,408</span></h4>
     </li>
     <li class="list-group-item d-flex justify-content-between align-items-center">
       Total Trips Completed
       <h4><span class="badge badge-success badge-pill">304</span></h4>
+      <!-- <h4><span class="badge badge-success badge-pill">1 trip in every 5 days</span></h4> -->
     </li>
     <li class="list-group-item d-flex justify-content-between align-items-center">
       Over The Course of
-      <h4><span class="badge badge-success badge-pill">4 Years</span></h4>
+      <h4><span class="badge badge-success badge-pill">4 Years = 1460 Days</span></h4>
+      <!-- No. of days = 1460 -->
     </li>
   </ul>
 
   <ul class="list-group my-3 col-6">
     <li class="list-group-item d-flex justify-content-between align-items-center">
       Kilometers per day
-      <h4><span class="badge badge-success badge-pill">2 . 8 km / day</span></h4>
+      <h4><span class="badge badge-success badge-pill"> 284  meters OR 0.284 km</span></h4>
     </li>
     <li class="list-group-item d-flex justify-content-between align-items-center">
       Minutes per day
@@ -45,12 +53,12 @@ The data is from 2015 to 2019.
     </li>
     <li class="list-group-item d-flex justify-content-between align-items-center">
       Spending per day
-      <h4><span class="badge badge-success badge-pill">52 . 33 INR / day</span></h4>
-      <h4><span class="badge badge-success badge-pill">2 . 18 INR / minute</span></h4>
+      <h4><span class="badge badge-success badge-pill">₹ 52 . 33 / day</span></h4>
+      <h4><span class="badge badge-success badge-pill">₹ 2 . 18 / minute</span></h4>
     </li>
     <li class="list-group-item d-flex justify-content-between align-items-center">
       Spending per kilometer (Per km rate)
-      <h4><span class="badge badge-success badge-pill">18 . 39 INR / km</span></h4>
+      <h4><span class="badge badge-success badge-pill">₹ 18 . 39 / km</span></h4>
     </li>
   </ul>
 </div>

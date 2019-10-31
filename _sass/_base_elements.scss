@@ -96,6 +96,12 @@ blockquote {
 
 iframe { border: none; width: 100%; }
 
+img.carousel-img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
 // Markdown footnotes
 //
 // See the example content post for an example.

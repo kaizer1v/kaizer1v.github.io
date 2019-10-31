@@ -1,0 +1,28 @@
+---
+layout: page
+---
+  
+<div class="row">
+  
+  <section class="col-3 sticky-top">
+    <h1 class="mb-5">Projects</h1>
+    <ul class="list-group list-group-flush mt-5">
+      {% for prj in site.projects %}
+        {% if prj.title == page.title %}
+          <li class="list-group-item">
+            <a class="font-weight-bold" href="{{ prj['url'] }}">{{ prj['title'] }}</a>
+          </li>
+        {% else %}
+          <li class="list-group-item">
+            <a href="{{ prj['url'] }}">{{ prj['title'] }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+  
+  <section class="col-9">
+    {{ content }}
+  </section>
+
+</div><!-- /.row -->

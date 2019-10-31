@@ -68,3 +68,4 @@ In a design sprint, these opportunity areas would be framed as [`HMW` questions]
 - [Examples of Journey Mapping from Roberta Tassi’s Service Design Tools website](http://www.servicedesigntools.org/tools/8)
 - [A great user journey map example](https://www.uxmatters.com/mt/archives/2011/09/images/EffectiveUIJourneyMapExample.jpg)
 - [The value of customer journey maps](https://www.uxmatters.com/mt/archives/2011/09/the-value-of-customer-journey-maps-a-ux-designers-personal-journey.php#sthash.YV8M3OpX.KJRKgAO2.dpuf)
+- [Another article on how to define efficient problem statements](https://www.interaction-design.org/literature/article/stage-2-in-the-design-thinking-process-define-the-problem-and-interpret-the-results)

@@ -1,27 +1,17 @@
 ---
-layout: page
+layout: projects_all
 title: Projects
 ---
 
-<!-- Jumbotron -->
-<section class="jumbotron text-center jumbotron-fluid mb-0">
-  <div class="container">
-    <h1 class="jumbotron-heading">Projects</h1>
-    <p class="lead text-muted">Here's some of my work showcasing my skills particularly in <span class="badge badge-pill badge-primary">Interface Design</span>, <span class="badge badge-pill badge-primary">Wireframing & Prototyping</span>, <span class="badge badge-pill badge-primary">Javascript & Python</span> and some rudimentary <span class="badge badge-pill badge-primary">Data Analysis</span>.</p>
-    <button type="button" class="btn btn-secondary btn-lg"><a href="mailto:kaizer1v@gmail.com" class="text-light">Get in touch</a></button>
-  </div>
-</section>
-
-<!-- Cards -->
-<div class="container py-5">
-  <div class="card-columns">
-  {% for prj in site.projects %}
+<div class="row">
+{% for prj in site.projects %}
+  <div class="col-lg-4 col-md-4 col-sm-6">
     <div class="card">
       {% if prj['thumbnail'] %}
         <img class="card-img-top" src="/assets/images/{{ prj['thumbnail'] }}" alt="{{ prj['title'] }}">
       {% endif %}
       <div class="card-body">
-        <h5 class="card-title">{{ prj['title'] }}</h5>
+        <h5 class="card-title h5">{{ prj['title'] }}</h5>
         <p class="card-text">{{ prj['desc'] }}</p>
         <p class="card-text">
           <div class="btn-group">
@@ -30,6 +20,6 @@ title: Projects
         </p>
       </div>
     </div>
-  {% endfor %}
   </div>
-</div><!-- /. container -->
+{% endfor %}
+</div>

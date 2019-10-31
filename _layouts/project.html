@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: projects_all
 ---
 
 <!-- 
@@ -19,16 +19,55 @@ Sections of a project that you need to showcase
 
 -->
 
-<h1><a title="Click here to go back" href="{{ site.baseurl }}/projects">↤ / </a></h1>
+<figure class="row justify-content-center figure text-center">
+  <img src="/assets/images/{{ page.banner_image }}" class="figure-img img-fluid rounded" alt="permissions">
+</figure>
 
-{{ page.banner }}
+<div class="row justify-content-center text-center align-middle">
+  {{ page.banner }}
+</div>
 
-<h1>{{ page.title }}</h1>
+<div class="row">
+  <div class="col">
+    <table class="table">
+      <tbody>
+        <tr>
+          <th scope="row">Challenge</th>
+          <td>{{ page.challenge }}</td>
+        </tr>
+        <tr>
+          <th scope="row">Role</th>
+          <td>{{ page.role | markdownify }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="col">
+    <table class="table">
+      <tbody>
+        <tr>
+          <th scope="row">Impact</th>
+          <td>{{ page.impact }}</td>
+        </tr>
+        <tr>
+          <th scope="row">Team</th>
+          <td>{{ page.team }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
 
-<p>{{ page.desc }}</p>
+<div class="row">
+  <p><a href="{{ page.link }}" target="_blank">demo</a></p>
+</div>
 
-<p>{{ page.intro | markdownify }}</p>
+<div class="row">
+  <p>{{ page.desc }}</p>
+</div>
 
-<p><a href="{{ page.link }}" target="_blank">demo</a></p>
+<hr />
 
-<h1><a title="Click here to go back" href="{{ site.baseurl }}/projects">↤ / </a></h1>
+<div class="content row">
+  <p>{{ page.content_body | markdownify }}</p>
+</div>

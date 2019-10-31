@@ -1,47 +1,21 @@
 <footer class="footer bg-dark">
   <!-- Social Media Links -->
-  <nav aria-label="footer social media links">
-    <ul class="pagination justify-content-center">
-    {% if site.links.github %}
-      <li class="page-item px-2">
-        <a target="_blank" class="fab fa-github" href="{{ site.links.github }}"></a>
-      </li>
-    {% endif %}
+  {% include footer-social.html %}
 
-    {% if site.links.twitter %}
-      <li class="page-item px-2">
-        <a target="_blank" class="fab fa-twitter" href="{{ site.links.twitter }}"></a>
-      </li>
-    {% endif %}
-
-    {% if site.links.linkedin %}
-      <li class="page-item px-2">
-        <a target="_blank" class="fab fa-linkedin" href="{{ site.links.linkedin }}"></a>
-      </li>
-    {% endif %}
-
-    {% if site.links.stackoverflow %}
-      <li class="page-item px-2">
-        <a target="_blank" class="fab fa-stack-overflow" href="{{ site.links.stackoverflow }}"></a>
-      </li>
-    {% endif %}
-    </ul>
-  </nav>
-
-  <ul class="text-white">
+  <!-- <ul class="text-white">
     <h6 class="h6 text-white">Quick Links</h6>
-    <li><small><a href="/">Home / Blog Posts</a></small></li>
+    <li><small><a href="/">Home</a></small></li>
+    <li><small><a href="/blog">Blog</a></small></li>
     <li><small><a href="/projects">Projects</a></small></li>
-    <li><small><a href="/about">About</a></small></li>
     <li><small><a href="/tag">Archive (All posts with tags)</a></small></li>
     <li><small><a href="{{ site.links.resume }}">Resume</a></small></li>
-  </ul>
+  </ul> -->
 
 
   <!-- License -->
-  <small class="justify-content-center d-block text-center text-light">
+  <!-- <small class="justify-content-center d-block text-center text-light">
     <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
       <img alt="Creative Commons Licence" style="border-width:0; margin: 0 auto; margin-top: 25px; display: block; text-align: center;" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License
     </a>
-  </small>
+  </small> -->
 </footer>

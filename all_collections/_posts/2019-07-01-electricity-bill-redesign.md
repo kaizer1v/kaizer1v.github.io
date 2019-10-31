@@ -28,7 +28,35 @@ Here's what my electricity looks like. Infact, all of Bangalore's electricity mi
 * The third party person who reads the address
 * The resident
 
-Each user focuses on different parts of the bill for their importance.
+Let's look at how the bill flows; right from where it is printed, to the resident (bill address).
+
+<br /><br /><br />
+<div class="row">
+  <div class="col-1 text-center h3"><i class="fas fa-building"></i></div>
+  <div class="col-1 text-center h3"><i class="fas fa-long-arrow-alt-right"></i></div>
+  <div class="col-1 text-center h3"><i class="fas fa-user-cog"></i></div>
+  <div class="col-1 text-center h3"><i class="fas fa-long-arrow-alt-right"></i></div>
+  <div class="col-1 text-center h3"><i class="fas fa-shuttle-van"></i></div>
+  <div class="col-1 text-center h3"><i class="fas fa-long-arrow-alt-right"></i></div>
+  <div class="col-1 text-center h3"><i class="fas fa-user-tag"></i></div>
+  <div class="col-1 text-center h3"><i class="fas fa-long-arrow-alt-right"></i></div>
+  <div class="col-1 text-center h3"><i class="fas fa-user-check"></i></div>
+</div>
+<div class="row">
+  <div class="col-1 text-center">Bill Printing</div>
+  <div class="col-1 text-center"></div>
+  <div class="col-1 text-center">Bill Sorting</div>
+  <div class="col-1 text-center"></div>
+  <div class="col-1 text-center">Bulk Bill Delivery</div>
+  <div class="col-1 text-center"></div>
+  <div class="col-1 text-center">Middle Men</div>
+  <div class="col-1 text-center"></div>
+  <div class="col-1 text-center">Resident</div>
+</div>
+<br /><br /><br />
+
+
+The goal of each of these users are a little different, let's see what their goals are.
 
 ### User 1 - The person who sorts the bills
 
@@ -55,7 +83,7 @@ The final user would be the resident who is mostly concerned with information co
 This is what the current bill looks like.
 
 <figure class="row justify-content-center figure text-center">
-  <img src="/assets/images/bill_original.png" class="border figure-img img-fluid rounded col-md-5" alt="electricity bill">
+  <img src="/assets/images/bill_original.png" class="border figure-img img-fluid rounded" alt="electricity bill">
 </figure>
 
 <h2 class="h2">Proposed Redesign</h2>
@@ -63,7 +91,7 @@ This is what the current bill looks like.
 Considering the above factors and a bit of research, here is the proposed redesign of the electricity bill.
 
 <figure class="row justify-content-center figure text-center">
-  <img src="/assets/images/bill_redesign_full.png" class="border figure-img img-fluid rounded col-md-3" alt="electricity bill redesigned">
+  <img src="/assets/images/bill_redesign_full.png" class="border figure-img img-fluid rounded" alt="electricity bill redesigned">
 </figure>
 
 <h3 class="h3">Minimal Version</h3>
@@ -76,7 +104,7 @@ Considering the above factors and a bit of research, here is the proposed redesi
 * Changes hierarchy of information from usage point of view for all users involved (top to bottom)
 
 <figure class="row justify-content-center figure text-center">
-  <img src="/assets/images/bill_redesign_minimal.png" class="border figure-img img-fluid rounded col-md-3" alt="electricity bill redesigned minimal">
+  <img src="/assets/images/bill_redesign_minimal.png" class="border figure-img img-fluid rounded" alt="electricity bill redesigned minimal">
 </figure>
 
 Would love to have comments, critic or suggestions on this proposal.

@@ -1,17 +1,29 @@
 ---
 title: Informatica Design System
+
 desc: Javascript, Components Library, Prototyping, jQuery, jQuery UI, Bootstrap Theme
+
+carousel_images: []
+
 link: https://github.com/kaizer1v/infa-components
+
 thumbnail: infa-components-logo.svg
 
-banner: |
-  <div class="jumbotron jumbotron-fluid" style="background: #0B9EF9;">
-    <figure class="row justify-content-center figure text-center">
-      <img src="/assets/images/infa-components-logo.svg" class="figure-img img-fluid rounded" alt="permissions">
-    </figure>
-  </div>
+challenge: To reduce the time in building and evaluating designs and help integrate updates in the designs faster with the engineering team.
 
-intro: |
+role: |
+  * Design and build a design system
+  * Product prototyping
+  * Conduct user validation & feedback and update the design
+  * Build prototyping process within the design team
+
+impact: Increased prototyping process speed by 2x. Were able to test and iterate in half the time using the HTML/CSS and interactive design system.
+
+team: Vivek Shrinivasan & Senior UX Designers
+
+banner_image: infa-components-usage.gif
+
+content_body: |
   As part of the design team at Informatica, we wanted to introduce rapid prototyping as a practice to build and test interfaces with our customers, first hand. For the team, having a skilled programmer in the team added the benefit of being able to build these prototypes in a much more interactive way.
 
   In order to do this, I conducted a very basic research by interviewing some of the UI developers and how they build the interface for the enterprise products. It turned out that they used a front end library of components equipped with 
@@ -21,9 +33,7 @@ intro: |
   * The component library also had many dependencies which was a challenge to get hold of, especially for a prototype.
   * Time consuming communications between developer and a designer
 
-  ## The Challenge
-
-  Current prototyping tests were being conducted as the following
+  The current prototyping tests were being conducted as the following
 
   <!-- insert storyboard -->
   <figure class="row justify-content-center figure text-center">
@@ -50,19 +60,28 @@ intro: |
   * It also eliminated the depedencies required to setup on a non-developer's machine, with an easy to follow guide with minimal javascript library requirements.
   * Since the library was a javascript library, experimenting with updates in the interactions and components was very easy, since there were visualisations involved.
 
+  Taking into the consideration the visual design elements, I built a design system, quite similar to bootstrap using jQuery, HTML & CSS. Some of the key things that the system had to replicate were
+
+  1. Visual Design Elements - The typography, colours and icons as well as layouts
+  2. Components & Atoms - Components consisted of elements which were re-used or sometimes even combined together to form more complex components. These ranged from simple input boxes to trees and accordians
+  3. Language - The flow of interactions as well as the language used within the products
+  4. Interactions - The interactions at multiple levels among simple and complex components
+
   ### Usage
 
   You can view the actual demo <a href="https://kaizer1v.github.io/profiling/" target="_blank">here</a> and <a href="https://kaizer1v.github.io/profiling/page2.html" target="_blank">here</a> respectively.
 
-  <figure class="row justify-content-center figure text-center">
+  <!-- <figure class="row justify-content-center figure text-center">
     <img src="/assets/images/infa-design-system-03.jpg" class="figure-img img-fluid rounded" alt="informatica data profiling">
   </figure>
 
   <figure class="row justify-content-center figure text-center">
     <img src="/assets/images/infa-design-system-04.jpg" class="figure-img img-fluid rounded" alt="informatica data profiling">
-  </figure>
+  </figure> -->
 
-  Using the design system we successfully tested the data profiling, an enterprise informatica product, with end users.
+  Using the design system we were successfully able to iterate through building prptotypes at 2x speed and tested them with end users, who didn't even realise they were interacting with a prototype instead of an actual end product.
+
+  The products tested were Data Profiling & Data Validation Objects.
 
 solution: |
   Thus, came the light weight component library for building rapid prototypes. 
