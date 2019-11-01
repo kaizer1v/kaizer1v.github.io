@@ -16,10 +16,13 @@
 
 a:hover { text-decoration: none !important; }
 
+@import "bootstrap";
+
 @import "base";
+@import "base_elements";
 @import "layout";
 @import "code_theme";
-@import "syntax";
-@import "base_elements";
+@import "code_syntax";
+
+@import "posts"
 /* all bootstrap variables to be loaded in the end */
-@import "bootstrap";

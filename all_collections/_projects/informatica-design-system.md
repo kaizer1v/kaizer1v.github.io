@@ -3,7 +3,7 @@ title: Informatica Design System
 
 desc: Javascript, Components Library, Prototyping, jQuery, jQuery UI, Bootstrap Theme
 
-carousel_images: []
+carousel_images: [infa-design-system-01.png, infa-design-system-02.png]
 
 link: https://github.com/kaizer1v/infa-components
 
@@ -70,14 +70,6 @@ content_body: |
   ### Usage
 
   You can view the actual demo <a href="https://kaizer1v.github.io/profiling/" target="_blank">here</a> and <a href="https://kaizer1v.github.io/profiling/page2.html" target="_blank">here</a> respectively.
-
-  <!-- <figure class="row justify-content-center figure text-center">
-    <img src="/assets/images/infa-design-system-03.jpg" class="figure-img img-fluid rounded" alt="informatica data profiling">
-  </figure>
-
-  <figure class="row justify-content-center figure text-center">
-    <img src="/assets/images/infa-design-system-04.jpg" class="figure-img img-fluid rounded" alt="informatica data profiling">
-  </figure> -->
 
   Using the design system we were successfully able to iterate through building prptotypes at 2x speed and tested them with end users, who didn't even realise they were interacting with a prototype instead of an actual end product.
 

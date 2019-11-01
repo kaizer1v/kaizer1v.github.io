@@ -12,16 +12,15 @@
 */
 
 /* Bootstrap variables */
-$theme-colors: (
-  "primary":    #0B9EF9,
-  "secondary":  #DA3F2F,
-  "success":    #83C489,
-  "danger":     #DA3F2F,
-  "info":       #1AC1D3,  
-  "warning":    #F2C36D,
-  "light":      #F1F1F1,
-  "dark":       #363636
-);
+$theme-primary:    #0B9EF9;
+$theme-secondary:  #DA3F2F;
+$theme-success:    #83C489;
+$theme-danger:     #DA3F2F;
+$theme-info:       #1AC1D3;  
+$theme-warning:    #F2C36D;
+$theme-light:      #F1F1F1;
+$theme-dark:       #363636;
+
 // $font-family-base: 'Roboto', "Helvetica Neue", Arial, "Noto Sans", serif;
 $font-family-base: 'Libre Franklin', sans-serif;
 $font-family-sans-serif: 'Rubik', sans-serif;
@@ -33,6 +32,6 @@ $grey-color-light: #CCCCCC;
 $grey-color-very-light: #F6F6F6;
 /* (END) Bootstrap variables */
 
-.container { font-family: $font-family-sans-serif; }
+.container    { font-family: $font-family-sans-serif; }
 .font-primary { font-family: $font-family-base; }
 

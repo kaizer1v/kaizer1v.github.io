@@ -3,40 +3,41 @@
 // Headings, body text, lists, and other misc typographic elements.
 
 h1, h2, h3, h4, h5, h6 {
-  margin-bottom: .5rem;
+  margin: 1rem 0rem;
   font-weight: bold;
-  line-height: 1.25;
+  // line-height: 1.25;
   color: #313131;
   text-rendering: optimizeLegibility;
   font-family: $font-family-base;
 }
 
 h1 {
+  margin: 2rem 0;
   font-size: 2rem;
 }
 
 h2 {
-  margin-top: 5rem;
+  margin: 1.75rem 0;
   font-size: 1.5rem;
   color: darken($grey-color-light, 75%);
-
 }
 
 h3 {
-  margin-top: 1.5rem;
+  margin: 1.25rem 0;
   font-size: 1.25rem;
   color: darken($grey-color-light, 50%);
 }
 
-h4, h5, h6 {
-  margin-top: 1rem;
+h4,
+h5,
+h6 {
+  margin: 1rem 0;
   font-size: 1rem;
   color: darken($grey-color-light, 25%);
 }
 
 p {
-  margin-top: 0;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 
 strong {
@@ -60,10 +61,8 @@ time { color: $grey-color-light; }
 
 hr {
   position: relative;
-  margin: 3rem 0;
   border: 0;
-  border-top: 1px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
+  border-top: 2px solid $grey-color-light;
 }
 
 abbr {
@@ -102,9 +101,15 @@ img.carousel-img {
   height: auto;
 }
 
-// Markdown footnotes
-//
-// See the example content post for an example.
+
+a { color: $theme-primary; }
+a:hover { color: darken($theme-primary, 20%); }
+
+
+nav a {
+  font-family: $font-family-base;
+  font-weight: bold; 
+}
 
 // Footnote number within body text
 a[href^="#fn:"],

@@ -9,7 +9,10 @@
     
     <div class="container py-5 my-5">
       <section>
-        <h1><a title="Click to go back" href="{{ site.baseurl }}/blog">↤ / </a> {{ page.title }}</h1>
+        <h1 class="post-title">
+          <a title="Click to go back" href="{{ site.baseurl }}/blog">↤ / </a>
+          {{ page.title }}
+        </h1>
         <p><time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time></p>
 
         {% if page.tags %}
