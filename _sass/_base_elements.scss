@@ -106,7 +106,7 @@ a { color: $theme-primary; }
 a:hover { color: darken($theme-primary, 20%); }
 
 
-nav a {
+nav#topnav a {
   font-family: $font-family-base;
   font-weight: bold; 
 }
