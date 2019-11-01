@@ -19,59 +19,32 @@ Sections of a project that you need to showcase
 
 -->
 
-<figure class="row justify-content-center figure text-center">
+<!-- <figure class="row justify-content-center figure text-center">
   <img src="/assets/images/{{ page.banner_image }}" class="figure-img img-fluid rounded" alt="permissions">
 </figure>
-
-<div class="row justify-content-center text-center align-middle">
-  {{ page.banner }}
-</div>
+ -->
 
 <div class="row">
-  <div class="col">
-    <table class="table">
-      <tbody>
-        <tr>
-          <th scope="row">Challenge</th>
-          <td>{{ page.challenge }}</td>
-        </tr>
-        <tr>
-          <th scope="row">Role</th>
-          <td>{{ page.role | markdownify }}</td>
-        </tr>
-      </tbody>
-    </table>
+  <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+    <h3>Challenge</h3>
+    <p>{{ page.challenge }}</p>
+    
+    <h3>Role</h3>
+    <p>{{ page.role }}</p>
   </div>
-  <div class="col">
-    <table class="table">
-      <tbody>
-        <tr>
-          <th scope="row">Impact</th>
-          <td>{{ page.impact }}</td>
-        </tr>
-        <tr>
-          <th scope="row">Team</th>
-          <td>{{ page.team }}</td>
-        </tr>
-      </tbody>
-    </table>
+  <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+    <h3>Impact</h3>
+    <p>{{ page.impact }}</p>
+    
+    <h3>Team</h3>
+    <p>{{ page.team }}</p>
   </div>
 </div>
 
-<div class="row">
-  <p><a href="{{ page.link }}" target="_blank">demo</a></p>
-</div>
+<p><i class="fas fa-link"></i> <a href="{{ page.link }}" target="_blank">Demo Link</a></p>
 
-<div class="row">
-  <p>{{ page.desc }}</p>
-</div>
-  
-  {% for img in page.carousel %}
-    >>>>{{ img }}
-  {% endfor %}
+<p><i class="fas fa-tag"></i> {{ page.desc }}</p>
 
 <hr />
 
-<div class="content row">
-  <p>{{ page.content_body | markdownify }}</p>
-</div>
+<p>{{ page.content_body | markdownify }}</p>

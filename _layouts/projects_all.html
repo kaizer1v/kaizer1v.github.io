@@ -5,7 +5,7 @@ layout: page
 <div class="row">
   
   <section class="col-lg-3 col-md-3 col-sm-12 col-12">
-    <ul class="nav flex-column">
+    <ul id="left-nav-projects" class="nav flex-column" data-spy="affix">
     {% for prj in site.projects %}
       <li class="nav-item">
       {% if prj.title == page.title %}
@@ -18,7 +18,7 @@ layout: page
     </ul>
   </section>
   
-  <section class="col-lg-9 col-md-9 col-sm-12 col-12">
+  <section class="col-lg-9 col-md-9 col-sm-12 col-12 container">
     {{ content }}
   </section>
 
