@@ -9,7 +9,7 @@
   <div class="container my-5 py-5" role="main">
     <div class="row">
       <!-- Loop of all the posts -->
-      <section class="col-7">
+      <section class="col-lg-7 col-md-7 col-sm-12 col-12">
       {% for post in site.posts %}
         <h3 class="h3 mt-2 font-primary">
           <a href="{{ site.baseurl }}{{ post.url }}">
@@ -21,7 +21,7 @@
       {% endfor %}
       </section>
 
-      <section class="col-5 text-right sticky-top h-25 mt-5 pt-5">
+      <section class="col-lg-5 col-md-5 col-sm-12 col-12 text-right sticky-top h-25 mt-5 pt-5">
         <h2 class="mt-3">Tags</h2>
         {% assign rawtags = "" %}
         {% for post in site.posts %}
