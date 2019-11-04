@@ -3,16 +3,17 @@ layout: page
 ---
   
 <div class="row">
-  
+
   <section class="col-lg-3 col-md-3 col-sm-12 col-12">
     <ul id="left-nav-projects" class="nav flex-column" data-spy="affix">
     {% for prj in site.projects %}
       <li class="nav-item">
       {% if prj.title == page.title %}
-        <a class="nav-link active" href="{{ prj['url'] }}">{{ prj['title'] }}</a>
+        {% assign is_active = "active" %}
       {% else %}
-        <a class="nav-link" href="{{ prj['url'] }}">{{ prj['title'] }}</a>
+        {% assign is_active = "" %}
       {% endif %}
+        <a class="nav-link {{ is_active }}" href="{{ prj['url'] }}">{{ prj['title'] }}</a>
       </li>
     {% endfor %}
     </ul>

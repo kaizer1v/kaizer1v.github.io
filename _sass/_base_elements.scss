@@ -134,3 +134,6 @@ a[href^="#fnref:"] {
   font-size: 1.25rem;
   font-weight: 300;
 }
+
+.carousel .carousel-item { height: 400px; }
+.carousel img { min-height: 400px; }

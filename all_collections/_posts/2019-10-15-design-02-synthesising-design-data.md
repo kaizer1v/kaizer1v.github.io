@@ -35,12 +35,15 @@ _“After dinner, I usually have a lot of dirty dishes to clean up. I don’t mi
 
 ## User Persona
 
-![user persona](/assets/images/user_persona.png)
-
+<figure class="row justify-content-center figure">
+  <img src="{{ site.baseurl }}/assets/images/user_persona.jpg" class="figure-img  img-thumbnail img-fluid rounded" alt="Screenshot 2.1">
+</figure>
 
 ## User Journey Map
 
-![user journey map](/assets/images/user_journey_map.png)
+<figure class="row justify-content-center figure">
+  <img src="{{ site.baseurl }}/assets/images/user_journey_map.jpg" class="figure-img  img-thumbnail img-fluid rounded" alt="Screenshot 2.1">
+</figure>
 
 
 ## Opportunity Areas

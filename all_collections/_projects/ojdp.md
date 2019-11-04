@@ -1,3 +1,10 @@
+---
+title: Open Judiciary Data Platform
+desc: Proof of concept for an open data platform
+tags: [User Research, UX Design]
+
+---
+
 # Open Judiciary Data Platform
 
 > User Research and UI/UX Design for accessing and understanding Judiciary data across district and high courts in India.

@@ -2,7 +2,8 @@
 title: MathJS
 desc: A Javascript library for simple mathematical operations
 link: https://kaizer1v.github.io/mathjs
-thumbnail: mathjs-logo.svg
+thumbnail:
+tags: [Javascript]
 
 banner: |
   <div class="jumbotron jumbotron-fluid" style="background: #0B9EF9;">

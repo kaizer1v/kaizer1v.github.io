@@ -6,20 +6,21 @@ title: Projects
 <div class="row">
 {% for prj in site.projects %}
   <div class="col-lg-4 col-md-4 col-sm-6">
-    <div class="card">
-      {% if prj['thumbnail'] %}
-        <img class="card-img-top" src="/assets/images/{{ prj['thumbnail'] }}" alt="{{ prj['title'] }}">
-      {% endif %}
-      <div class="card-body">
-        <h5 class="card-title h5">{{ prj['title'] }}</h5>
-        <p class="card-text">{{ prj['desc'] }}</p>
-        <p class="card-text">
-          <div class="btn-group">
-            <a href="{{ prj['url'] }}" class="btn btn-info" role="button">Details</a>
-          </div>
-        </p>
+    <a href="{{ prj['url'] }}" role="button">
+      <div class="card">
+        {% if prj['thumbnail'] %}
+          <img class="card-img-top" src="/assets/images/{{ prj['thumbnail'] }}" alt="{{ prj['title'] }}">
+        {% endif %}
+        <div class="card-body">
+          <h5 class="card-title h5">{{ prj['title'] }}</h5>
+          <p class="card-text">
+          {% for tag in prj['tags'] %}
+            <span class="badge badge-danger">{{ tag }}</span>
+          {% endfor %}
+          </p>
+        </div>
       </div>
     </div>
-  </div>
+  </a>
 {% endfor %}
 </div>

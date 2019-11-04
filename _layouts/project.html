@@ -26,25 +26,83 @@ Sections of a project that you need to showcase
 
 <div class="row">
   <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-    <h3>Challenge</h3>
-    <p>{{ page.challenge }}</p>
+    {% if page.challenge %}
+      <h3>Challenge</h3>
+      <p>{{ page.challenge }}</p>
+    {% endif %}
     
-    <h3>Role</h3>
-    <p>{{ page.role }}</p>
+    {% if page.role %}
+      <h3>Role</h3>
+      <p>{{ page.role | markdownify }}</p>
+    {% endif %}
   </div>
+
   <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-    <h3>Impact</h3>
-    <p>{{ page.impact }}</p>
+    {% if page.impact %}
+      <h3>Impact</h3>
+      <p>{{ page.impact }}</p>
+    {% endif %}
     
-    <h3>Team</h3>
-    <p>{{ page.team }}</p>
+    {% if page.team %}
+      <h3>Team</h3>
+      <p>{{ page.team }}</p>
+    {% endif %}
   </div>
+
 </div>
 
-<p><i class="fas fa-link"></i> <a href="{{ page.link }}" target="_blank">Demo Link</a></p>
+{% if page.desc %}
+  <h3>About</h3>
+  <p>{{ page.desc | markdownify }}</p>
+{% endif %}
 
-<p><i class="fas fa-tag"></i> {{ page.desc }}</p>
+<p>
+  <i class="fas fa-link"></i>
+  <a href="{{ page.link }}" target="_blank">Demo Link</a>
+</p>
+
+<p>
+  <i class="fas fa-tag"></i>
+  {% for tag in page.tags %}
+    <span class="badge badge-danger">{{ tag }}</span>
+  {% endfor %}
+</p>
 
 <hr />
+
+{% if page.carousel_images %}
+  <div id="prj-carousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+    {% for img_file in page.carousel_images %}
+      {% if forloop.index0 == 0 %}
+        {% assign is_active = "active" %}
+      {% else %}
+        {% assign is_active = "" %}
+      {% endif %}
+      <li data-target="#prj-carousel" data-slide-to="0" class="{{ is_active }}"></li>
+    {% endfor %}
+    </ol>
+    <div class="carousel-inner">
+    {% for img_file in page.carousel_images %}
+      {% if forloop.index0 == 0 %}
+        {% assign is_active = "active" %}
+      {% else %}
+        {% assign is_active = "" %}
+      {% endif %}
+      <div class="carousel-item {{ is_active }}">
+        <img class="img-fluid d-block w-100" src="{{ site.baseurl }}/assets/images/projects/{{ img_file }}" alt="Project Images">
+      </div>
+    {% endfor %}
+    </div>
+    <a class="carousel-control-prev text-danger" href="#prj-carousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon text-primary" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#prj-carousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+{% endif %}
 
 <p>{{ page.content_body | markdownify }}</p>

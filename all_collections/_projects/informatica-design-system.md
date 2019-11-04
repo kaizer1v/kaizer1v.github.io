@@ -1,7 +1,7 @@
 ---
 title: Informatica Design System
 
-desc: Javascript, Components Library, Prototyping, jQuery, jQuery UI, Bootstrap Theme
+tags: [UI Library, Prototyping]
 
 carousel_images: [infa-design-system-01.png, infa-design-system-02.png]
 
