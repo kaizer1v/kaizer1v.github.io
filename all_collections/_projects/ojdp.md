@@ -2,7 +2,7 @@
 title: Open Judiciary Data Platform
 desc: Proof of concept for an open data platform
 tags: [User Research, UX Design]
-
+demo: 
 ---
 
 # Open Judiciary Data Platform

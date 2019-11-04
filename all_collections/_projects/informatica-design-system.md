@@ -5,7 +5,7 @@ tags: [UI Library, Prototyping]
 
 carousel_images: [infa-design-system-01.png, infa-design-system-02.png]
 
-link: https://github.com/kaizer1v/infa-components
+demo: https://github.com/kaizer1v/infa-components
 
 thumbnail: infa-components-logo.svg
 

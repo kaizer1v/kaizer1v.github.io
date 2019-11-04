@@ -56,10 +56,12 @@ Sections of a project that you need to showcase
   <p>{{ page.desc | markdownify }}</p>
 {% endif %}
 
+{% if page.demo %}
 <p>
   <i class="fas fa-link"></i>
   <a href="{{ page.link }}" target="_blank">Demo Link</a>
 </p>
+{% endif %}
 
 <p>
   <i class="fas fa-tag"></i>

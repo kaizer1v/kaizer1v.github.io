@@ -1,7 +1,7 @@
 ---
 title: MathJS
 desc: A Javascript library for simple mathematical operations
-link: https://kaizer1v.github.io/mathjs
+demo: https://kaizer1v.github.io/mathjs
 thumbnail:
 tags: [Javascript]
 
