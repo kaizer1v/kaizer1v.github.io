@@ -16,6 +16,7 @@
 
 a:hover { text-decoration: none !important; }
 
+/* all bootstrap variables to be loaded at the top */
 @import "bootstrap";
 
 @import "base";
@@ -23,6 +24,4 @@ a:hover { text-decoration: none !important; }
 @import "layout";
 @import "code_theme";
 @import "code_syntax";
-
-@import "posts"
-/* all bootstrap variables to be loaded in the end */
+@import "posts";

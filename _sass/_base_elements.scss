@@ -120,6 +120,11 @@ a[href^="#fnref:"] {
   font-weight: bold;
 }
 
+a.active {
+  color: $theme-danger;
+  font-weight: bold;
+}
+
 // List of footnotes
 .footnotes {
   margin-top: 2rem;
