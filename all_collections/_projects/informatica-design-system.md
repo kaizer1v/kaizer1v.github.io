@@ -34,17 +34,8 @@ content_body: |
   * Time consuming communications between developer and a designer
 
   The current prototyping tests were being conducted as the following
-
-  <!-- insert storyboard -->
-  <figure class="row justify-content-center figure text-center">
-    <img src="/assets/images/infa-design-system-01.png" class="figure-img img-fluid rounded" alt="permissions">
-  </figure>
-
+ 
   After iterating multiple times with the developer in order to build the prototype, it would be ready for the first round of review from the customer i.e. the end user.
-
-  <figure class="row justify-content-center figure text-center">
-    <img src="/assets/images/infa-design-system-02.png" class="figure-img img-fluid rounded" alt="permissions">
-  </figure>
 
   The feedback from the end user is gathered and then reviewed upon once again. It became increasingly difficult to iterate through multiple versions of prototypes.
 
