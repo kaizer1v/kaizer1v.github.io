@@ -1,13 +1,15 @@
 ---
-title: Informatica Design System
+title: Symphony Lite
+
+tagline: Informatica Design System
 
 tags: [UI Library, Prototyping]
 
 carousel_images: [infa-design-system-01.png, infa-design-system-02.png]
 
-demo: https://github.com/kaizer1v/infa-components
+demo: https://kaizer1v.github.io/infa-components
 
-thumbnail: infa-components-logo.svg
+thumbnail: infa_components.svg
 
 challenge: To reduce the time in building and evaluating designs and help integrate updates in the designs faster with the engineering team.
 

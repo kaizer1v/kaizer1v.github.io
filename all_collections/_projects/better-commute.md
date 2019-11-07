@@ -1,11 +1,13 @@
 ---
-title: Redesigning The Commute Experience
+title: Experiment
+
+tagline: Redesigning The Commute Experience
 
 tags: [User Research, UX Design]
 
 carousel_images: [IMG_0610.JPG, IMG_0613.JPG, IMG_0615.JPG]
 
-thumbnail: 
+thumbnail: commute.jpeg
 
 challenge: The challenge was to learn how people get around in their city. To unearth opportunities for redesigning the transportation experience.
 

@@ -1,9 +1,11 @@
 ---
 title: MathJS
 
-desc: An easy way to generate resume with pre-set themes
+tagline: A js library with simple math operations
 
 demo: https://github.com/kaizer1v/mathjs
+
+thumbnail: mathjs.jpeg
 
 impact: Weekly 7 downloads on average on npm
 

@@ -1,9 +1,11 @@
 ---
 title: Open Judiciary Data Platform
 
-desc: Proof of concept for an open data platform
+tagline: Proof of concept for an open data platform
 
 tags: [User Research, UX Design]
+
+thumbnail: ojdp.jpeg
 
 demo: https://docs.google.com/document/d/1QzhzttZLH3ERhrNm-SSyfF62ak_akNWV4UtfOhdyC-c/edit?usp=sharing
 

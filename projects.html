@@ -7,13 +7,16 @@ title: Projects
 {% for prj in site.projects %}
   <div class="col-lg-4 col-md-4 col-sm-6">
     <a href="{{ prj['url'] }}" role="button">
-      <div class="card">
+      <div class="card mb-4">
         {% if prj['thumbnail'] %}
-          <img class="card-img-top" src="/assets/images/{{ prj['thumbnail'] }}" alt="{{ prj['title'] }}">
+          <img class="card-img-top" src="/assets/images/thumbnails/{{ prj['thumbnail'] }}" alt="{{ prj['title'] | markdownify }}">
         {% endif %}
         <div class="card-body">
           <h5 class="card-title h5">{{ prj['title'] }}</h5>
           <p class="card-text">
+          <p class="card-text text-dark">
+            {{ prj['tagline'] }}
+          </p>
           {% for tag in prj['tags'] %}
             <span class="badge badge-danger">{{ tag }}</span>
           {% endfor %}

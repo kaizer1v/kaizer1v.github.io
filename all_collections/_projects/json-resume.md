@@ -1,9 +1,13 @@
 ---
 title: JSON Resume
 
+tagline: An Easy Resume Generator
+
 desc: An easy way to generate resume with pre-set themes
 
 demo: https://github.com/kaizer1v/json-resume
+
+thumbnail: json_resume.jpeg
 
 tags: [Javascript]
 
