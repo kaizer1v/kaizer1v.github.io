@@ -1,7 +1,7 @@
 ---
-title: Experiment
+title: CommuteExp
 
-tagline: Redesigning The Commute Experience
+tagline: An attempt on redesigning the commute experience
 
 tags: [User Research, UX Design]
 
