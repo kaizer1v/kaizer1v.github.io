@@ -4,8 +4,8 @@ layout: page
   
 <div class="row">
 
-  <section class="col-lg-3 col-md-3 col-sm-12 col-12">
-    <ul id="left-nav-projects" class="nav flex-column" data-spy="affix">
+  <section class="col-lg-3 col-md-3 col-sm-12 col-12 align-self-start sticky-top mt-5 pt-5">
+    <ul id="left-nav-projects" class="nav flex-column">
     {% for prj in site.projects %}
       <li class="nav-item">
       {% if prj.title == page.title %}
