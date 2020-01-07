@@ -144,7 +144,7 @@ Doing this will help create a template for reviewing your weekly tasks and event
   => sand paper
   => concrete mixer
 
-
+* Using Google Maps effectively for sight-seeing
 
 ---
 

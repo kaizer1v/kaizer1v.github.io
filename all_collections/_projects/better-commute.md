@@ -45,9 +45,7 @@ content_body: |
 
   > “Even If I am willing to pay a fee, there is hardly any parking space.”
 
-  <figure class="row justify-content-center figure text-center">
-    <img src="/assets/images/projects/parking_ujm_current.jpg" class="border figure-img img-fluid rounded" alt="User Journey Map">
-  </figure>
+  
 
   The process of parking encompasses three main steps. When interviewed people to ask what steps they go through for finding and parking the car at the mall, these are the pain points and goals the users mentioned.
 
