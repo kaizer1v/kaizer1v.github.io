@@ -26,21 +26,28 @@
 - negative thoughts on design
 
 **Jun**
-
+- 
 
 **Jul**
-
+- Coursera HCI intro course
+- working on personal website
 
 **Aug**
-
+- Started UpGrad Product Mgt Course
 
 **Sept**
+- Unemployed / Quit CivicDataLab
 
 
 **Oct**
-
+- Upgrad Prod Mgt
+- working on personal website
+- design projects
 
 **Nov**
-
+- Thailand trip
+- Upgrad Prod Mgt
 
 Dec
+- Upgrad Prod Mgt
+- Vilasini & parents in B'lore / vacation

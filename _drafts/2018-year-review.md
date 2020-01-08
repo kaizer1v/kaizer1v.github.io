@@ -27,7 +27,7 @@
 **May**
 - An effort to stop smoking - failed
 - Travelled to Lucknow (BMGF project)
-- Gramener PIP
+- Gramener PIP (Performance Improvement Programme)
 - Travelled to Mumbai (Star Project)
 - Spent some time on MyDash project
 - IxD course - incomplete
@@ -69,6 +69,5 @@
 - DataKind
 
 **Dec**
-- CivicDataLabs Design Exercise
+- CivicDataLabs design sprint
 - Run
-- 

@@ -112,12 +112,6 @@ I was curious to know the wait time before I cancelled my trip. Unfortunately, y
 - total cab types (value counts)
 
 
-<h2>Notes</h2>
-
-https://www.google.com/maps/api/json?query=13.1996529,77.7077639
-https://www.google.com/maps/search/?api=1&query=13.1996529,77.7077639
-
-
 <h2>Download Your Rider Data</h2>
 
 You can download your uber rider data from [their official website](https://help.uber.com/riders/article/download-your-data?nodeId=2c86900d-8408-4bac-b92a-956d793acd11&state=KR-A9h8u4EAh_8OfwOH0aWuf6VbQ1q7GaFnjbxRNJeM%3D&_csid=xjk63_bs0hM4P-s0C45SJw#_), in the **request your data section**
