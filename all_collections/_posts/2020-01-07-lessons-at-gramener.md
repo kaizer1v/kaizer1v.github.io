@@ -16,7 +16,7 @@ Don't let work pressure spoil creativity. It spoils mood and emotions. Just **so
 
 ### 2/ Everything can be scoped
 
-Never fear the time-crunch and effort needed to avoided projects. Always focus on MVP 
+Never fear the time-crunch and effort needed to avoid projects. Always focus on MVP 
 
 
 ### 3/ MVP to communicate
@@ -39,6 +39,6 @@ A goal in itself isn't really useful, unless you know how much time it needs to 
 If a team member isn't really fruitful, just move them and get someone else - FAST. If something isn't working - just move on and get back to it later - FAST
 
 
-### 7/ Progress & communication should always be visible
+### 7/ Progress & communication should ALWAYS be visible
 
 In any way possible, I should always be moving ahead - one step at a time, but never stopping. Also, always communicate the progress too. These are key things when scaling really fast
