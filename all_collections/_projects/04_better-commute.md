@@ -1,9 +1,9 @@
 ---
-title: CommuteExp
+title: Commuting Better
 
 tagline: An attempt on redesigning the commute experience
 
-tags: [User Research, UX Design]
+tags: [User Research, Design Process]
 
 carousel_images: [IMG_0610.JPG, IMG_0613.JPG, IMG_0615.JPG]
 
@@ -15,7 +15,9 @@ team: Vivek Shrinivasan
 
 content_body: |
 
-  ## Needfinding
+  ## Approach
+
+  **Needfinding**
 
   The research started off trying to understand the current problems and challenges people face on their everyday commute. This was done by talking and interviewing candidates and how they described their goals and challenges.
 
@@ -37,15 +39,17 @@ content_body: |
 
   New ideas emerged from brainstorming like
 
-  * HMW be able to figure out availibility of parking
-  * HMW be able to know if the road quality is good, with less pot holes
-  * HMW be able to rank a route by it's safety (ample street light, police presence etc)
+  * HMW help find hassle-free parking, before reaching the destination?
+  * HMW be able to know if the road quality is good, with less pot holes?
+  * HMW find safer routes to commute?
+
+  ## Solution
+
+  We decided to focus on **finding hassle-free parking, before reaching** problem statement.
 
   Here's an example of what the current user flow for parking in a city like Bangalore looks like.
 
   > “Even If I am willing to pay a fee, there is hardly any parking space.”
-
-  
 
   The process of parking encompasses three main steps. When interviewed people to ask what steps they go through for finding and parking the car at the mall, these are the pain points and goals the users mentioned.
 
@@ -63,8 +67,17 @@ content_body: |
   ## Result
 
   We were able to ideate and conceptualise an easy way for commuters to find parking around the city.
-  
-  ## Articles
+
+  ## Learnings
+
+  * Learnt about design process
+  * Conducting effective user interviews
+
+  <figure class="row justify-content-center figure text-center h-0">
+    <img src="/assets/images/projects/commute_exp.jpeg" class="border figure-img img-fluid rounded" alt="User Actions">
+  </figure>
+
+  ## Resources / Articles
 
   Here's what the news has to say about Bangalore and it's parking experience
 
