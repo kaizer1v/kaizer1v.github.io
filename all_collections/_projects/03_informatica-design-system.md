@@ -48,7 +48,7 @@ content_body: |
   * Eliminated dependencies on UI/Software Engineers
   * 10x lighter and no dependencies
   * Customisable by simply editing Javascript / HTML / CSS
-  * Successfully implemented and tested prototypes building 50+ features across enterprise cloud products like [Data profiling](https://kaizer1v.github.io/profiling/)
+  * Successfully implemented and tested prototypes building 50+ features across enterprise cloud products like [Data profiling](https://kaizer1v.github.io/profiling/) & [here](https://kaizer1v.github.io/profiling/page2.html?srNo=2)
 
 
   _Yes, the designers had to have little bit of HTML / CSS knowledge for customising the UI_
