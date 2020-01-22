@@ -9,7 +9,7 @@ thumbnail: ojdp.jpeg
 
 carousel_images: [ojdp.png]
 
-demo:
+demo: https://docs.google.com/document/d/1QzhzttZLH3ERhrNm-SSyfF62ak_akNWV4UtfOhdyC-c/edit?usp=sharing
 
 challenge: To make open judiciary data across India, easily accessible & comprehensible
 
