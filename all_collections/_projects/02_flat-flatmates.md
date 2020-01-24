@@ -19,19 +19,11 @@ content_body: |
 
   ## Approach
 
-  The aim of the research was to understand from people looking for flat or even flatmates, about their goals, pain points and motivations.
+  Conducted research to understand user's goals, pain points and motivations seeking for flat or flatmates.
 
-  After conducting [several interviews](https://drive.google.com/drive/folders/1cDkqIJx-6OvONEgfM_Bqmm8_HYWxrbBH) and gathering their responses, we were able to understand the nature of challenges they were facing on the existing platforms. It was surprising to learn that everyone relied mostly on one single way to find either a flatmate or an apartment - using facebook groups called "Flat & Flatmates".
+  We decided to conduct [interviews](https://drive.google.com/drive/folders/1cDkqIJx-6OvONEgfM_Bqmm8_HYWxrbBH) in order to gather qualitative inputs about challenges they faced when searching for flats & flatmates and pain points addressed towards using existing platforms like Facebook groups, 99Acres and housing.com.
 
-  We were able to build personas to understand the specific needs of the kind of users we were trying to solve this problem for.
-
-  Here's how our hypotheses were questioned when talking to actual users.
-
-  * Majority of the users wanted to share a flat with one other person. None of the users wanted to share a flat with more than 5 people
-  * Female's first preference when looking for a flat, is to have an attached bathroom
-  * People tend to live as close to their workplace as possible - reducing commute time i.e. within 5 km radius
-  * None of them wanted to pay brokerage to find an apartment, since broker's weren't trust worthy
-  * When searching for a flatmate, only about 40% people were indifferent about the other's diet preferences like non-vegetarian / vegetarian
+  Based on the inputs gathered, we built two personas
 
   <figure class="row justify-content-center figure text-center">
     <img src="/assets/images/projects/user_persona_01.jpg" class="border figure-img img-fluid rounded" alt="Persona">
@@ -41,6 +33,17 @@ content_body: |
     <img src="/assets/images/projects/user_persona_02.jpg" class="border figure-img img-fluid rounded" alt="Persona">
   </figure>
 
+  ### Learnings from Interviews
+
+  * Majority of the users wanted to share a flat with one other person. None of the users wanted to share a flat with more than 5 people
+  * Female's first preference when looking for a flat, is to have an attached bathroom
+  * People tend to live as close to their workplace as possible - reducing commute time i.e. within 5 km radius
+  * None of them wanted to pay brokerage to find an apartment, since broker's weren't trust worthy
+  * When searching for a flatmate, only about 40% people were indifferent about the other's diet preferences like non-vegetarian / vegetarian
+
+  ### User Journey
+
+  We looked into the steps involved for searching for a flat
 
   Here's what the journey of Shreya, a user searching for a flat within 5 km from her office - looks like
   
@@ -54,28 +57,36 @@ content_body: |
     <img src="/assets/images/projects/user_journey_map_02.png" class="border figure-img img-fluid rounded" alt="User Journey Map">
   </figure>
 
-  Taking the facebook interactions and the sheer volume of posts and comments on the group into account, I was able re-look at how I could improve the experience of searching for flatmates as well as flats at the same time. Here are some initial sketches of what the platform would look like on the mobile.
+  ### Solution
 
-  _Why mobile first?_
-  
-  Here's [a report published by Statista](https://www.statista.com/statistics/377808/distribution-of-facebook-users-by-device/) showing the usage of facebook on web vs mobile of users worldwide.
+  We decided to focus on improving the search experience for Facebook groups. Here are some of the main pain points addressed in the solution
+
+  **Posting an ad / requirement**
+
+  * The posts being added isn't structured
+  * The interface for adding a post, doesn't ensure necessary details to be added
+  * The posts being added isn't categorised
+
+  **Searching an ad / requirement**
+
+  * The interface doesn't allow to categorically search
+  * It's difficult to filter and search based on criteria like location, flat-type, male/female etc.
+  * The interface doesn't allow to short-list or reject ads / posts
+
+  **Wireframes**
+
+  Here are some of the ideas we iterated upon to solve the above pain points.
 
   <figure class="row justify-content-center figure text-center">
-    <img src="/assets/images/projects/sketch_01.jpg" class="border figure-img img-fluid rounded" alt="Wireframe Screens">
+    <img src="/assets/images/projects/fnf_1.png" class="border figure-img img-fluid rounded" alt="Wireframe Screens">
   </figure>
 
   <figure class="row justify-content-center figure text-center">
-    <img src="/assets/images/projects/sketch_02.jpg" class="border figure-img img-fluid rounded" alt="Wireframe Screens">
+    <img src="/assets/images/projects/fnf_2.png" class="border figure-img img-fluid rounded" alt="Wireframe Screens">
   </figure>
 
   <figure class="row justify-content-center figure text-center">
-    <img src="/assets/images/projects/sketch_03.jpg" class="border figure-img img-fluid rounded" alt="Wireframe Screens">
-  </figure>
-
-  After iterating through some alternative ways for searching & filtering, I narrowed down on the interactions and went ahead to build a visual design version of the application.
-
-  <figure class="row justify-content-center figure text-center">
-    <img src="/assets/images/projects/sceens_all.jpg" class="border figure-img img-fluid rounded" alt="Wireframe Screens">
+    <img src="/assets/images/projects/fnf_3.png" class="border figure-img img-fluid rounded" alt="Wireframe Screens">
   </figure>
 
 ---
