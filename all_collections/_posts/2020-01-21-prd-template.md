@@ -1,4 +1,8 @@
-# What is a Product Requirement Document?
+---
+title: What is a Product Requirement Document?
+categories: [design]
+tags: [system design]
+---
 
 Often when working on features, I had to work on quite a lot of PRDs. This is probably a boring task, but quite effective.
 
@@ -23,7 +27,7 @@ An effective PRD should answer the above questions, essentially. In order to do 
 * **Objective / Goal** - What is it that needs to be achieved
 * **KPI / Metric** - An effective milestone, if and when achieved, only then is it considered as a success. These metrics are quite essential for testing the waters
 * **Assumptions** - State the assumptions in order to start the work in order to focus on the MEAT of the feature / product
-* **Risk / Threats** - State all the risks like, if _...so and so..._ is not done correctly, then it can cause _...so and so..._ 
+* **Risk / Threats** - State all the risks like, if _...so and so..._ is not done correctly, then it can cause _...so and so..._
 * **Time line** - Everyone wants to know how long it would take. It's a great idea to have weekly sprints (It's not too long, nor to short). At the end of each week, update the short-term and long-term deadlines. This is pretty critical for communication.
 
 

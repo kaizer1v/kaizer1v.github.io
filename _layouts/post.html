@@ -6,11 +6,10 @@
 
   <body>
     {% include nav.html %}
-    
+
     <div class="container py-5 my-5">
       <section>
         <h1 class="post-title">
-          <a title="Click to go back" href="{{ site.baseurl }}/blog">↤ / </a>
           {{ page.title }}
         </h1>
         <p><time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time></p>
@@ -23,23 +22,25 @@
           {% endfor %}
         {% endif %}
       </section>
-      
+
       <hr />
 
       {{ content }}
 
-      <h1><a title="Click to go back" href="{{ site.baseurl }}/blog">↤ / </a></h1>
-      
       <hr />
 
-      <h3>You may also like reading</h3>
       <div class="d-block">
-        {% if page.previous.url %}
-          <a class="prev float-left" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-        {% endif %}
-        {% if page.next.url %}
-          <a class="next float-right" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
-        {% endif %}
+        <nav class="pagination justify-content-center">
+          {% if page.next.url %}
+            <a class="icons" title="Previous" href="{{page.next.url}}">⏪</a>
+          {% endif %}
+          <a class="icons" title="Home" href="/">🏠</a>
+          <a class="icons" title="Blog" href="/blog">✍️</a>
+          <a class="icons" title="Scroll to top" href="javascript:window.scroll({ top: 0, behavior: 'smooth' })">⬆️</a>
+          {% if page.previous.url %}
+            <a class="icons" title="Next" href="{{page.previous.url}}">⏩</a>
+          {% endif %}
+        </nav>
       </div>
 
       <section>

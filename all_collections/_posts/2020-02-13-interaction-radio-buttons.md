@@ -1,4 +1,8 @@
-# Interaction - Radio Buttons
+---
+title: Interaction - Radio Buttons
+categories: [design]
+tags: [system design]
+---
 
 I wanted to understand what interaction design really means, so decided to try and understand it from a humane point of view.
 
@@ -32,7 +36,7 @@ I have tried and replicated the interaction that acts like a radio button, essen
   Radio Button Selection</a> by Vivek Shrinivasan (<a href="https://codepen.io/kaizer1v">@kaizer1v</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script> 
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 
 Essentially, this is what I think interaction design fundamentally means, albeit a very naive example for this, but tries to capture the idea of how to think about interactions.

@@ -1,3 +1,9 @@
+---
+title: How Playo User Retention Works
+categories: [design]
+tags: [system design]
+---
+
 How could I improve user experience for recurring users?
 
 If one were to segment users based on behaviours for a particular sport i.e. football, Playo would typically have
@@ -28,7 +34,7 @@ Hypothesis - users who play regularly, usually book the same court at least 5 ti
 * **Favourites** - Allowing me to short-list courts which I can access/search faster for later use
 * **Next Available Slot** - A faster way to find me the next available slot. (_Next step would be auto book it_)
 
-### Scenario 2 - I need to find a court 
+### Scenario 2 - I need to find a court
 
 _Assuming I have the players and I know the time._
 

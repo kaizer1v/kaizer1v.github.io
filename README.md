@@ -10,6 +10,7 @@ Clone this reporistory
 
 `git clone git@github.com:kaizer1v/kaizer1v.github.io.git`
 
-and run jekyll on local machine
+and run following commands from inside the above folder
 
+`bundle install`
 `bundle exec jekyll serve --port 8998`
