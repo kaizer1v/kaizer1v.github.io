@@ -1,5 +1,5 @@
 <nav id="topnav" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-  <a class="navbar-brand" href="{{ site.baseurl }}/"><i class="fas fa-space-shuttle"></i></a>
+  <a class="navbar-brand icons" href="{{ site.baseurl }}/"><i class="fas fa-space-shuttle"></i></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -14,7 +14,7 @@
           </li>
         {% else %}
           <li class="nav-item">
-            <a class="nav-link" href="{{ pl.link | prepend: site.baseurl }}">{{ pl.title }}</a>
+            <a class="nav-link icons" href="{{ pl.link | prepend: site.baseurl }}" title="{{ pl.link }}">{{ pl.title }}</a>
           </li>
         {% endif %}
       {% endif %}
