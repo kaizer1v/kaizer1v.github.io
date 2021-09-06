@@ -49,7 +49,7 @@ github:
 collections_dir: all_collections
 
 collections:
-  cool_interactions:
+  interaction_design:
     permalink: /:collection/:name
     output: true
   projects:

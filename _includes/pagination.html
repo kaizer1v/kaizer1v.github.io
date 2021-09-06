@@ -17,14 +17,14 @@
 <nav aria-label="Page navigation example">
   <ul class="pagination justify-content-center">
     {% if paginator.next_page %}
-      <li><a class="icons" title="Previous" href="{{page.next.url}}">⏪</a></li>
+      <li><a class="icons" title="Previous Post" href="{{page.next.url}}">⏪</a></li>
     {% endif %}
 
-    <li><a class="icons" title="Home" href="/">🏠</a></li>
+    <li><a class="icons" title="Go back Home" href="/">🏠</a></li>
     <li><a class="icons" title="Scroll to top" href="javascript:window.scroll({ top: 0, behavior: 'smooth' })">⬆️</a></li>
 
     {% if paginator.previous_page %}
-      <li><a class="icons" title="Next" href="{{page.previous.url}}">⏩</a></li>
+      <li><a class="icons" title="Next Post" href="{{page.previous.url}}">⏩</a></li>
     {% endif %}
   </ul>
 </nav>

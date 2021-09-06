@@ -32,13 +32,13 @@
       <div class="d-block">
         <nav class="pagination justify-content-center">
           {% if page.next.url %}
-            <a class="icons" title="Previous" href="{{page.next.url}}">⏪</a>
+            <a class="icons" title="Previous Post" href="{{page.next.url}}">⏪</a>
           {% endif %}
-          <a class="icons" title="Home" href="/">🏠</a>
-          <a class="icons" title="Blog" href="/blog">✍️</a>
+          <a class="icons" title="Go Back To All Blog Posts" href="/blog" style="transform: rotate(-90deg);">⬆️</a>
+          <!-- <a class="icons" title="Go Back Home" href="/">🏠</a> -->
           <a class="icons" title="Scroll to top" href="javascript:window.scroll({ top: 0, behavior: 'smooth' })">⬆️</a>
           {% if page.previous.url %}
-            <a class="icons" title="Next" href="{{page.previous.url}}">⏩</a>
+            <a class="icons" title="Next Post" href="{{page.previous.url}}">⏩</a>
           {% endif %}
         </nav>
       </div>
