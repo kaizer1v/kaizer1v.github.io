@@ -1,0 +1,22 @@
+Q: Why did I re-write the whole code base for covid19india scraper?
+
+A:
+  The cost of understanding the code, replicating & running it was = 0, still I did it. Here are the following reasons
+
+  Challenges with the existing code
+  - it wasn't structured in a direct way to be scalable. Eg: structure of a PDF format changes, didn't know where to go and change
+  - it was fundamentally structured from a format stand point. Everything follows the format - so what if the format changes?
+  - it wasn't easily customisable
+
+  I am not pointing out mistakes just for the heck of it, what I did have was the luxury of time that c19india did not, they did it as the pandamic was going on with 300+ people working and depending on the outcome. But I did have the time and energy to help modify it and make it a little more scalable
+
+If I were to break the components of the scraper in a way that - I were to be able to put the most basic things like 37 states & 3 types of scrapers on a flat surface and wave a magic wand, how scalable (end-cost) of the whole program be? That cost was going to be significant, so I decided to re-structure it. So the question was, how can I structure the code more efficiently
+
+**What I didn't do was, was there a catch that I didn't see?**
+
+scalability metrics
+- throughput i.e. time taken to execute the cost
+- response time (currently API takes >9 mins to execute) 
+- memory usage
+- network usage
+
