@@ -2,6 +2,8 @@
 title: Redesigning Google Pay's Home Page
 ---
 
+You can read the full article with the design screenshots on [Medium](https://medium.com/design-bootcamp/case-study-improving-payment-experience-on-google-pay-942eb6720050).
+
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="900" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FeRQdWXo6qAIy5pyIUzGEQK%2FWhatever%3Fpage-id%3D0%253A1%26node-id%3D2%253A2%26viewport%3D241%252C48%252C0.75%26scaling%3Dscale-down%26starting-point-node-id%3D2%253A2" allowfullscreen></iframe>
 
 * Have you found it hard to make a payment using google pay?
