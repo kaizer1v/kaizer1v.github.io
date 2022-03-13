@@ -2,6 +2,18 @@
 title: Even You Can Apply Design Thinking
 ---
 
+Before you dive deeper into "what is design thinking" - I am pointing out an important point for non-designers, specifically people who are developers / software engineers or programmers. This article is specifically for you.
+
+I myself, am/was a developer and I am writing this with my own experience justifying and educating to all you non-designers about what design thinking is. So, if you are a developer or a software programmer, then this is for you.
+
+# First - A Mind Shift
+
+When being confronted by an idea that you may have or someone else gave you; as a developer; your initial first thought goes into thinking about "how" I could build this with the softwares and tools that I already know? It's hard NOT-to think like that when you've been working as a developer or as an expert in the medium of Python or Javascript of ML and AI. This is exactly what one should NOT do when thinking like a designer. A designer needs to think regardless of the medium or the tools available to them. A designer needs to understand the problem thoroughly enough to be able to validate and justify that something is actually worth building.
+
+A designer needs to understand the person who is going to be using the solution - the "WHO" as opposed to the "HOW", which is what a developer thinks. In order to understand the "WHO".
+
+This mind shift is the first step to be able to think like a designer. To let go of existing mediums and tools and think tool-less or medium-less. Thus, it's best to start with pen and paper (a blank slate).
+
 # What is Design Thinking?
 
 If you are pondering about to this question, look no further. There are a lot of methods out there that explain what design thinking is. Many like the Double Diamond, Standford.d, [Ideo's set of design thinking tools](https://designthinking.ideo.com/) and many more, but if you were to start thinking about
@@ -11,7 +23,7 @@ _what are the commonalities among these processes?_ and _what are the underlying
 1. **Who** are you building for? (becomes your persona)
 2. **What** are you trying to build for them? (becomes your product)
 3. **Why** are you building it? (becomes your goal)
-4. **How** should I build it? (becomes your strategy)
+4. **How** should I build it? (becomes your strategy or architecture)
 
 If you can answer the above 4 questions, you would have applied 90% of design-thinking process. The remaining 10% is just based on the tools you use to arrive there.
 
@@ -46,7 +58,9 @@ Analysing is important when you do the back-and-forth process in the 2nd step of
 
 ## 4. How
 
-Once you have figured out "why" they need "what" they need, you'll start strategising on how to achieve that. For the most part, you would have already done in the "what" phase by providing multiple fidelities of prototypes. The aim of the "how" question is to concretise on to an MVP (minimal viable product) and how you'll make that MVP reach your end users (aka marketing).
+Once you have figured out "why" they need "what" they need, you'll start strategising on how to achieve that. For the most part, you would have already done in the "what" phase by providing multiple fidelities of prototypes. The aim of the "how" question is to concretise on to an MVP (minimal viable product) and how you'll make that MVP reach your end users (aka marketing). This stage is when you wear your "developer hat".
+
+There's an important point to take note here. When thinking of the "how" part, it's very critical to not compromise on the "what" part of the solution. There are times when the technology limits one to provide the desired solution in order to solve the problem. Here's where creativity really picthes in; when one is able to nail the desired solution with the constraints using some sort of a "hack".
 
 ---
 
