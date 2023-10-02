@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const title = 'Reflections';
 const description = 'thoughts and reflections.';
-const permalink = `${Astro.site.href}blog`;
+const permalink = `${Astro.site.href}reflections`;
 
 let allPosts = await Astro.glob('../../data/blog-posts/*.md');
 allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf());
@@ -13,7 +13,7 @@ allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf()
   <div class="container">
     <h1>{title}</h1>
     {allPosts.map((post, index) => {
-      const href = `/blog/${post.file.split('/').pop().split('.').shift()}`;
+      const href = `/reflections/${post.file.split('/').pop().split('.').shift()}`;
       return (
         <div>
           { index !== 0 && <hr /> }
