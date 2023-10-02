@@ -1,9 +1,12 @@
 {
+  "homepage": "https://kaizer1v.github.io",
   "name": "smoggy-solstice",
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
@@ -12,6 +15,7 @@
     "@astrojs/mdx": "^0.8.3",
     "@astrojs/svelte": "^1.0.0",
     "astro": "^1.0.3",
+    "gh-pages": "^6.0.0",
     "rehype-external-links": "^2.0.0"
   },
   "dependencies": {
