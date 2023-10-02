@@ -1,12 +1,12 @@
 {
-  "homepage": "https://kaizer1v.github.io",
+  "homepage": "vivekipedia.in",
   "name": "smoggy-solstice",
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    // "predeploy": "npm run build",
+    // "deploy": "gh-pages -d build",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
