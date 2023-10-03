@@ -8,42 +8,68 @@ const permalink = Astro.site.href;
 
 <BaseLayout title={title} description={description} permalink={permalink}>
   <div class="home-container">
-    <div class="home-copy">
-      <h1>Becoming!</h1>
-      <p>The underlying question:</p>
-      <p>Do I want to become something or do I want be as I am?</p>
-      <p>I believe, one becomes by their doing. I am currently in the transition of becoming something by exploring, playing and reflecting to understand what I am and what I want to become. But one can’t ignore the past doings and thus, embracing the past to create the future is for me - “becoming”. “Becoming” is the change and change is a habit.</p>
+    <div class="box-wrapper">
+      <div class="box1">
+        <h1>Becoming!</h1>
+        <p>The underlying question:</p>
+        <p>Do I want to become something or do I want be as I am?</p>
+        <p>I believe, one becomes by their doing. I am currently in the transition of becoming something by exploring, playing and reflecting to understand what I am and what I want to become. But one can’t ignore the past doings and thus, embracing the past to create the future is for me - “becoming”. “Becoming” is the change and change is a habit.</p>
 
-      <p>Past</p>
-      <ul>
-        <li>Web development and front-end engineering, a lot of javascript</li>
-        <li>Data visualisation, python for data analysis and D3 for charts</li>
-        <li>DataKind & covid19bharat.org</li>
-        <li>Gramener - data visualisation for the ministry</li>
-        <li>Symantec & Informatica - B2B data products UX</li>
-        <li>UX design at SAP Labs - Focus on B2B UX (current)</li>
-      </ul>
-      <p>You can know more about work history on <a target="_blank" href="https://linkedin.com/in/vivek-shrinivasan">linkedin</a></p>
-    </div>
-
-    <div class="hero-image-container">
-      <a href="/play"><h1>Play -></h1></a>
-      <a href="/reflections"><h1>Reflections -></h1></a>
-      <!-- <picture>
-        <source srcset="/assets/home-illustration.webp" media="(min-width: 600px)">
-        <img class="hero-image" alt="Illustration of person reading a book" src="/assets/home-illustration-small.webp" width="550" height="466">
-      </picture>
-      <p class="caption">
-        Illustration by
-        <a href="https://icons8.com/illustrations/author/5c07e68d82bcbc0092519bb6" target="_blank" rel="noopener">Icons 8</a>
-        from
-        <a href="https://icons8.com/illustrations" target="_blank" rel="noopener">Ouch!</a>
-      </p> -->
+        <p>Past</p>
+        <ul>
+          <li>Web development and front-end engineering, a lot of javascript</li>
+          <li>Data visualisation, python for data analysis and D3 for charts</li>
+          <li>DataKind & covid19bharat.org</li>
+          <li>Gramener - data visualisation for the ministry</li>
+          <li>Symantec & Informatica - B2B data products UX</li>
+          <li>UX design at SAP Labs - Focus on B2B UX (current)</li>
+        </ul>
+        <p>You can know more about work history on <a target="_blank" href="https://linkedin.com/in/vivek-shrinivasan">linkedin</a></p>
+      </div>
+      <div class="box2"></div>
+      <div class="box3"><a href="/play"><h1>Play -></h1></a></div>
+      <div class="box4"><a href="/reflections"><h1>Reflections -></h1></a></div>
     </div>
   </div>
 </BaseLayout>
 
 <style>
+  .box-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50%;
+    gap: 0;
+  }
+    .box-wrapper > div {
+      padding: 2em;
+    }
+
+    .box1 {
+      grid-column: 2;
+      grid-row: 1 / 4;
+      /* background: #ddf9ff; */
+    }
+
+    .box2 {
+      grid-column: 1;
+      grid-row: 1;
+      /* background: #f9e3bf; */
+    }
+
+    .box3 {
+      grid-column: 1;
+      grid-row: 2;
+      background: #dee5e7;
+    }
+
+    .box4 {
+      grid-column: 1;
+      grid-row: 3;
+      background: #595959;
+    }
+
+    .box3:hover, .box4:hover { cursor: pointer; }
+
   .home-container {
     align-items: center;
     display: flex;
