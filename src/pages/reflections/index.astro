@@ -5,7 +5,7 @@ const title = 'Reflections';
 const description = 'thoughts and reflections.';
 const permalink = `${Astro.site.href}reflections`;
 
-let allPosts = await Astro.glob('../../data/blog-posts/*.md');
+let allPosts = await Astro.glob('../../data/reflections/*.md');
 allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf());
 ---
 
