@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import List from '../components/List.astro';
 
 const title = 'Becoming';
 const description = 'kaizer1v\'s site';
@@ -12,19 +13,9 @@ const permalink = Astro.site.href;
       <div class="box1">
         <h1>Becoming!</h1>
         <p>The underlying question:</p>
-        <p>Do I want to become something or do I want be as I am?</p>
-        <p>I believe, one becomes by their doing. I am currently in the transition of becoming something by exploring, playing and reflecting to understand what I am and what I want to become. But one can’t ignore the past doings and thus, embracing the past to create the future is for me - “becoming”. “Becoming” is the change and change is a habit.</p>
-
-        <p>Past</p>
-        <ul>
-          <li>Web development and front-end engineering, a lot of javascript</li>
-          <li>Data visualisation, python for data analysis and D3 for charts</li>
-          <li>DataKind & covid19bharat.org</li>
-          <li>Gramener - data visualisation for the ministry</li>
-          <li>Symantec & Informatica - B2B data products UX</li>
-          <li>UX design at SAP Labs - Focus on B2B UX (current)</li>
-        </ul>
-        <p>You can know more about work history on <a target="_blank" href="https://linkedin.com/in/vivek-shrinivasan">linkedin</a></p>
+        <p>Do I want to become something or do I want be as I am? I believe, one becomes by their doing. I am currently in the transition of becoming something by playing and reflecting to understand what I am and what I want to become. “Becoming” is my path to change</p>
+        <hr />
+        <List />
       </div>
       <div class="box2"></div>
       <div class="box3"><a href="/play"><h1>Play -></h1></a></div>
@@ -138,3 +129,4 @@ const permalink = Astro.site.href;
     }
   }
 </style>
+../components/List.jsx
