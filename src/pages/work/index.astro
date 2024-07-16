@@ -1,11 +1,11 @@
 ---
 import BaseLayout from '../../layouts/PlayLayout.astro';
 
-const title = 'Play';
+const title = 'Work';
 const description = 'all work and no play makes jack a dull boy.';
 const permalink = `${Astro.site.href}play`;
 
-let allPosts = await Astro.glob('../../data/blog-posts/*.md');
+let allPosts = await Astro.glob('../../data/work/*.md');
 allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf());
 ---
 
@@ -13,7 +13,7 @@ allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf()
   <div class="container">
     <h1>{title}</h1>
     {allPosts.map((post, index) => {
-      const href = `/play/${post.file.split('/').pop().split('.').shift()}`;
+      const href = `/work/${post.file.split('/').pop().split('.').shift()}`;
       return (
         <div>
           { index !== 0 && <hr /> }
