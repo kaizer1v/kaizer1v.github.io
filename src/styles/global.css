@@ -199,6 +199,19 @@ td {
   width: 100%;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 2rem;
+}
+  .flex-container > div {
+    flex-shrink: 1;
+    flex-grow: 0;
+    flex-basis: auto;
+  }
+
 .content h1 {
   font-size: 3em;
   margin: 1em 0;

@@ -3,21 +3,23 @@ import BaseLayout from '../../layouts/PlayLayout.astro';
 
 const title = 'Work';
 const description = 'all work and no play makes jack a dull boy.';
-const permalink = `${Astro.site.href}play`;
+const permalink = `${Astro.site.href}work`;
 
 let allPosts = await Astro.glob('../../data/work/*.md');
 allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf());
 ---
 
 <BaseLayout title={title} description={description} permalink={permalink} current="blog">
-  <div class="container">
+  <div class="flex-container">
     <h1>{title}</h1>
     {allPosts.map((post, index) => {
       const href = `/work/${post.file.split('/').pop().split('.').shift()}`;
+      const thumbnail = `/assets/work/${post.frontmatter.thumbnail}`;
       return (
         <div>
           { index !== 0 && <hr /> }
           <div class="post-item">
+            <img src={thumbnail} alt={post.frontmatter.title} />
             <h2>
               <a href={href}>{post.frontmatter.title}</a>
             </h2>
