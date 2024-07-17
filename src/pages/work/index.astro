@@ -10,34 +10,37 @@ allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf()
 ---
 
 <BaseLayout title={title} description={description} permalink={permalink} current="blog">
-  <div class="flex-container">
+  <div>
     <h1>{title}</h1>
-    {allPosts.map((post, index) => {
-      const href = `/work/${post.file.split('/').pop().split('.').shift()}`;
-      const thumbnail = `/assets/work/${post.frontmatter.thumbnail}`;
-      return (
-        <div>
-          { index !== 0 && <hr /> }
-          <div class="post-item">
-            <img src={thumbnail} alt={post.frontmatter.title} />
-            <h2>
-              <a href={href}>{post.frontmatter.title}</a>
-            </h2>
-            <p>{post.frontmatter.description}</p>
-            <div class="post-item-footer">
-              <span class="post-item-date">— {post.frontmatter.publishDate}</span>
+    <div class="flex-container">
+      {allPosts.map((post, index) => {
+        const href = `/work/${post.file.split('/').pop().split('.').shift()}`;
+        const thumbnail = `/assets/work/${post.frontmatter.thumbnail}`;
+        return (
+          <article>
+            <div class="post-item">
+              <h2><a href={href}>{post.frontmatter.title}</a></h2>
+              <br />
+              <a href={href}>
+                <div class="thumbnail"></div>
+              </a>
+              <p>{post.frontmatter.description}</p>
+              <div class="post-item-footer">
+                <span class="post-item-date">— {post.frontmatter.publishDate}</span>
+              </div>
             </div>
-          </div>
-        </div>
-      )
-    })}
+          </article>
+        )
+      })}
+    </div>
   </div>
 </BaseLayout>
 
 <style>
+  
   h2,
   .post-item-footer {
-    font-family: var(--font-family-sans);
+    font-family: var(--font-family-serif);
     font-weight: 700;
   }
 
@@ -51,4 +54,45 @@ allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf()
   hr {
     margin: 60px auto;
   }
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 4rem;
+  }
+    .flex-container > article {
+      width: 30rem;
+      flex-shrink: 0;
+      flex-grow: 1;
+      flex-basis: auto;
+    }
+
+  .thumbnail {
+    display: block;
+    width: 100%;
+    height: 20rem;
+    overflow: none;
+    border: 1px solid #333;
+    background-color: grey;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  /* thumbnail image order for each project */
+
+  .flex-container article:nth-child(1) .thumbnail {
+    background-image:url('/assets/work/covid19bharatorg.png');
+  }
+
+  .flex-container article:nth-child(2) .thumbnail {
+    background-image:url('/assets/work/visual-inspection.jpg');
+    
+  }
+
+  .flex-container article:nth-child(3) .thumbnail {
+    background-image:url('/assets/work/zll.webp');
+  }
+
 </style>
