@@ -44,7 +44,7 @@ hr {
 }
 
 .navbar .navbar-item {
-  color: var(--base-white);
+  color: var(--base-black);
 }
 
 .navbar .navbar-item.is-active {
@@ -54,7 +54,7 @@ hr {
 
 .navbar .navbar-item:hover {
   background: transparent;
-  color: white;
+  color: var(--base-grey);
 }
 
 .navbar .navbar-item a {
