@@ -1,63 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Becoming - Vivek Shrinivasan</title>
-  
-  <!-- Bulma Version 1-->
-  <link rel="stylesheet" href="https://unpkg.com/bulma@1.0.2/css/bulma.min.css" />
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Becoming - Vivek Shrinivasan</title>
+    
+    <!-- Bulma Version 1-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@1.0.2/css/bulma.min.css" />
 
-  <!-- Fontawesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  
-  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"> -->
-  <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
 
 <body>
+  <!-- Nav -->
+  <div class="container">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="../index.html">Home</a>
+          <a class="navbar-item is-active" href="../projects.html">Projects</a>
+          <a class="navbar-item" href="../articles.html">Articles</a>
+        </div>
+      </div>
+    </nav>
+  </div>
 
-  <section class="hero is-fullheight is-default is-bold">
-    <div class="hero-head">
+  <!-- Hero image -->
+  <section class="hero">
+    <div class="hero-body">
       <div class="container">
-        <!-- nav -->
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-          <div id="navbarBasicExample" class="navbar-menu">
-            <div class="navbar-start">
-              <a class="navbar-item" href="../index.html">Home</a>
-              <a class="navbar-item is-active" href="../projects.html">Projects</a>
-              <a class="navbar-item" href="../articles.html">Articles</a>
-            </div>
+        <div class="columns">
+          <div class="column is-8 is-offset-2">
+            <figure class="image">
+              <img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*38l5ejgCc__P-3Kj0guf6w.png" alt="blog image"> 
+            </figure>
           </div>
-        </nav>
+        </div>
       </div>
     </div>
+  </section>
 
-    <!-- About -->
-    <section class="section" id="about">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem et distinctio corporis explicabo saepe nesciunt, doloribus quasi quam laborum quo, doloremque fugiat deleniti veniam sunt ratione officia modi neque assumenda.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem et distinctio corporis explicabo saepe nesciunt, doloribus quasi quam laborum quo, doloremque fugiat deleniti veniam sunt ratione officia modi neque assumenda.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem et distinctio corporis explicabo saepe nesciunt, doloribus quasi quam laborum quo, doloremque fugiat deleniti veniam sunt ratione officia modi neque assumenda.</p>
+  <section class="section">
+    <div class="columns">
+      <div class="column is-8 is-offset-2">
+        <div class="content is-medium">
+          <h3>Objective</h3>
+          <p>How can we help a shopfloor operator to assist them to find defects in the part being manufactured in a fast and accurate manner?</p>
+          <p>The goal of this product is to allow users to draw annotations (mark nonconformances) on defective areas of the picture of the artefact being manufactured. These images would act as training data or testing data to create a functioning image detection ML model.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem et distinctio corporis explicabo saepe nesciunt, doloribus quasi quam laborum quo, doloremque fugiat deleniti veniam sunt ratione officia modi neque assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, odio porro? Impedit asperiores laudantium deserunt nihil rem vero dolorum id adipisci dolor, delectus quaerat accusamus totam quos quis! Delectus, velit.</p>
-    </section>
+  <section class="section">
+    <div class="columns">
+      <div class="column is-half is-offset-one-quarter">
+        <div class="content is-medium">
+          <h1 class="title is-5">Role & Impact</span></h1>
+          <hr>
+          <ul>
+            <li>Lead designer for visual inspection focused on designing a new tool for annotation and marking on images</li>
+            <li>Communicate the user experience at various stages of the design process with wireframes, flow diagrams, storyboards, mockups, or high fidelity prototypes</li>
+            <li>Integrate user feedback and business requirements as part of product feature updates</li>
+            <li>Collaborated with product management and data scientists and engineering team</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <section class="section">
+    <div class="columns">
+      <div class="column is-8 is-offset-2">
+        <div class="content is-medium">
+          <h3>Background</h3>
+          <p>Visual inspection helps reduce human errors in the process of testing and maintaining manufacturing quality. A shopfloor operator is responsible for fast and efficient quality checks on the assembly line during the course of manufacturing an artefact on the assembly line. The setup of visual inspection on the shopfloor assists the operator to see a material in detail and via a camera captured image and take note of any defects found on the artefact. This tool is designed to assist the operator to find and mark visual defects found in the artefact.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="column is-three-fifths is-offset-one-fifth">
+      <figure class="image is-16by12">
+        <img src="../assets/projects/vi_pod_01.webp" />
+      </figure>
+    </div>
   </section>
 
   <!-- Footer -->
-  <footer class="footer">
-    <div class="section-heading">
-      <p><strong>Becoming</strong> by kaizer1v.</p>
-    </div>
-    <p>
-      <a><i class="fa fa-camera-retro fa-2x"></i></a>
-      <a><i class="fa fa-camera-retro fa-2x"></i></a>
-      <a><i class="fa fa-camera-retro fa-2x"></i></a>
-    </p>
-  </footer>
-
+  <div class="container">
+    <footer class="footer">
+      <div class="section-heading">
+        <p><strong>Becoming</strong> by kaizer1v.</p>
+      </div>
+      <p>
+        <a><i class="fa fa-camera-retro fa-2x"></i></a>
+        <a><i class="fa fa-camera-retro fa-2x"></i></a>
+        <a><i class="fa fa-camera-retro fa-2x"></i></a>
+      </p>
+    </footer>
+  </div>
+  
 </body>
-
 </html>

@@ -3,12 +3,16 @@
 :root {
   /* colours */
   --base-black: #060606;
-  --base-white: #e4e2ff;
+  --base-white: #e9e9e9f3;
   --grey: #24272c;
   --blue: #3b7adf;
 
   /* fonts */
   --base-font: 'Nunito Sans', sans-serif;
+}
+
+body {
+  background: var(--bulma-footer-background-color);
 }
 
 .va {
@@ -95,6 +99,16 @@ hr {
 
 .blog-posts .post .featured .featured-image img {
   height: 380px;
+}
+
+/* this css is not in effect */
+.image {
+  display: block;
+  position: relative;
+  border: 1px solid grey !important;
+  padding: 1rem !important;
+  border-radius: 0.2rem !important;
+  box-shadow: 0px 5px 15px #ddd !important;
 }
   
 /* scrollbars */
