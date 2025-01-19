@@ -39,7 +39,7 @@
         <div class="columns">
           <div class="column is-8 is-offset-2">
             <figure class="image">
-              <img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*38l5ejgCc__P-3Kj0guf6w.png" alt="blog image"> 
+              <img src="../tb_vi_pod.webp" alt="blog image"> 
             </figure>
           </div>
         </div>
@@ -81,34 +81,150 @@
     <div class="columns">
       <div class="column is-8 is-offset-2">
         <div class="content is-medium">
-          <h3>Background</h3>
-          <p>Visual inspection helps reduce human errors in the process of testing and maintaining manufacturing quality. A shopfloor operator is responsible for fast and efficient quality checks on the assembly line during the course of manufacturing an artefact on the assembly line. The setup of visual inspection on the shopfloor assists the operator to see a material in detail and via a camera captured image and take note of any defects found on the artefact. This tool is designed to assist the operator to find and mark visual defects found in the artefact.</p>
+          <h3>Key considerations for the design</h3>
+          <p>
+            <ul>
+              <li>Allow a user to spot a defect faster</li>
+              <li>Allow a user to 'log' defects (aka non-conformances) — Either approve it or reject it</li>
+              <li>Allow user to decide what to do with the part</li>
+            </ul>  
+          </p>
+        </div>
+        <div class="content is-medium">
+          <figure class="image is-fullwidth">
+            <img src="one.webp" />
+          </figure>
+        </div>
+        <div class="content is-medium">
+          <p>In addition, it was also important to consider edge cases like how to visualise scenarios where annotations overlapped each other or too close in proximity? How to show multiple types of defects overlapping with each other?</p>
+          <p>We tested this out with customers and learnt getting feedback relating types of defects and details associated to how they inspect one at a time.</p>
+        </div>
+        <div class="content is-medium">
+          <figure class="image is-fullwidth">
+            <img src="two.webp" />
+          </figure>
         </div>
       </div>
     </div>
   </section>
 
   <section class="section">
-    <div class="column is-three-fifths is-offset-one-fifth">
-      <figure class="image is-16by12">
-        <img src="../assets/projects/vi_pod_01.webp" />
-      </figure>
+    <div class="columns">
+      <div class="column is-half is-offset-one-quarter">
+        <div class="content is-medium">
+          <h3>Walk me through</h3>
+          <p>One of the key features I had designed was the walk-me-through feature that allowed the user to quickly take actions on the annotations that were already marked or suggested by an ML model. This also helped users isolate each defect and diagnose it in detail. This was designed keeping in mind how defects could be pretty small in size as well as multiple defects on different part of the images.</p>
+        </div>
+        <div class="content is-medium">
+          <figure class="image is-fullwidth">
+            <img src="three.gif" />
+          </figure>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- Footer -->
-  <div class="container">
-    <footer class="footer">
-      <div class="section-heading">
-        <p><strong>Becoming</strong> by kaizer1v.</p>
+  <section class="section">
+    <div class="columns">
+      <div class="column is-half is-offset-one-quarter">
+        <div class="content is-medium">
+          <h3>Showing the right information to help decide faster</h3>
+          <p>For an operator, I had to figure out which minimum set of information points were critical for them to decide whether to accept or reject the recommendation. The hypotheses was that the model prediction % could bias the user’s decision — but instead after validating this, I learnt that it helped users make a faster judgement. The increase in model’s performance get better prediction % over the course of time. It was interesting to see how operators were able to feel comfortable with 75% or above prediction scores.</p>
+        </div>
       </div>
-      <p>
-        <a><i class="fa fa-camera-retro fa-2x"></i></a>
-        <a><i class="fa fa-camera-retro fa-2x"></i></a>
-        <a><i class="fa fa-camera-retro fa-2x"></i></a>
-      </p>
-    </footer>
-  </div>
+    </div>
+    <div class="columns">
+      <div class="column is-one-quarter"></div>
+      <div class="column is-one-quarter">
+        <figure class="image is-fullwidth">
+          <img src="four.webp" />
+        </figure>
+      </div>
+      <div class="column is-one-quarter">
+        <figure class="image is-fullwidth">
+          <img src="five.webp" />
+        </figure>
+      </div>
+      <div class="column is-one-quarter"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="columns">
+      <div class="column is-half is-offset-one-quarter">
+        <div class="content is-medium">
+          <h3>Devil is in the details</h3>
+          <p>I extended the design to define the specification of how annotations should visually appear. This was critical as annotation sizes varied as well as their visibility in context to the background image. Having contrasting double borders (black and white) helped make it visible against any background image. The operators related to ‘red’ with a negative feeling through their work environment at the factory. It had to be made distinct only with a single red colour along with a selection or in-focus colour to denote the difference.</p>
+          <figure class="image is-fullwidth">
+            <img src="six.webp" />
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="columns">
+      <div class="column is-half is-offset-one-quarter">
+        <div class="content is-medium">
+          <h3>Impact & Learning</h3>
+          <p>I had the opportunity to conduct and validate user research on the product with end users. It was very insightful to learn about the setup of the system at the shopfloor at a factory and how the environment affected our designs. I learnt that the system needed to be designed and optimised for touch devices and interactions that could be performed by users wearing gloves too.</p>
+          <ul>
+            <li>An operator takes about 20 - 30 seconds to record an inspection. They wanted it to be even faster</li>
+            <li>They configured the system in a way to enable any device to assist them for input (QR code scanner, keyboard only or touch devices)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column is-one-third">
+        <figure class="image is-fullwidth">
+          <img src="pic1.webp" />
+        </figure>
+      </div>
+      <div class="column is-one-third">
+        <figure class="image is-fullwidth">
+          <img src="pic2.webp" />
+        </figure>
+      </div>
+      <div class="column is-one-third">
+        <figure class="image is-fullwidth">
+          <img src="pic3.webp" />
+        </figure>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column is-one-third">
+        <figure class="image is-fullwidth">
+          <img src="pic4.webp" />
+        </figure>
+      </div>
+      <div class="column is-one-third">
+        <figure class="image is-fullwidth">
+          <img src="pic5.webp" />
+        </figure>
+      </div>
+      <div class="column is-one-third">
+        <figure class="image is-fullwidth">
+          <img src="pic6.webp" />
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="columns">
+      <div class="column is-half is-offset-one-quarter">
+        <div class="content is-medium">
+          <h3>Concept explorations</h3>
+          <p>Here's also a concept that I had worked on that was used to showcase the intended future use of the annotation tool. This consideration was made for providing more real estate to the image and allowed users to draw annotations of arbitrary shapes that could help show the defects more precisely. A minimal design approach that showcased how annotation tool could be in the (near) future.</p>
+          <figure class="image is-fullwidth">
+            <img src="../tb_vi_pod.webp" />
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
   
 </body>
 </html>
