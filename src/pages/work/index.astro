@@ -14,20 +14,21 @@ allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf()
     <h1>{title}</h1>
     <div class="flex-container">
       {allPosts.map((post, index) => {
-        const href = `/work/${post.file.split('/').pop().split('.').shift()}`;
+        const href = (post.frontmatter.direct_link && post.frontmatter.direct_link !== '') ? post.frontmatter.direct_link : `/work/${post.file.split('/').pop().split('.').shift()}`
+        const target = (post.frontmatter.direct_link && post.frontmatter.direct_link !== '') ? '_blank' : '_self';
         const thumbnail = `/assets/work/${post.frontmatter.thumbnail}`;
         return (
           <article>
             <div class="post-item">
-              <h2><a href={href}>{post.frontmatter.title}</a></h2>
+              <h2><a href={href} target={target}>{post.frontmatter.title}</a></h2>
               <br />
-              <a href={href}>
+              <a href={href} target={target}>
                 <div class="thumbnail"></div>
               </a>
               <p>{post.frontmatter.description}</p>
-              <div class="post-item-footer">
+              {/* <div class="post-item-footer">
                 <span class="post-item-date">— {post.frontmatter.publishDate}</span>
-              </div>
+              </div> */}
             </div>
           </article>
         )
