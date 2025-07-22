@@ -5,6 +5,7 @@ description: At SAP, I had the opportunity to work on end-to-end on the suite of
 year: 2021
 tags: abc, xyz, something-else
 thumbnail: visual-inspection.jpg
+direct_link: https://medium.com/@kaizer1v/visual-inspection-in-manufacturing-c8564400006c
 ---
 
 Visual inspection helps reduce human errors in the process of testing and maintaining manufacturing quality.

@@ -5,6 +5,7 @@ description: Every blog starts with a single post. This is yours. Make it great.
 year: 2022
 tags: abc, xyz, something-else
 thumbnail: zll.webp
+direct_link: https://medium.com/design-bootcamp/enhancing-ed-tech-learning-experience-c991676b744b
 ---
 
 _Zinc Learning Labs is an NY based ed-tech startup that aims to solve for improving reading comprehension in students. The english literacy rate in the US is fairly low and ZLL started off with a mission to improve this. As part of their mission, they started personal tutoring students with a methodology that they built called ‘Zincing’ and ‘Tracking’. This was combined into a web based application aimed towards schools to be used by teachers as well as students to solve for the lack of reading comprehension and understanding the english language._

@@ -5,6 +5,7 @@ description: Collating India's covid19 cases, everyday on a single platform
 year: 2021
 tags: abc, xyz, something-else
 thumbnail: covid19bharatorg.png
+direct_link: https://medium.com/@kaizer1v/covid19bharat-org-f7253f9dfc2e
 ---
 
 The onset of the pandemic had one major problem (along with many others along the way), that it was really really hard to keep track of the situation of the pandemic — The goal of such a platform was to have this information; simply put — accessible.
