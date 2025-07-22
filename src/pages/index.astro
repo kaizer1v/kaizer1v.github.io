@@ -8,7 +8,7 @@ const permalink = Astro.site.href;
 
 <BaseLayout title={title} description={description} permalink={permalink}>
   <div class="home-container">
-    <div class="home-copy">
+    <div class="home-bio">
       <h1>Hi, I am Vivek 👋</h1>
       <p>Designer & Front-End Engineer</p>
       <p>I am a maker at heart, I like to make things. I work with information, data and graphics and interaction to often communicate for clarity, play or making it usable.</p>
@@ -26,6 +26,7 @@ const permalink = Astro.site.href;
 
 <style>
   .home-container {
+    font-family: 'IBM Plex Mono', monospace;
     align-items: center;
     display: flex;
     flex: 1;
@@ -34,22 +35,25 @@ const permalink = Astro.site.href;
     min-height: 400px;
   }
 
-  .home-copy {
+  .home-bio {
     flex: 1;
     padding: 0 1em;
   }
-    .home-copy ul { list-style-type: none; }
-    .home-copy span { color: #707070; padding: 0 0.3rem; font-size: 0.8rem; }
+    .home-bio ul { list-style-type: none; margin-left: 0rem; }
+    .home-bio li { font-size: 1.2em; margin: 0.5em 0; }
+    .home-bio span { color: #707070; padding: 0 0.3rem; font-size: 1rem; }
 
-  .home-copy h1 {
-    font-weight: 700;
-    margin-bottom: 0.5em;
-    line-height: 1.3;
-  }
+    .home-bio h1 {
+      font-weight: 700;
+      margin-bottom: 0.5em;
+      line-height: 1.3;
+    }
 
-  .home-copy p {
-    font-size: 1.4em;
-  }
+    .home-bio p {
+      font-size: 1.4em;
+    }
+
+  /* ----- */
 
   .hero-image-container {
     margin: 0 1em;
@@ -88,10 +92,10 @@ const permalink = Astro.site.href;
       flex-direction: column;
     }
 
-    .home-copy {
+    .home-bio {
       flex: 0;
       padding-bottom: 2em;
-      text-align: center;
+      text-align: left;
     }
   }
 </style>
