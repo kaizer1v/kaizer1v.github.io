@@ -11,8 +11,8 @@
   },
   "devDependencies": {
     "@astrojs/mdx": "^0.8.3",
-    "@astrojs/svelte": "^1.0.0",
-    "astro": "^1.0.3",
+    "@astrojs/svelte": "^7.1.0",
+    "astro": "^5.12.1",
     "gh-pages": "^6.0.0",
     "rehype-external-links": "^2.0.0"
   },
