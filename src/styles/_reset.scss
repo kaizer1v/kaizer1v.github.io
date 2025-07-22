@@ -1,25 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;700&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
-:root {
-  --background-body: #eaeaea;
-  --text-main: #36393b;
-  --text-secondary: #6b6f72;
-  --primary-color: #548e9b;
-  /* --font-family-serif: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-  /* --font-family-serif: 'Nanum Gothic', sans-serif; */
-  --font-family-serif: "Lato", sans-serif;
-  --font-family-sans: Georgia, 'Times New Roman', Times, serif;
-  --font-family-code: 'SF Mono', menlo, inconsolata, monospace;
-}
-
-:root.theme-dark {
-  --background-body: #202122;
-  --text-main: #fff;
-  --text-secondary: #ccc;
-  --primary-color: #548e9b;
-}
+// setup basic styling for everything
 
 *,
 *:before,
@@ -199,49 +178,6 @@ th {
 
 td {
   padding: 0.4em 0.8em;
-}
-
-.container {
-  margin: 0 auto;
-  max-width: 42em;
-  width: 100%;
-}
-
-.content h1 {
-  font-size: 3em;
-  margin: 1em 0;
-}
-
-.theme-toggle {
-  display: inline-flex;
-  align-items: center;
-  height: 100%;
-  padding: 0.33em 0.67em;
-  padding-top: 8px;
-  margin-left: 10px;
-  gap: 0.6em;
-  border-radius: 99em;
-  background-color: var(--theme-code-inline-bg);
-}
-
-.theme-toggle > label:focus-within {
-  outline: 2px solid transparent;
-  box-shadow: 0 0 0 0.08em var(--theme-accent), 0 0 0 0.12em white;
-}
-
-.theme-toggle > label {
-  color: var(--theme-code-inline-text);
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0.5;
-  cursor: pointer;
-}
-
-.theme-toggle .checked {
-  color: var(--theme-accent);
-  opacity: 1;
 }
 
 input[name='theme-toggle'] {
