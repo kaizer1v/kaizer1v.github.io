@@ -11,6 +11,9 @@
   --font-family-sans: Georgia, 'Times New Roman', Times, serif;
   --font-family-code: 'SF Mono', menlo, inconsolata, monospace;
   --font-family-mono: 'IBM Plex Mono', monospace;
+
+  --layout-medium-breakpoint: 1020px;
+  --layout-large-breakpoint: 1280px;
 }
 
 *,
@@ -276,7 +279,7 @@ input[name='theme-toggle'] {
   grid-template-rows: auto auto auto auto;
   grid-template-areas: 'l1 c1 r1' 'l2 c2 r2' 'l3 c3 r3' 'l4 c4 r4';
 
-  @media screen and (min-width: $layout-medium-breakpoint) {
+  @media screen and (min-width: var(--layout-medium-breakpoint)) {
     grid-template-columns: minmax(0, 1fr) minmax(0, 874px) minmax(0, 1fr);
   }
 }
@@ -292,7 +295,7 @@ input[name='theme-toggle'] {
 }
 
 // Specific styles used in some components, that were overkill to have as component-specific classes
-@media screen and (min-width: $layout-medium-breakpoint) {
+@media screen and (min-width: var(--layout-medium-breakpoint)) {
   .md\:order-2 {
     order: 2;
   }
