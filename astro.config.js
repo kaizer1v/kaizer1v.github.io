@@ -2,7 +2,7 @@ import { defineConfig } from 'astro/config'
 import react from '@astrojs/react'
 import mdx from '@astrojs/mdx'
 
-/* 
+/* references
   - https://astro.build/confi
   - see [here](https://docs.astro.build/en/reference/configuration-reference/#markdown-options) for additional options
 */
