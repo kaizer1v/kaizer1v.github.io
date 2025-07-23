@@ -1,11 +1,11 @@
 ---
-import BaseLayout from '../../layouts/PlayLayout.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const title = 'Work';
 const description = 'all work and no play makes jack a dull boy.';
 const permalink = `${Astro.site.href}work`;
 
-let allPosts = await Astro.glob('../../data/work/*.md');
+let allPosts = await Astro.glob('../../data/work/*.{md,mdx}');
 allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf());
 ---
 
@@ -14,18 +14,22 @@ allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf()
     <h1>{title}</h1>
     <div class="flex-container">
       {allPosts.map((post, index) => {
-        const href = (post.frontmatter.direct_link && post.frontmatter.direct_link !== '') ? post.frontmatter.direct_link : `/work/${post.file.split('/').pop().split('.').shift()}`
+        const href = (post.frontmatter.direct_link && post.frontmatter.direct_link !== '') ? post.frontmatter.direct_link : `/work/${post.file.split('/').pop().split('.').shift()}`;
         const target = (post.frontmatter.direct_link && post.frontmatter.direct_link !== '') ? '_blank' : '_self';
+        const tags = post.frontmatter.tags.split(', ');
         const thumbnail = `/assets/work/${post.frontmatter.thumbnail}`;
         return (
           <article>
             <div class="post-item">
               <h2><a href={href} target={target}>{post.frontmatter.title}</a></h2>
+              <p>{post.frontmatter.description}</p>
               <br />
               <a href={href} target={target}>
                 <div class="thumbnail"></div>
               </a>
-              <p>{post.frontmatter.description}</p>
+              <ul class="tags">
+                { tags.map(t => ( <li class="tag">{t}</li> ) )}
+              </ul>
               {/* <div class="post-item-footer">
                 <span class="post-item-date">— {post.frontmatter.publishDate}</span>
               </div> */}
@@ -82,14 +86,12 @@ allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf()
   }
 
   /* thumbnail image order for each project */
-
   .flex-container article:nth-child(1) .thumbnail {
     background-image:url('/assets/work/covid19bharatorg.png');
   }
 
   .flex-container article:nth-child(2) .thumbnail {
     background-image:url('/assets/work/visual-inspection.jpg');
-    
   }
 
   .flex-container article:nth-child(3) .thumbnail {

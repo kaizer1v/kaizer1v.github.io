@@ -1,7 +1,7 @@
 ---
 title: creative coding
 publishDate: 01 Dec 2020
-description: Collating India's covid19 cases, everyday on a single platform
+description: experiments in D3js, svg and canvas
 year: 2021
 tags: coding, javascript
 ---

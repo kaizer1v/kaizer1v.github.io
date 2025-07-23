@@ -1,7 +1,7 @@
 ---
 title: Visual Inspection in Manufacturing
 publishDate: 01 Dec 2021
-description: At SAP, I had the opportunity to work on end-to-end on the suite of applications for Visual Inspection under the umbrella of Manufacturing.
+description: Quality inspection for Digital manufacturing on cloud
 year: 2021
 tags: abc, xyz, something-else
 thumbnail: visual-inspection.jpg

@@ -1,9 +1,9 @@
 ---
 title: Zinc learning labs
 publishDate: 30 Nov 2021
-description: Every blog starts with a single post. This is yours. Make it great.
+description: Enhancing Ed-Tech Learning Experience — A Data-Driven Design Case Study
 year: 2022
-tags: abc, xyz, something-else
+tags: product design, gamification, ux
 thumbnail: zll.webp
 direct_link: https://medium.com/design-bootcamp/enhancing-ed-tech-learning-experience-c991676b744b
 ---
