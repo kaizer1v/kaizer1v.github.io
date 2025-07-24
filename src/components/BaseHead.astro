@@ -36,6 +36,9 @@ const socialUrl = Astro.site.href + 'assets/social.png'
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={socialUrl} />
 
+<!-- Style links -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" />
+
 <!-- This is intentionally inlined to avoid FOUC -->
 <script>
   const root = document.documentElement;
@@ -46,3 +49,6 @@ const socialUrl = Astro.site.href + 'assets/social.png'
     root.classList.remove('theme-dark');
   }
 </script>
+
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>

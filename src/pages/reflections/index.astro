@@ -9,9 +9,8 @@ let allPosts = await Astro.glob('../../data/reflections/*.{md,mdx}')
 allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf());
 ---
 
-<BaseLayout title={title} description={description} permalink={permalink} current="blog">
+<BaseLayout title={title} description={description} permalink={permalink} current="reflections">
   <div class="container">
-    <h1>{title}</h1>
     {allPosts.map((post, index) => {
       const href = `/reflections/${post.file.split('/').pop().split('.').shift()}`;
       return (

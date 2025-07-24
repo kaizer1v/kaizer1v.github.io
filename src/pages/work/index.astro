@@ -9,32 +9,38 @@ let allPosts = await Astro.glob('../../data/work/*.{md,mdx}');
 allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf());
 ---
 
-<BaseLayout title={title} description={description} permalink={permalink} current="blog">
+<BaseLayout title={title} description={description} permalink={permalink} current="work">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    
+   
+  </div>
+
   <div>
-    <h1>{title}</h1>
-    <div class="flex-container">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
       {allPosts.map((post, index) => {
         const href = (post.frontmatter.direct_link && post.frontmatter.direct_link !== '') ? post.frontmatter.direct_link : `/work/${post.file.split('/').pop().split('.').shift()}`;
         const target = (post.frontmatter.direct_link && post.frontmatter.direct_link !== '') ? '_blank' : '_self';
         const tags = post.frontmatter.tags.split(', ');
         const thumbnail = `/assets/work/${post.frontmatter.thumbnail}`;
+        
         return (
-          <article>
-            <div class="post-item">
-              <h2><a href={href} target={target}>{post.frontmatter.title}</a></h2>
-              <p>{post.frontmatter.description}</p>
-              <br />
-              <a href={href} target={target}>
-                <div class="thumbnail"></div>
-              </a>
-              <ul class="tags">
-                { tags.map(t => ( <li class="tag">{t}</li> ) )}
-              </ul>
-              {/* <div class="post-item-footer">
-                <span class="post-item-date">— {post.frontmatter.publishDate}</span>
-              </div> */}
+          <div class="col">
+            <div class="card">
+              <div class="overflow-hidden thumbnail border-none">
+                <img src={thumbnail} class="card-img-top object-fit-cover" alt={post.frontmatter.description}>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">{post.frontmatter.title}</h5>
+                <p class="card-text">{post.frontmatter.description}</p>
+                <a href={href} target={target} class="btn btn-primary stretched-link">Read more</a>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">
+                  { tags.map(t => ( <span class="badge rounded-pill text-bg-light">{t}</span> ) )}
+                </small>
+              </div>
             </div>
-          </article>
+          </div>
         )
       })}
     </div>
@@ -45,7 +51,6 @@ allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf()
 
   h2,
   .post-item-footer {
-    font-family: var(--font-family-mono);
     font-weight: 700;
   }
 
