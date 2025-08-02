@@ -6,44 +6,37 @@ const description = 'all work and no play makes jack a dull boy.';
 const permalink = `${Astro.site.href}work`;
 
 let allPosts = await Astro.glob('../../data/work/*.{md,mdx}');
-allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf());
+allPosts = allPosts.sort((a, b) => parseInt(b.frontmatter.id))
 ---
 
 <BaseLayout title={title} description={description} permalink={permalink} current="work">
-  <div class="row row-cols-1 row-cols-md-3 g-4">
-    
-   
-  </div>
-
-  <div>
-    <div class="row row-cols-1 row-cols-md-2 g-4">
-      {allPosts.map((post, index) => {
-        const href = (post.frontmatter.direct_link && post.frontmatter.direct_link !== '') ? post.frontmatter.direct_link : `/work/${post.file.split('/').pop().split('.').shift()}`;
-        const target = (post.frontmatter.direct_link && post.frontmatter.direct_link !== '') ? '_blank' : '_self';
-        const tags = post.frontmatter.tags.split(', ');
-        const thumbnail = `/assets/work/${post.frontmatter.thumbnail}`;
-        
-        return (
-          <div class="col">
-            <div class="card">
-              <div class="overflow-hidden thumbnail border-none">
-                <img src={thumbnail} class="card-img-top object-fit-cover" alt={post.frontmatter.description}>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">{post.frontmatter.title}</h5>
-                <p class="card-text">{post.frontmatter.description}</p>
-                <a href={href} target={target} class="btn btn-primary stretched-link">Read more</a>
-              </div>
-              <div class="card-footer">
-                <small class="text-body-secondary">
-                  { tags.map(t => ( <span class="badge rounded-pill text-bg-light">{t}</span> ) )}
-                </small>
-              </div>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    {allPosts.map((post, index) => {
+      const href = (post.frontmatter.direct_link && post.frontmatter.direct_link !== '') ? post.frontmatter.direct_link : `/work/${post.file.split('/').pop().split('.').shift()}`;
+      const target = (post.frontmatter.direct_link && post.frontmatter.direct_link !== '') ? '_blank' : '_self';
+      const tags = post.frontmatter.tags.split(', ');
+      const thumbnail = `/assets/work/${post.frontmatter.thumbnail}`;
+      
+      return (
+        <div class="col">
+          <div class="card h-100">
+            <div class="overflow-hidden thumbnail border-none">
+              <img src={thumbnail} class="card-img-top object-fit-cover" alt={post.frontmatter.description}>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">{post.frontmatter.title}</h5>
+              <p class="card-text">{post.frontmatter.description}</p>
+              <a href={href} target={target} class="btn btn-primary stretched-link">Read more</a>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">
+                { tags.map(t => ( <span class="badge rounded-pill text-bg-light">{t}</span> ) )}
+              </small>
             </div>
           </div>
-        )
-      })}
-    </div>
+        </div>
+      )
+    })}
   </div>
 </BaseLayout>
 
@@ -88,19 +81,6 @@ allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf()
     background-color: grey;
     background-size: 100%;
     background-repeat: no-repeat;
-  }
-
-  /* thumbnail image order for each project */
-  .flex-container article:nth-child(1) .thumbnail {
-    background-image:url('/assets/work/covid19bharatorg.png');
-  }
-
-  .flex-container article:nth-child(2) .thumbnail {
-    background-image:url('/assets/work/visual-inspection.jpg');
-  }
-
-  .flex-container article:nth-child(3) .thumbnail {
-    background-image:url('/assets/work/zll.webp');
   }
 
 </style>
