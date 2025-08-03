@@ -5,7 +5,7 @@ description: My first experience at NID’s Information Design as a jury
 ---
 
 <ul class="collage">
-  <li><img src="../../../assets/reflections/nid-jury-1.jpeg" alt="A Toyota Previa covered in graffiti" loading="lazy"></li>
+  <li><img src="../../../assets/reflections/nid-jury-1.jpeg" alt="NID Bangalore campus entrance" loading="lazy"></li>
 </ul>
 
 This past week, I had the unique opportunity to sit on the other side of the design table—as a first-time jury member at the National Institute of Design (NID), Bangalore, reviewing the work of students from the Information Design course. What I expected to be a day of critique turned into something far richer: a moment of mutual learning, renewed curiosity, and rediscovery of what it means to communicate through design. It also gave me a brief experience of what it feels like to be a student at NID.
