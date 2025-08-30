@@ -69,25 +69,25 @@ The idea was to be able to make necessary everyday things using wood and hand to
 
 <ul class="collage">
   <li>
-    <img src="../../../assets/work/ww-box-join.png" alt="" loading="lazy">
+    <img src="/assets/work/ww-box-join.png" alt="" loading="lazy">
   </li>
   <li>
-    <img src="../../../assets/work/ww-tray.png" alt="" loading="lazy">
+    <img src="/assets/work/ww-tray.png" alt="" loading="lazy">
   </li>
   <li>
-    <img src="../../../assets/work/ww-cutting-board.png" alt="" loading="lazy">
+    <img src="/assets/work/ww-cutting-board.png" alt="" loading="lazy">
   </li>
   <li>
-    <img src="../../../assets/work/ww-towel-hanger.png" alt="" loading="lazy">
+    <img src="/assets/work/ww-towel-hanger.png" alt="" loading="lazy">
   </li>
   <li>
-    <img src="../../../assets/work/ww-box.png" alt="" loading="lazy">
+    <img src="/assets/work/ww-box.png" alt="" loading="lazy">
   </li>
   <li>
-    <img src="../../../assets/work/ww-tools.png" alt="" loading="lazy">
+    <img src="/assets/work/ww-tools.png" alt="" loading="lazy">
   </li>
   <li>
-    <img src="../../../assets/work/ww-atedai.png" alt="" loading="lazy">
+    <img src="/assets/work/ww-atedai.png" alt="" loading="lazy">
   </li>
 
   <li></li>
@@ -96,13 +96,13 @@ The idea was to be able to make necessary everyday things using wood and hand to
 
 <ul class="collage">
   <li>
-    <img src="../../../assets/work/ww-stool-1.png" alt="" loading="lazy">
+    <img src="/assets/work/ww-stool-1.png" alt="" loading="lazy">
   </li>
   <li>
-    <img src="../../../assets/work/ww-stool-2.png" alt="" loading="lazy">
+    <img src="/assets/work/ww-stool-2.png" alt="" loading="lazy">
   </li>
   <li>
-    <img src="../../../assets/work/ww-stool-3.png" alt="" loading="lazy">
+    <img src="/assets/work/ww-stool-3.png" alt="" loading="lazy">
   </li>
   <li></li>
 </ul>

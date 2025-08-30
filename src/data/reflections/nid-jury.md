@@ -23,6 +23,9 @@ Some of the most impactful projects were those that balanced data and research r
 🔹 **constraints lead to better conversations**
 With limited time and resources, students had to make tough design decisions. It was in their trade-offs—what they chose to simplify, omit, or prioritize—that their design thinking really shone. As a reviewer, my role wasn’t to correct those decisions, but to unpack their reasoning.
 
+🔹 **The power of metaphors & analogies**
+Apart from being on the jury, I spent a lot of time with Chakradhar Saswade sir, the head of the information design programme and also a fellow MSU Baroda graduate. He took the time to meticulously show his work and the behind-the-scene thought processes as well as walked me around the campus showing me the lab areas, past student's works as well as lecture halls. I am very grateful to have met him. His impressions have left a long lasting mark on me - as I endure towards understanding the depths of communication and visual design approachs he spoke about. I apsire to practice these principles in my own work.
+
 ## Anecdotes I won't forget
 
 💬 At the end I nudged them to have a look at the Bret Victor's living by principle. Holds true everytime and how creators yearn to immediately need to see the feedback when creating something
