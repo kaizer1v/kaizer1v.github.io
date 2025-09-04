@@ -1,5 +1,5 @@
 ---
-title: From Panic to Python How We Rebooted India's COVID Tracker
+title: From panic to python how we rebooted India's COVID tracker
 publishDate: 01 April 2023
 description: Covid19bharat - A pandemic side project that got too real
 ---

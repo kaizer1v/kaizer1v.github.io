@@ -14,7 +14,7 @@ Exploring the flipboard effect inspired by airport terminals. This reads a bunch
 
 The code for it is [here](https://github.com/kaizer1v/canvas/blob/main/the_grid.js).
 
-![creative coding](/assets/work/cc.gif)
+![creative coding](/assets/play/cc.gif)
 
 
 ## Ink
@@ -84,12 +84,12 @@ The final ink simulation is shown on the right.
 <ul class="collage">
   <li>
     <video autoplay loop height="950">
-      <source src="/assets/work/ink-1.webm" type="video/webm" loading="lazy" />
+      <source src="/assets/play/ink-1.webm" type="video/webm" loading="lazy" />
     </video>
   </li>
   <li>
     <video autoplay loop height="950">
-      <source src="/assets/work/ink-2.webm" type="video/webm" loading="lazy" />
+      <source src="/assets/play/ink-2.webm" type="video/webm" loading="lazy" />
     </video>
   </li>
   <li></li>
@@ -102,7 +102,7 @@ As part of visualising a research paper on the efforts and costs incurred to def
 <ul class="collage">
   <li>
     <video autoplay loop height="950">
-      <source src="/assets/work/costs-of-war.webm" type="video/webm" loading="lazy" />
+      <source src="/assets/play/costs-of-war.webm" type="video/webm" loading="lazy" />
     </video>
   </li>
   <li></li>
