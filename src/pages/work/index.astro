@@ -5,8 +5,8 @@ const title = 'Work';
 const description = 'all work and no play makes jack a dull boy.';
 const permalink = `${Astro.site.href}work`;
 
-let allPosts = await Astro.glob('../../data/work/*.{md,mdx}');
-allPosts = allPosts.sort((a, b) => parseInt(b.frontmatter.id))
+let allWork = await Astro.glob('../../data/work/*.{md,mdx}');
+allWork = allWork.sort((a, b) => parseInt(b.frontmatter.id))
 ---
 
 <style>
@@ -60,7 +60,7 @@ allPosts = allPosts.sort((a, b) => parseInt(b.frontmatter.id))
 
 <BaseLayout title={title} description={description} permalink={permalink} current="work">
   <div class="row row-cols-1 row-cols-md-2 g-4">
-    {allPosts.map((post, index) => {
+    {allWork.map((post, index) => {
       const href = (post.frontmatter.direct_link && post.frontmatter.direct_link !== '') ? post.frontmatter.direct_link : `/work/${post.file.split('/').pop().split('.').shift()}`;
       const target = (post.frontmatter.direct_link && post.frontmatter.direct_link !== '') ? '_blank' : '_self';
       const tags = post.frontmatter.tags.split(', ');

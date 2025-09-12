@@ -69,8 +69,8 @@ allPlay = allPlay.sort((a, b) => parseInt(b.frontmatter.id))
       return (
         <div class="col">
           <div class="card h-100">
-            <div class="overflow-hidden thumbnail border-none">
-              <img src={thumbnail} class="img-fluid mx-auto d-block" alt={post.frontmatter.description}>
+            <div class="overflow-hidden thumbnail border-none align-items-center d-flex">
+              <img src={thumbnail} class="img-fluid mx-auto" alt={post.frontmatter.description}>
             </div>
             <div class="card-body">
               <h5 class="card-title">{post.frontmatter.title}</h5>
