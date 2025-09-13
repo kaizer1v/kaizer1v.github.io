@@ -1,3 +1,5 @@
+# dont upload drafts
+src/data/_drafts/
 # build output
 dist/
 # generated types

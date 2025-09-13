@@ -1,6 +1,6 @@
 ---
 title: Thoughts on Don Norman’s Early Report - The Trouble with Unix
-publishDate: 10 Dec 2023
+publishDate: 01 Jan 2022
 description: My thoughts on Don Norman's Unix report & designing an interface without a GUI
 ---
 
