@@ -6,6 +6,6 @@ description: Vaulter is a safe, self owned password repository where you can sav
 year: 2024
 tags: javascript, experiment, plugin
 thumbnail: vaulter.png
-direct_link: https://vivekipedia.in/vaulter
+direct_link: https://github.com/kaizer1v/vaulter
 ---
 
