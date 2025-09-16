@@ -59,6 +59,10 @@ allPlay = allPlay.sort((a, b) => parseInt(b.frontmatter.id))
 </style>
 
 <BaseLayout title={title} description={description} permalink={permalink} current="play">
+  <div class="row text-center my-5">
+    <h4>All work and no play makes Vivek a dull boy</h4>
+    <h4>These are self initiated ideas or problems encountered by the self</h4>
+  </div>
   <div class="row row-cols-1 row-cols-md-2 g-4">
     {allPlay.map((post, index) => {
       const href = (post.frontmatter.direct_link && post.frontmatter.direct_link !== '') ? post.frontmatter.direct_link : `/play/${post.file.split('/').pop().split('.').shift()}`;
