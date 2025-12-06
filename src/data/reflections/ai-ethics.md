@@ -6,7 +6,7 @@ description:  Journey into relational ethics at SAP’s "Impulse Design 2025" ev
 
 When SAP invited us to explore the theme “Ethics Engine: What moral imperatives should drive ethical design decisions?” at the Design Impulse event, we knew this wasn’t going to be a typical design sprint. The challenge was ambitious: How do we design systems that are not just functional or efficient but fundamentally fair, inclusive, and morally grounded?
 
-This question pushed us beyond UX conventions into philosophical territory. And yet, it felt timely and necessary given the role AI now plays in shaping everyday human experiences.
+This question pushed us beyond UX conventions into philosophical territory. And yet, it felt timely and necessary given the role AI now plays in shaping everyday human experiences
 
 
 ## The Theme: Ethics Engine
@@ -19,31 +19,29 @@ Instead of optimising for speed, conversion, or engagement, what would it mean t
 
 ## Diving Into Ethics: Where Traditional Approaches Fall Short
 
-Our brainstorming began with traditional ethical frameworks—utilitarianism, deontology, virtue ethics. But very quickly, cracks emerged:
+Our brainstorming began with traditional ethical frameworks—utilitarianism, deontology, virtue ethics. But theere were problems we saw:
 
-The problems we saw:
-
-- They centre only human perspectives.
-- They assume fixed truths, not the evolving realities of modern systems.
-- They struggle with distributed, multi-actor environments like AI.
-- They fail to include nature, materials, culture, data, or ecology as participants.
-- They do not account for power or the unequal impacts of design decisions.
+- They centre only human perspectives
+- They assume fixed truths, not the evolving realities of modern systems
+- They struggle with distributed, multi-actor environments like AI
+- They fail to include nature, materials, culture, data, or ecology as participants
+- They do not account for power or the unequal impacts of design decisions
 
 So we asked a provocative question: 
 
 > What would ethics look like if non-humans had a voice in the room?
 
-This led us toward relational ethics — a school of thought that focuses not on rules, but on the relationships between humans, technologies, and the world around them.
+This led us toward relational ethics — a school of thought that focuses not on rules, but on the relationships between humans, technologies, and the world around them
 
 **Why relational ethics felt right**
 
-- It is dynamic, not prescriptive.
-- It treats morality as something that emerges from interactions.
-- It acknowledges interdependence: human ↔ AI ↔ material ↔ culture ↔ environment.
-- It allows multiple truths and multiple forms of intelligence.
-- It makes ethics participatory, almost democratic.
+- It is dynamic, not prescriptive
+- It treats morality as something that emerges from interactions
+- It acknowledges interdependence: human ↔ AI ↔ material ↔ culture ↔ environment
+- It allows multiple truths and multiple forms of intelligence
+- It makes ethics participatory, almost democratic
 
-We realised we didn’t need an Ethics Engine. We needed an Ethics Council.
+We realised we didn’t need an ethics engine. We needed an "Ethics Council"
 
 
 ## Introducing Our Fictional AI Product: Council Orbit
@@ -52,8 +50,7 @@ To give form to this idea, we designed a fictional product called Council Orbit�
 
 **The core idea**
 
-- Council Orbit is not a chatbot
-- It is a relational negotiation space where different “spirits” (Institution, Ecology & Culture, AI Engineer, Material, Post-War Memory, etc.) debate and converge into a moral standpoint
+This **Council Orbit** is not a chatbot. It is a relational negotiation space where different “spirits” (Institution, Ecology & Culture, AI Engineer, Material, Post-War Memory, etc.) debate and converge into a moral standpoint
  
 **Why slow?**
 In a world where everything is expected to function fast and "how quick can one ..." has become a comparitive metric, we wanted to consciously step back from this notion of generating and responding quickly
@@ -69,10 +66,13 @@ In a world where everything is expected to function fast and "how quick can one 
 4. The system carefully weighs their perspectives
 5. It outputs a just and moral response, not just an efficient one
 
-<Pictures of the fictional product>
+<ul class="collage">
+  <li><img src="../../../assets/reflections/ai-ethics-00-council-orbit.png" alt="..." loading="lazy"></li>
+  <!-- <li><img src="../../../assets/reflections/ai-ethics-00-council-orbit-2.png" alt="..." loading="lazy"></li> -->
+  <li><img src="../../../assets/reflections/ai-ethics-01-council-orbit.png" alt="..." loading="lazy"></li>
+</ul>
 
 The product became our lens for exploring ethical futures
-
 
 ## The Studio Ghibli Question: Can AI Imitate Without Exploiting?
 
@@ -96,8 +96,8 @@ And together, they concluded:
 **A fair system requires two outcomes: attribution, royalties, encoded ancestries**
 
 Here, embed your YouTube link to the conversation:
-👉 (Insert link to your video or audio rendering of the dialogue.)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ut-xkMBbfe4?si=k5BO2rMpc-MzyMuM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## The Second Question: What About Ethical Image Labelling?
 
@@ -111,18 +111,78 @@ Council Orbit asked:
 
 Watch how the conversation unfolds from the voices of the coucil and see the solution that they derive to answer the question the ethics of image labelling
 
-Council Orbit became a tool for ethical annotation — a voice for the unseen actors inside images.
+Council Orbit became a tool for ethical annotation — a voice for the unseen actors inside images
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oAmu0OAA440?si=9MuayBXPVfAXggbp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## Closing Thoughts: Designing for a Future That Listens
 
-What began as a design prompt turned into a meditation on morality itself.
+What began as a design prompt turned into a meditation on morality itself
 
-We didn’t just design an object. We designed a possibility: A world where AI sits at a table, not as a master or a servant, but as one actor among many — guided by ecology, history, culture, and materiality.
+We didn’t just design an object. We designed a possibility: A world where AI sits at a table, not as a master or a servant, but as one actor among many — guided by ecology, history, culture, and materiality
 
-A world where ethics is slow, relational, and collectively shaped.
+A world where ethics is slow, relational, and collectively shaped
 
-A world where technology does not erase context but honours it.
+A world where technology does not erase context but honours it
 
-And maybe, through projects like this,
-we are learning to design systems that don’t just think — but care.
+And maybe, through projects like this, we are learning to design systems that don’t just think — but care
+
+
+
+<style>
+  ul.collage {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2vmin;
+  }
+
+    .collage > li {
+      height: 40vh;
+      flex-grow: 1;
+      margin: 2vmin;
+    }
+
+  .collage > li:last-child {
+    flex-grow: 10;
+  }
+
+  .collage img,
+  .collage video {
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+    border-radius: 1vmin;
+  }
+
+  @media (max-aspect-ratio: 1/1) {
+    .collage > li { height: 30vh; }
+  }
+
+  @media (max-height: 480px) {
+    .collage > li {
+      height: 80vh;
+    }
+  }
+
+  // Smaller screens in portrait
+
+  @media (max-aspect-ratio: 1/1) and (max-width: 480px) {
+    ul.collage {
+      flex-direction: row;
+    }
+
+    .collage > li {
+      height: auto;
+      width: 100%;
+    }
+    .collage img,
+    .collage video {
+      width: 100%;
+      max-height: 75vh;
+      min-width: 0;
+    }
+  }
+</style>
