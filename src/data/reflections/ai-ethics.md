@@ -1,5 +1,5 @@
 ---
-title: Designing with Conscience
+title: Designing with conscience
 publishDate: 01 Dec 2025
 description:  Journey into relational ethics at SAP’s "Impulse Design 2025" event
 ---
